@@ -74,12 +74,14 @@
 		{@const scaledAsterisks = s(asterisks)}
 		<div class="season">
 			<p class="title">
-				{winner}{range(Math.round(scaledAsterisks))
-					.map((d) => "*")
-					.join("")}<br />{season} <br />{scaledAsterisks.toFixed(1)} <br />
-				{asterisks.toFixed(1)} <br />
-
-				{average}
+				<span>
+					{winner}{range(Math.round(scaledAsterisks))
+						.map((d) => "*")
+						.join("")}
+				</span>
+				<span>year: {season}</span>
+				<span>asterisks score: {asterisks.toFixed(1)}</span>
+				<span>all teams avg: {average}</span>
 			</p>
 			{#each rounds as { round, opponent, games }}
 				<div class="rounds">
@@ -144,5 +146,14 @@
 		text-align: right;
 		line-height: 1;
 		padding: 0 8px;
+	}
+
+	.title span {
+		display: block;
+		margin-bottom: 8px;
+	}
+
+	span:first-of-type {
+		font-size: 24px;
 	}
 </style>

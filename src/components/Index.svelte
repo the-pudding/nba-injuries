@@ -10,6 +10,10 @@
 
 <div class="temp">
 	<h3>Todos</h3>
+	<p>
+		Tone: a little tongue-in-cheek. introduce a new metric that computes
+		asterisks.
+	</p>
 	<ul>
 		<li>
 			league vs team? - leaning league because it better reflects stacked/weak
@@ -36,6 +40,7 @@
 		</li>
 
 		<li>include bottom tier players?</li>
+		<li>scale to 3 max? do half or quarter asterisks?</li>
 	</ul>
 </div>
 <WIP />
