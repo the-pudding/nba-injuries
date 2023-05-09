@@ -1,13 +1,14 @@
 <script>
 	import { getContext } from "svelte";
-	import WIP from "$components/helpers/WIP.svelte";
 	import Champions from "$components/Champions.svelte";
+	import Intro from "$components/Intro.svelte";
 	// import Footer from "$components/Footer.svelte";
 
 	// const copy = getContext("copy");
 	// const data = getContext("data");
 </script>
 
+<Intro />
 <div class="temp">
 	<h3>Todos</h3>
 	<p>
@@ -43,7 +44,7 @@
 		<li>scale to 3 max? do half or quarter asterisks?</li>
 	</ul>
 </div>
-<WIP />
+
 <Champions />
 
 <!-- <Footer /> -->
@@ -51,5 +52,6 @@
 <style>
 	.temp {
 		margin-bottom: 32px;
+		display: none;
 	}
 </style>

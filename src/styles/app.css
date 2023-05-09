@@ -20,10 +20,12 @@
 	--border-radius: 2px;
 	--font-body: var(--serif);
 	--font-form: var(--sans);
-	--color-bg: var(--color-white);
-	--color-fg: var(--color-gray-900);
+	/* --color-bg: var(--color-white); */
+	--color-bg: #0039f0;
+	/* --color-fg: var(--color-gray-900); */
+	--color-fg: var(--color-white);
 	--color-primary: var(--color-black);
-	--color-link: var(--color-black);
+	--color-link: var(--color-fg);
 	--color-focus: var(--color-red);
 	--color-mark: var(--color-yellow);
 	--color-selection: var(--color-gray-300);
@@ -94,4 +96,12 @@ h6 {
 
 main {
 	padding: 0 16px;
+}
+
+h1 {
+line-height: 1.2;
+}
+
+p, li {
+	line-height: 1.6;
 }
