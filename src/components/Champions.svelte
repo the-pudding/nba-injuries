@@ -1,6 +1,6 @@
 <script>
 	import { onMount, getContext } from "svelte";
-	import { json, max } from "d3";
+	import { json, max, sum, mean, scaleLinear, range } from "d3";
 	import Game from "$components/Champions.game.svelte";
 
 	let maxRoster;
@@ -14,9 +14,38 @@
 	];
 
 	let seasons = [];
-	onMount(async () => {
-		seasons = await json("assets/champions.json");
+	const s = scaleLinear().range([0, 3]);
 
+	function getPlayerScore(player) {
+		if (!player.reason || player.reason === "Did Not Play") return 0;
+		if (player.rank_league < 30) return 2;
+		else if (player.rank_league < 150) return 1;
+		return 0;
+	}
+
+	function addAsterisk(years) {
+		return years.map((season) => {
+			const roundScores = season.rounds.map((round) => {
+				const gameScores = round.games.map((game) => {
+					const { playersOpponent, playersWinner } = game;
+					return sum(playersOpponent.map(getPlayerScore));
+				});
+				const roundScore = mean(gameScores);
+				return roundScore;
+			});
+			const asterisks = mean(roundScores);
+			return {
+				...season,
+				asterisks
+			};
+		});
+	}
+
+	onMount(async () => {
+		const seasonsRaw = await json("assets/champions.json");
+		seasons = addAsterisk(seasonsRaw).filter((d) => d.season !== 2023);
+		seasons.sort((a, b) => b.asterisks - a.asterisks);
+		s.domain([0, max(seasons.map((d) => d.asterisks))]);
 		console.log(seasons);
 		maxRoster = max(
 			seasons
@@ -41,22 +70,27 @@
 </div>
 
 <section id="champions">
-	{#each seasons as { season, winner, rounds }}
+	{#each seasons as { season, winner, average, rounds, asterisks }}
+		{@const scaledAsterisks = s(asterisks)}
 		<div class="season">
-			<p class="title">{winner}<br />{season}</p>
+			<p class="title">
+				{winner}{range(Math.round(scaledAsterisks))
+					.map((d) => "*")
+					.join("")}<br />{season} <br />{scaledAsterisks.toFixed(1)} <br />
+				{asterisks.toFixed(1)} <br />
+
+				{average}
+			</p>
 			{#each rounds as { round, opponent, games }}
 				<div class="rounds">
 					<!-- <p>{roundNames[round - 1]}: {winner} vs {opponent}</p> -->
 					<p class="opponent">{opponent}</p>
 					<div class="games">
-						{#each games as { game, playersOpponent, playersWinner }}
-							<Game
-								{game}
-								{playersOpponent}
-								{playersWinner}
-								{maxRoster}
-								{rank}
-							/>
+						{#each games as game}
+							{@const opponents = game.playersOpponent}
+							{@const winners = game.playersWinner}
+							{@const result = game.winner === winner ? "W" : "L"}
+							<Game {game} {opponents} {winners} {result} {maxRoster} {rank} />
 						{/each}
 					</div>
 				</div>
@@ -66,10 +100,6 @@
 </section>
 
 <style>
-	#champions {
-		padding: 16px;
-	}
-
 	.season {
 		display: flex;
 		margin-bottom: 16px;

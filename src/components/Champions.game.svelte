@@ -1,7 +1,8 @@
 <script>
 	export let game;
-	export let playersOpponent;
-	export let playersWinner;
+	export let opponents;
+	export let winners;
+	export let result;
 	export let maxRoster;
 	export let rank;
 
@@ -20,9 +21,9 @@
 </script>
 
 <div class="game">
-	<p class="number">{game}</p>
+	<p class="number">{result}</p>
 	<ul class="opponent">
-		{#each playersOpponent as { bbrID, name, rank_team, rank_league, reason }}
+		{#each opponents as { bbrID, name, rank_team, rank_league, reason }}
 			{@const dnp = reason && reason !== "Did Not Play"}
 			{@const level = getLevel(dnp, rank_team, rank_league, rank)}
 			<li
@@ -37,6 +38,23 @@
 			</li>
 		{/each}
 	</ul>
+	<!-- <hr />
+	<ul class="winner">
+		{#each winners as { bbrID, name, rank_team, rank_league, reason }}
+			{@const dnp = reason && reason !== "Did Not Play"}
+			{@const level = getLevel(dnp, rank_team, rank_league, rank)}
+			<li
+				class:dnp
+				data-level={level}
+				data-reason={reason}
+				data-id={bbrID}
+				data-name={name}
+				title="{name}: {rank_league}"
+			>
+				<span>{name}</span>
+			</li>
+		{/each}
+	</ul> -->
 </div>
 
 <style>
@@ -88,4 +106,10 @@
 		font-size: 12px;
 		margin: 0;
 	}
+
+	/* hr {
+		height: 2px;
+		width: 100%;
+		background: black;
+	} */
 </style>
