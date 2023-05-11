@@ -1,7 +1,7 @@
 <script>
 	export let label;
 	export let style = "inner";
-	export let options = ["on", "off"];
+	export let options = ["On", "Off"];
 	export let value = options[0];
 
 	let checked = value === options[0];
@@ -32,6 +32,11 @@
 </div>
 
 <style>
+	.toggle {
+		display: flex;
+		flex-direction: column;
+	}
+
 	.toggle button,
 	.label {
 		font-family: inherit;
@@ -41,15 +46,15 @@
 	.toggle--inner [role="switch"][aria-checked="true"] :first-child,
 	[role="switch"][aria-checked="false"] :last-child {
 		display: inline-block;
-		border-radius: 4px;
-		background: var(--color-gray-900);
-		color: var(--color-gray-100);
+		border-radius: 0px;
+		background: var(--color-bg);
+		color: var(--color-fg);
 	}
 
 	.toggle--inner button {
-		padding: 0.5em;
-		background-color: var(--color-white);
-		border: 2px solid var(--color-gray-900);
+		padding: 4px;
+		background-color: var(--color-fg);
+		border-radius: 0;
 	}
 
 	.toggle--inner button span {
@@ -57,7 +62,7 @@
 		pointer-events: none;
 		display: inline-block;
 		line-height: 1;
-		padding: 0.25em;
+		padding: 8px;
 	}
 
 	.toggle--inner button:focus {
@@ -74,7 +79,7 @@
 		height: 2em;
 		position: relative;
 		margin-left: 0.5em;
-		background: var(--color-gray-300);
+		background: var(--color-fg);
 	}
 
 	.toggle--slider button:focus {
@@ -86,14 +91,14 @@
 		position: absolute;
 		width: 1.5em;
 		height: 1.5em;
-		background: var(--color-white);
-		border-radius: 4px;
+		background: var(--color-fg);
+		border-radius: 0;
 		top: 0.25em;
 		right: 1.75em;
 	}
 
 	.toggle--slider button[aria-checked="true"] {
-		background-color: var(--color-gray-900);
+		background-color: var(--color-bg);
 	}
 
 	.toggle--slider button[aria-checked="true"]::before {

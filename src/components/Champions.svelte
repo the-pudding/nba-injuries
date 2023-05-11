@@ -3,12 +3,14 @@
 	import { json, max, sum, mean, scaleLinear, range } from "d3";
 	import Game from "$components/Champions.game.svelte";
 	import teams from "$data/teams.json";
-	import Toggle from "$components/helpers/Toggle.svelte";
 	import ButtonSet from "$components/helpers/ButtonSet.svelte";
+	import SortTable from "$components/helpers/SortTable.svelte";
 
 	let rank = "league";
 	let visibles = [];
-	let limpValue;
+	let valueLimp = "Off";
+	let valueSort = "Year";
+	let seasons = [];
 
 	const maxAsterisks = 3;
 
@@ -19,7 +21,19 @@
 		"Finals"
 	];
 
-	let seasons = [];
+	const columns = [
+		{ label: "name", prop: "name" },
+		{ label: "team", prop: "team" },
+		{
+			label: "games missed",
+			prop: "rate",
+			formatFn: (d) => `${Math.round(d * 100)}%`
+		},
+		{ label: "league rank", prop: "rank_league" }
+	];
+
+	const caption = "Top players who missed games in the playoffs";
+
 	const scales = {
 		opponent: scaleLinear().range([0, maxAsterisks]),
 		all: scaleLinear().range([0, maxAsterisks]),
@@ -30,7 +44,6 @@
 		const seasonsRaw = await json("assets/champions.json");
 		seasons = seasonsRaw.filter((d) => d.season !== 2023 && d.season >= 2000);
 		visibles = range(seasons.length).map(() => false);
-		seasons.sort((a, b) => b.season - a.season);
 		scales.all.domain([0, max(seasons.map((d) => d.asterisks.all))]);
 		scales.allNotOpponent.domain([
 			0,
@@ -47,63 +60,85 @@
 		// 		.map((d) => Math.max(d.playersOpponent.length, d.playersWinner.length))
 		// );
 	});
+
+	function sortSeasons() {
+		console.log(valueSort);
+		seasons.sort((a, b) => {
+			if (valueSort === "Year") return b.season - a.season;
+			else return b.asterisks.opponent - a.asterisks.opponent;
+		});
+		seasons = [...seasons];
+	}
+
+	$: if (seasons.length) sortSeasons(valueSort);
 </script>
 
 <div class="ui">
-	<Toggle label="Enable LIMP" style="inner" bind:value={limpValue} />
-	<ButtonSet
-		legend="Sort by"
-		options={[{ value: "Year" }, { value: "Asterisks" }]}
-	/>
-	<!-- <p class="rank">Rank by</p>
-	<button class:active={rank === "league"} on:click={() => (rank = "league")}
-		>League</button
-	>
-
-	<button class:active={rank === "team"} on:click={() => (rank = "team")}
-		>Team</button
-	> -->
+	<div>
+		<ButtonSet
+			legend="Sort by"
+			options={[{ value: "Year" }, { value: "Asterisks" }]}
+			bind:value={valueSort}
+		/>
+	</div>
+	<div>
+		<ButtonSet
+			legend="Enable LIMP"
+			options={[{ value: "On" }, { value: "Off" }]}
+			bind:value={valueLimp}
+		/>
+	</div>
 </div>
 
 <section id="champions">
-	{#each seasons as { season, winner, rounds, asterisks }, i}
+	{#each seasons as { season, winner, rounds, asterisks, dnp, percentInjured }, i}
 		{@const visible = visibles[i]}
 		{@const arrow = visible ? "▼" : "▶"}
 		{@const scaledAsterisks = scales.opponent(asterisks.opponent)}
 		{@const pm = asterisks.opponent - asterisks.allNotOpponent}
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<div class="season" on:click={() => (visibles[i] = !visible)}>
+		<div class="season">
 			<h3 class="name">
-				<button>{@html arrow}</button>
-				{season}
-				<span
-					>{teams[winner]}{@html range(Math.round(scaledAsterisks))
-						.map((d) => "<sup>*</sup>")
-						.join("")}
-				</span>
+				<button on:click={() => (visibles[i] = !visible)}>
+					<span class="arrow">{@html arrow}</span>
+					{season}
+					<span
+						>{teams[winner]}{@html range(Math.round(scaledAsterisks))
+							.map((d) => "<sup>*</sup>")
+							.join("")}
+					</span>
+				</button>
 			</h3>
 			<div class="details" class:visible>
-				<p class="title">
-					<span>opponents: {asterisks.opponent.toFixed(1)}</span>
-					<span>+/-: {pm.toFixed(1)}</span>
-					<span>------------</span>
-					<span>all: {asterisks.all.toFixed(1)}</span>
-					<span>others: {asterisks.allNotOpponent.toFixed(1)}</span>
-				</p>
-				{#each rounds as { round, opponent, games }}
-					<div class="rounds">
-						<!-- <p>{roundNames[round - 1]}: {winner} vs {opponent}</p> -->
-						<p class="opponent">{opponent}</p>
-						<div class="games">
-							{#each games as game}
-								{@const opponents = game.playersOpponent}
-								{@const winners = game.playersWinner}
-								{@const result = game.winner === winner ? "W" : "L"}
-								<Game {game} {opponents} {winners} {result} {rank} />
-							{/each}
+				<div class="chart">
+					<p class="title">
+						<span>opponents: {asterisks.opponent.toFixed(1)}</span>
+						<span>+/-: {pm.toFixed(1)}</span>
+						<span>------------</span>
+						<span>all: {asterisks.all.toFixed(1)}</span>
+						<span>others: {asterisks.allNotOpponent.toFixed(1)}</span>
+					</p>
+					{#each rounds as { round, opponent, games }}
+						<div class="rounds">
+							<!-- <p>{roundNames[round - 1]}: {winner} vs {opponent}</p> -->
+							<p class="opponent">{opponent}</p>
+							<div class="games">
+								{#each games as game}
+									{@const opponents = game.playersOpponent}
+									{@const winners = game.playersWinner}
+									{@const result = game.winner === winner ? "W" : "L"}
+									<Game {game} {opponents} {winners} {result} {rank} />
+								{/each}
+							</div>
 						</div>
-					</div>
-				{/each}
+					{/each}
+				</div>
+				<div class="dnp">
+					<SortTable rows={dnp} {columns} {caption} />
+				</div>
+				<p class="injured">
+					playoff injury rate: {Math.round(percentInjured * 100)}%
+				</p>
 			</div>
 		</div>
 	{/each}
@@ -117,14 +152,9 @@
 		margin: 0 auto;
 	}
 
-	.details {
+	.chart {
 		display: flex;
 		margin-bottom: 16px;
-	}
-
-	.season {
-		cursor: pointer;
-		user-select: none;
 	}
 
 	.games {
@@ -186,17 +216,33 @@
 	}
 
 	.name button {
+		font-family: var(--mono);
 		background: transparent;
 		color: var(--color-fg);
+		user-select: none;
+	}
+
+	.button .arrow {
 		padding: 0;
 		opacity: 0.5;
 		width: 1em;
 	}
+
 	.details {
 		display: none;
 	}
 
 	.details.visible {
+		display: block;
+	}
+
+	.ui {
 		display: flex;
+		justify-content: center;
+	}
+
+	.ui > div {
+		font-size: var(--20px);
+		margin: 0 8px;
 	}
 </style>

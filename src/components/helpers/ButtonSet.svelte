@@ -62,14 +62,9 @@
 		flex-direction: column;
 	}
 
-	.is-top .legend {
-		padding-bottom: 0.5em;
-		padding-right: 0;
-	}
-
 	.legend {
-		padding-right: 0.5em;
 		font-size: 1em;
+		padding-bottom: 4px;
 	}
 
 	.options {
@@ -81,9 +76,9 @@
 		user-select: none;
 		line-height: 1;
 		margin: 0;
-		padding: 0.5em;
+		padding: 8px;
 		border-radius: 0;
-		border: 2px solid var(--color-gray-900);
+		border: 4px solid var(--color-fg);
 		outline: none;
 		cursor: pointer;
 		font-family: inherit;
@@ -95,31 +90,23 @@
 		border-left-width: 0;
 	}
 
-	.option:first-of-type label {
-		border-radius: 4px 0 0 4px;
-	}
-
-	.option:last-of-type label {
-		border-radius: 0 4px 4px 0;
-	}
-
 	.option + .option > label {
 		border-left-width: 0;
 	}
 
 	input[type="radio"] + label {
-		background: var(--color-white);
-		color: var(--color-gray-900);
+		background: var(--color-fg);
+		color: var(--color-bg);
 	}
 
 	input[type="radio"]:checked + label,
 	input[type="radio"]:checked:hover + label {
-		background: var(--color-gray-900);
-		color: var(--color-white);
+		background: var(--color-bg);
+		color: var(--color-fg);
 	}
 
 	input[type="radio"]:hover + label {
-		background: var(--color-gray-100);
+		background: var(--color-fg);
 	}
 
 	input[type="radio"]:focus + label {
@@ -127,8 +114,8 @@
 	}
 
 	input[type="radio"]:disabled + label {
-		color: var(--color-gray-700);
-		background: var(--color-gray-500);
+		color: var(--color-bg);
+		background: var(--color-fg);
 		cursor: not-allowed;
 	}
 </style>
