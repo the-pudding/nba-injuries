@@ -36,20 +36,23 @@
 
 	const scales = {
 		opponent: scaleLinear().range([0, maxAsterisks]),
-		all: scaleLinear().range([0, maxAsterisks]),
-		allNotOpponent: scaleLinear().range([0, maxAsterisks])
+		pm: scaleLinear().range([0, maxAsterisks])
 	};
 
 	onMount(async () => {
 		const seasonsRaw = await json("assets/champions.json");
 		seasons = seasonsRaw.filter((d) => d.season !== 2023 && d.season >= 2000);
 		visibles = range(seasons.length).map(() => false);
-		scales.all.domain([0, max(seasons.map((d) => d.asterisks.all))]);
-		scales.allNotOpponent.domain([
-			0,
-			max(seasons.map((d) => d.asterisks.allNotOpponent))
-		]);
+		// scales.all.domain([0, max(seasons.map((d) => d.asterisks.all))]);
+		// scales.allNotOpponent.domain([
+		// 	0,
+		// 	max(seasons.map((d) => d.asterisks.allNotOpponent))
+		// ]);
 		scales.opponent.domain([0, max(seasons.map((d) => d.asterisks.opponent))]);
+		scales.pm.domain([
+			0,
+			max(seasons.map((d) => d.asterisks.opponent - d.asterisks.winner))
+		]);
 		console.log(seasons);
 		// maxRoster = max(
 		// 	seasons
@@ -62,17 +65,29 @@
 	});
 
 	function sortSeasons() {
-		console.log(valueSort);
 		seasons.sort((a, b) => {
 			if (valueSort === "Year") return b.season - a.season;
-			else return b.asterisks.opponent - a.asterisks.opponent;
+			else if (valueLimp === "Off")
+				return b.asterisks.opponent - a.asterisks.opponent;
+			else
+				return (
+					b.asterisks.opponent -
+					b.asterisks.winner -
+					(a.asterisks.opponent - a.asterisks.winner)
+				);
 		});
 		seasons = [...seasons];
 	}
 
-	$: if (seasons.length) sortSeasons(valueSort);
+	function calcAsterisks(asterisks) {
+		if (valueLimp === "Off") return scales.opponent(asterisks.opponent);
+		return scales.pm(asterisks.opponent - asterisks.winner);
+	}
+
+	$: if (seasons.length) sortSeasons(valueSort, valueLimp);
 </script>
 
+<!-- TODO component -->
 <div class="ui">
 	<div>
 		<ButtonSet
@@ -94,8 +109,7 @@
 	{#each seasons as { season, winner, rounds, asterisks, dnp, percentInjured }, i}
 		{@const visible = visibles[i]}
 		{@const arrow = visible ? "▼" : "▶"}
-		{@const scaledAsterisks = scales.opponent(asterisks.opponent)}
-		{@const pm = asterisks.opponent - asterisks.winner}
+		{@const scaledAsterisks = calcAsterisks(asterisks, valueLimp)}
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div class="season">
 			<h3 class="name">
@@ -113,7 +127,7 @@
 				<div class="chart">
 					<p class="title">
 						<span>opponents: {asterisks.opponent.toFixed(1)}</span>
-						<span>+/-: {pm.toFixed(1)}</span>
+						<span>winner: {asterisks.winner.toFixed(1)}</span>
 						<span>------------</span>
 						<span>all: {asterisks.all.toFixed(1)}</span>
 						<span>others: {asterisks.allNotOpponent.toFixed(1)}</span>
