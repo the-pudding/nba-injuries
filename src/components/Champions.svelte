@@ -1,5 +1,7 @@
 <script>
 	import { onMount, getContext } from "svelte";
+	import { flip } from "svelte/animate";
+	import { cubicInOut } from "svelte/easing";
 	import { json, max, sum, mean, scaleLinear, range } from "d3";
 	import Game from "$components/Champions.game.svelte";
 	import teams from "$data/teams.json";
@@ -36,7 +38,7 @@
 
 	const scales = {
 		opponent: scaleLinear().range([0, maxAsterisks]),
-		pm: scaleLinear().range([0, maxAsterisks])
+		plusminus: scaleLinear().range([0, maxAsterisks])
 	};
 
 	onMount(async () => {
@@ -49,9 +51,9 @@
 		// 	max(seasons.map((d) => d.asterisks.allNotOpponent))
 		// ]);
 		scales.opponent.domain([0, max(seasons.map((d) => d.asterisks.opponent))]);
-		scales.pm.domain([
+		scales.plusminus.domain([
 			0,
-			max(seasons.map((d) => d.asterisks.opponent - d.asterisks.winner))
+			max(seasons.map((d) => d.asterisks.plusMinus))
 		]);
 		console.log(seasons);
 		// maxRoster = max(
@@ -69,19 +71,14 @@
 			if (valueSort === "Year") return b.season - a.season;
 			else if (valueLimp === "Off")
 				return b.asterisks.opponent - a.asterisks.opponent;
-			else
-				return (
-					b.asterisks.opponent -
-					b.asterisks.winner -
-					(a.asterisks.opponent - a.asterisks.winner)
-				);
+			else return b.asterisks.plusMinus - a.asterisks.plusMinus;
 		});
 		seasons = [...seasons];
 	}
 
 	function calcAsterisks(asterisks) {
 		if (valueLimp === "Off") return scales.opponent(asterisks.opponent);
-		return scales.pm(asterisks.opponent - asterisks.winner);
+		return scales.plusminus(asterisks.plusMinus);
 	}
 
 	$: if (seasons.length) sortSeasons(valueSort, valueLimp);
@@ -106,12 +103,15 @@
 </div>
 
 <section id="champions">
-	{#each seasons as { season, winner, rounds, asterisks, dnp, percentInjured }, i}
+	{#each seasons as { season, winner, rounds, asterisks, dnp, percentInjured }, i (season)}
 		{@const visible = visibles[i]}
 		{@const arrow = visible ? "▼" : "▶"}
 		{@const scaledAsterisks = calcAsterisks(asterisks, valueLimp)}
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<div class="season">
+		<div
+			class="season"
+			animate:flip={{ delay: i * 75, duration: 1000, easing: cubicInOut }}
+		>
 			<h3 class="name">
 				<button on:click={() => (visibles[i] = !visible)}>
 					<span class="arrow">{@html arrow}</span>
@@ -159,6 +159,9 @@
 </section>
 
 <style>
+	.season {
+		/* background: var(--color-bg); */
+	}
 	section {
 		font-family: var(--mono);
 		width: 75vw;

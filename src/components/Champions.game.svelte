@@ -1,9 +1,6 @@
 <script>
-	export let game;
 	export let opponents;
-	export let winners;
 	export let result;
-	export let maxRoster;
 	export let rank;
 
 	function getLevel(dnp, rank_team, rank_league, rank) {
