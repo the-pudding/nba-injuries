@@ -95,7 +95,7 @@
 		{@const visible = visibles[i]}
 		{@const arrow = visible ? "▼" : "▶"}
 		{@const scaledAsterisks = scales.opponent(asterisks.opponent)}
-		{@const pm = asterisks.opponent - asterisks.allNotOpponent}
+		{@const pm = asterisks.opponent - asterisks.winner}
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div class="season">
 			<h3 class="name">
