@@ -2,7 +2,79 @@
   {
     "season": 1997,
     "winner": "CHI",
-    "average": 0.07,
+    "asterisks": {
+      "all": 0.07,
+      "allNotOpponent": 0.08,
+      "opponent": 0,
+      "winner": 0
+    },
+    "percentInjured": 0.007,
+    "dnp": [
+      {
+        "bbrID": "grantho01",
+        "name": "Horace Grant",
+        "team": "ORL",
+        "rate": 0.8,
+        "asterisks": 1,
+        "rank_league": 45
+      },
+      {
+        "bbrID": "brownpj01",
+        "name": "P.J. Brown",
+        "team": "MIA",
+        "rate": 0.118,
+        "asterisks": 1,
+        "rank_league": 87
+      },
+      {
+        "bbrID": "boguemu01",
+        "name": "Muggsy Bogues",
+        "team": "CHH",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 127
+      },
+      {
+        "bbrID": "ewingpa01",
+        "name": "Patrick Ewing",
+        "team": "NYK",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 42
+      },
+      {
+        "bbrID": "houstal01",
+        "name": "Allan Houston",
+        "team": "NYK",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 85
+      },
+      {
+        "bbrID": "wardch01",
+        "name": "Charlie Ward",
+        "team": "NYK",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 132
+      },
+      {
+        "bbrID": "johnsla02",
+        "name": "Larry Johnson",
+        "team": "NYK",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 34
+      },
+      {
+        "bbrID": "starkjo01",
+        "name": "John Starks",
+        "team": "NYK",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 41
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -3567,7 +3639,55 @@
   {
     "season": 1998,
     "winner": "CHI",
-    "average": 0.08,
+    "asterisks": {
+      "all": 0.08,
+      "allNotOpponent": 0.1,
+      "opponent": 0,
+      "winner": 0
+    },
+    "percentInjured": 0.007,
+    "dnp": [
+      {
+        "bbrID": "geigema01",
+        "name": "Matt Geiger",
+        "team": "CHH",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 138
+      },
+      {
+        "bbrID": "bryanko01",
+        "name": "Kobe Bryant",
+        "team": "LAL",
+        "rate": 0.077,
+        "asterisks": 1,
+        "rank_league": 116
+      },
+      {
+        "bbrID": "ewingpa01",
+        "name": "Patrick Ewing",
+        "team": "NYK",
+        "rate": 0.6,
+        "asterisks": 1,
+        "rank_league": 75
+      },
+      {
+        "bbrID": "johnsla02",
+        "name": "Larry Johnson",
+        "team": "NYK",
+        "rate": 0.111,
+        "asterisks": 1,
+        "rank_league": 71
+      },
+      {
+        "bbrID": "majerda01",
+        "name": "Dan Majerle",
+        "team": "MIA",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 78
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -7504,7 +7624,63 @@
   {
     "season": 1999,
     "winner": "SAS",
-    "average": 0.14,
+    "asterisks": {
+      "all": 0.14,
+      "allNotOpponent": 0.13,
+      "opponent": 0.25,
+      "winner": 0
+    },
+    "percentInjured": 0.013,
+    "dnp": [
+      {
+        "bbrID": "hendeal01",
+        "name": "Alan Henderson",
+        "team": "ATL",
+        "rate": 0.667,
+        "asterisks": 1,
+        "rank_league": 120
+      },
+      {
+        "bbrID": "ewingpa01",
+        "name": "Patrick Ewing",
+        "team": "NYK",
+        "rate": 0.45,
+        "asterisks": 1,
+        "rank_league": 129
+      },
+      {
+        "bbrID": "besttr01",
+        "name": "Travis Best",
+        "team": "IND",
+        "rate": 0.154,
+        "asterisks": 1,
+        "rank_league": 118
+      },
+      {
+        "bbrID": "ricegl01",
+        "name": "Glen Rice",
+        "team": "LAL",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 55
+      },
+      {
+        "bbrID": "mckieaa01",
+        "name": "Aaron McKie",
+        "team": "PHI",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 145
+      },
+      {
+        "bbrID": "ratlith01",
+        "name": "Theo Ratliff",
+        "team": "PHI",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 115
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -10697,7 +10873,87 @@
   {
     "season": 2000,
     "winner": "LAL",
-    "average": 0.25,
+    "asterisks": {
+      "all": 0.25,
+      "allNotOpponent": 0.28,
+      "opponent": 0,
+      "winner": 0.13
+    },
+    "percentInjured": 0.012,
+    "dnp": [
+      {
+        "bbrID": "snower01",
+        "name": "Eric Snow",
+        "team": "PHI",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 33
+      },
+      {
+        "bbrID": "hillgr01",
+        "name": "Grant Hill",
+        "team": "DET",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 11
+      },
+      {
+        "bbrID": "hardati01",
+        "name": "Tim Hardaway",
+        "team": "MIA",
+        "rate": 0.3,
+        "asterisks": 1,
+        "rank_league": 38
+      },
+      {
+        "bbrID": "kiddja01",
+        "name": "Jason Kidd",
+        "team": "PHO",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 5
+      },
+      {
+        "bbrID": "duncati01",
+        "name": "Tim Duncan",
+        "team": "SAS",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 9
+      },
+      {
+        "bbrID": "millere01",
+        "name": "Reggie Miller",
+        "team": "IND",
+        "rate": 0.043,
+        "asterisks": 2,
+        "rank_league": 16
+      },
+      {
+        "bbrID": "fishede01",
+        "name": "Derek Fisher",
+        "team": "LAL",
+        "rate": 0.043,
+        "asterisks": 1,
+        "rank_league": 134
+      },
+      {
+        "bbrID": "bryanko01",
+        "name": "Kobe Bryant",
+        "team": "LAL",
+        "rate": 0.043,
+        "asterisks": 2,
+        "rank_league": 14
+      },
+      {
+        "bbrID": "ewingpa01",
+        "name": "Patrick Ewing",
+        "team": "NYK",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 123
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -15006,7 +15262,87 @@
   {
     "season": 2001,
     "winner": "LAL",
-    "average": 0.22,
+    "asterisks": {
+      "all": 0.22,
+      "allNotOpponent": 0.18,
+      "opponent": 0.55,
+      "winner": 0.17
+    },
+    "percentInjured": 0.019,
+    "dnp": [
+      {
+        "bbrID": "hardati01",
+        "name": "Tim Hardaway",
+        "team": "MIA",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 39
+      },
+      {
+        "bbrID": "lynchge01",
+        "name": "George Lynch",
+        "team": "PHI",
+        "rate": 0.565,
+        "asterisks": 1,
+        "rank_league": 51
+      },
+      {
+        "bbrID": "iversal01",
+        "name": "Allen Iverson",
+        "team": "PHI",
+        "rate": 0.043,
+        "asterisks": 2,
+        "rank_league": 23
+      },
+      {
+        "bbrID": "anderde01",
+        "name": "Derek Anderson",
+        "team": "SAS",
+        "rate": 0.462,
+        "asterisks": 1,
+        "rank_league": 36
+      },
+      {
+        "bbrID": "davisda01",
+        "name": "Dale Davis",
+        "team": "POR",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 92
+      },
+      {
+        "bbrID": "harpero01",
+        "name": "Ron Harper",
+        "team": "LAL",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 136
+      },
+      {
+        "bbrID": "johnsla02",
+        "name": "Larry Johnson",
+        "team": "NYK",
+        "rate": 0.6,
+        "asterisks": 1,
+        "rank_league": 129
+      },
+      {
+        "bbrID": "cambyma01",
+        "name": "Marcus Camby",
+        "team": "NYK",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 43
+      },
+      {
+        "bbrID": "anderni01",
+        "name": "Nick Anderson",
+        "team": "SAC",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 146
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -18013,7 +18349,55 @@
   {
     "season": 2002,
     "winner": "LAL",
-    "average": 0.19,
+    "asterisks": {
+      "all": 0.19,
+      "allNotOpponent": 0.17,
+      "opponent": 0.34,
+      "winner": 0
+    },
+    "percentInjured": 0.012,
+    "dnp": [
+      {
+        "bbrID": "mashbja01",
+        "name": "Jamal Mashburn",
+        "team": "CHH",
+        "rate": 0.889,
+        "asterisks": 1,
+        "rank_league": 89
+      },
+      {
+        "bbrID": "stojape01",
+        "name": "Peja Stojaković",
+        "team": "SAC",
+        "rate": 0.313,
+        "asterisks": 1,
+        "rank_league": 39
+      },
+      {
+        "bbrID": "lewisra02",
+        "name": "Rashard Lewis",
+        "team": "SEA",
+        "rate": 0.4,
+        "asterisks": 2,
+        "rank_league": 28
+      },
+      {
+        "bbrID": "robinda01",
+        "name": "David Robinson",
+        "team": "SAS",
+        "rate": 0.556,
+        "asterisks": 2,
+        "rank_league": 17
+      },
+      {
+        "bbrID": "duncati01",
+        "name": "Tim Duncan",
+        "team": "SAS",
+        "rate": 0.1,
+        "asterisks": 2,
+        "rank_league": 0
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -21578,7 +21962,119 @@
   {
     "season": 2003,
     "winner": "SAS",
-    "average": 0.23,
+    "asterisks": {
+      "all": 0.23,
+      "allNotOpponent": 0.17,
+      "opponent": 0.63,
+      "winner": 0.04
+    },
+    "percentInjured": 0.017,
+    "dnp": [
+      {
+        "bbrID": "pippesc01",
+        "name": "Scottie Pippen",
+        "team": "POR",
+        "rate": 0.429,
+        "asterisks": 1,
+        "rank_league": 58
+      },
+      {
+        "bbrID": "anderde01",
+        "name": "Derek Anderson",
+        "team": "POR",
+        "rate": 0.714,
+        "asterisks": 1,
+        "rank_league": 46
+      },
+      {
+        "bbrID": "sabonar01",
+        "name": "Arvydas Sabonis",
+        "team": "POR",
+        "rate": 0.143,
+        "asterisks": 1,
+        "rank_league": 93
+      },
+      {
+        "bbrID": "griffad01",
+        "name": "Adrian Griffin",
+        "team": "DAL",
+        "rate": 0.05,
+        "asterisks": 1,
+        "rank_league": 122
+      },
+      {
+        "bbrID": "bradlsh01",
+        "name": "Shawn Bradley",
+        "team": "DAL",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 85
+      },
+      {
+        "bbrID": "nowitdi01",
+        "name": "Dirk Nowitzki",
+        "team": "DAL",
+        "rate": 0.15,
+        "asterisks": 2,
+        "rank_league": 5
+      },
+      {
+        "bbrID": "webbech01",
+        "name": "Chris Webber",
+        "team": "SAC",
+        "rate": 0.417,
+        "asterisks": 1,
+        "rank_league": 35
+      },
+      {
+        "bbrID": "robinda01",
+        "name": "David Robinson",
+        "team": "SAS",
+        "rate": 0.042,
+        "asterisks": 1,
+        "rank_league": 31
+      },
+      {
+        "bbrID": "billuch01",
+        "name": "Chauncey Billups",
+        "team": "DET",
+        "rate": 0.176,
+        "asterisks": 2,
+        "rank_league": 28
+      },
+      {
+        "bbrID": "foxri01",
+        "name": "Rick Fox",
+        "team": "LAL",
+        "rate": 0.667,
+        "asterisks": 1,
+        "rank_league": 103
+      },
+      {
+        "bbrID": "georgde01",
+        "name": "Devean George",
+        "team": "LAL",
+        "rate": 0.083,
+        "asterisks": 1,
+        "rank_league": 94
+      },
+      {
+        "bbrID": "davisba01",
+        "name": "Baron Davis",
+        "team": "NOH",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 15
+      },
+      {
+        "bbrID": "mashbja01",
+        "name": "Jamal Mashburn",
+        "team": "NOH",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 68
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -26073,7 +26569,79 @@
   {
     "season": 2004,
     "winner": "DET",
-    "average": 0.17,
+    "asterisks": {
+      "all": 0.17,
+      "allNotOpponent": 0.18,
+      "opponent": 0.05,
+      "winner": 0
+    },
+    "percentInjured": 0.013,
+    "dnp": [
+      {
+        "bbrID": "artesro01",
+        "name": "Metta World Peace",
+        "team": "IND",
+        "rate": 0.063,
+        "asterisks": 2,
+        "rank_league": 12
+      },
+      {
+        "bbrID": "malonka01",
+        "name": "Karl Malone",
+        "team": "LAL",
+        "rate": 0.045,
+        "asterisks": 1,
+        "rank_league": 70
+      },
+      {
+        "bbrID": "thomati01",
+        "name": "Tim Thomas",
+        "team": "NYK",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 105
+      },
+      {
+        "bbrID": "anthoca01",
+        "name": "Carmelo Anthony",
+        "team": "DEN",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 140
+      },
+      {
+        "bbrID": "szczewa02",
+        "name": "Wally Szczerbiak",
+        "team": "MIN",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 147
+      },
+      {
+        "bbrID": "cassesa01",
+        "name": "Sam Cassell",
+        "team": "MIN",
+        "rate": 0.111,
+        "asterisks": 2,
+        "rank_league": 13
+      },
+      {
+        "bbrID": "jacksbo01",
+        "name": "Bobby Jackson",
+        "team": "SAC",
+        "rate": 0.917,
+        "asterisks": 1,
+        "rank_league": 99
+      },
+      {
+        "bbrID": "peelean01",
+        "name": "Anthony Peeler",
+        "team": "SAC",
+        "rate": 0.083,
+        "asterisks": 1,
+        "rank_league": 145
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -30382,7 +30950,71 @@
   {
     "season": 2005,
     "winner": "SAS",
-    "average": 0.21,
+    "asterisks": {
+      "all": 0.21,
+      "allNotOpponent": 0.15,
+      "opponent": 0.56,
+      "winner": 0
+    },
+    "percentInjured": 0.015,
+    "dnp": [
+      {
+        "bbrID": "tinslja01",
+        "name": "Jamaal Tinsley",
+        "team": "IND",
+        "rate": 0.308,
+        "asterisks": 1,
+        "rank_league": 67
+      },
+      {
+        "bbrID": "vanhoke01",
+        "name": "Keith Van Horn",
+        "team": "DAL",
+        "rate": 0.769,
+        "asterisks": 1,
+        "rank_league": 93
+      },
+      {
+        "bbrID": "radmavl01",
+        "name": "Vladimir Radmanović",
+        "team": "SEA",
+        "rate": 0.455,
+        "asterisks": 1,
+        "rank_league": 110
+      },
+      {
+        "bbrID": "lewisra02",
+        "name": "Rashard Lewis",
+        "team": "SEA",
+        "rate": 0.273,
+        "asterisks": 2,
+        "rank_league": 20
+      },
+      {
+        "bbrID": "onealsh01",
+        "name": "Shaquille O'Neal",
+        "team": "MIA",
+        "rate": 0.133,
+        "asterisks": 2,
+        "rank_league": 15
+      },
+      {
+        "bbrID": "wadedw01",
+        "name": "Dwyane Wade",
+        "team": "MIA",
+        "rate": 0.067,
+        "asterisks": 1,
+        "rank_league": 32
+      },
+      {
+        "bbrID": "johnsjo02",
+        "name": "Joe Johnson",
+        "team": "PHO",
+        "rate": 0.4,
+        "asterisks": 1,
+        "rank_league": 47
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -34691,7 +35323,111 @@
   {
     "season": 2006,
     "winner": "MIA",
-    "average": 0.24,
+    "asterisks": {
+      "all": 0.24,
+      "allNotOpponent": 0.28,
+      "opponent": 0,
+      "winner": 0.08
+    },
+    "percentInjured": 0.019,
+    "dnp": [
+      {
+        "bbrID": "hughela01",
+        "name": "Larry Hughes",
+        "team": "CLE",
+        "rate": 0.231,
+        "asterisks": 1,
+        "rank_league": 65
+      },
+      {
+        "bbrID": "martike01",
+        "name": "Kenyon Martin",
+        "team": "DEN",
+        "rate": 0.6,
+        "asterisks": 1,
+        "rank_league": 118
+      },
+      {
+        "bbrID": "hasleud01",
+        "name": "Udonis Haslem",
+        "team": "MIA",
+        "rate": 0.043,
+        "asterisks": 1,
+        "rank_league": 76
+      },
+      {
+        "bbrID": "poseyja01",
+        "name": "James Posey",
+        "team": "MIA",
+        "rate": 0.043,
+        "asterisks": 1,
+        "rank_league": 139
+      },
+      {
+        "bbrID": "artesro01",
+        "name": "Metta World Peace",
+        "team": "SAC",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 68
+      },
+      {
+        "bbrID": "daniema01",
+        "name": "Marquis Daniels",
+        "team": "DAL",
+        "rate": 0.043,
+        "asterisks": 1,
+        "rank_league": 119
+      },
+      {
+        "bbrID": "terryja01",
+        "name": "Jason Terry",
+        "team": "DAL",
+        "rate": 0.043,
+        "asterisks": 2,
+        "rank_league": 23
+      },
+      {
+        "bbrID": "tinslja01",
+        "name": "Jamaal Tinsley",
+        "team": "IND",
+        "rate": 0.833,
+        "asterisks": 1,
+        "rank_league": 125
+      },
+      {
+        "bbrID": "stojape01",
+        "name": "Peja Stojaković",
+        "team": "IND",
+        "rate": 0.667,
+        "asterisks": 1,
+        "rank_league": 51
+      },
+      {
+        "bbrID": "fosteje01",
+        "name": "Jeff Foster",
+        "team": "IND",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 81
+      },
+      {
+        "bbrID": "stoudam01",
+        "name": "Amar'e Stoudemire",
+        "team": "PHO",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 84
+      },
+      {
+        "bbrID": "bellra01",
+        "name": "Raja Bell",
+        "team": "PHO",
+        "rate": 0.15,
+        "asterisks": 1,
+        "rank_league": 108
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -39294,7 +40030,79 @@
   {
     "season": 2007,
     "winner": "SAS",
-    "average": 0.17,
+    "asterisks": {
+      "all": 0.17,
+      "allNotOpponent": 0.16,
+      "opponent": 0.21,
+      "winner": 0.04
+    },
+    "percentInjured": 0.008,
+    "dnp": [
+      {
+        "bbrID": "fishede01",
+        "name": "Derek Fisher",
+        "team": "UTA",
+        "rate": 0.059,
+        "asterisks": 1,
+        "rank_league": 64
+      },
+      {
+        "bbrID": "garbajo01",
+        "name": "Jorge Garbajosa",
+        "team": "TOR",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 105
+      },
+      {
+        "bbrID": "arenagi01",
+        "name": "Gilbert Arenas",
+        "team": "WAS",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 4
+      },
+      {
+        "bbrID": "butleca01",
+        "name": "Caron Butler",
+        "team": "WAS",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 60
+      },
+      {
+        "bbrID": "hughela01",
+        "name": "Larry Hughes",
+        "team": "CLE",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 141
+      },
+      {
+        "bbrID": "diawbo01",
+        "name": "Boris Diaw",
+        "team": "PHO",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 71
+      },
+      {
+        "bbrID": "stoudam01",
+        "name": "Amar'e Stoudemire",
+        "team": "PHO",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 135
+      },
+      {
+        "bbrID": "horryro01",
+        "name": "Robert Horry",
+        "team": "SAS",
+        "rate": 0.05,
+        "asterisks": 1,
+        "rank_league": 117
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -43773,7 +44581,79 @@
   {
     "season": 2008,
     "winner": "BOS",
-    "average": 0.22,
+    "asterisks": {
+      "all": 0.22,
+      "allNotOpponent": 0.22,
+      "opponent": 0.25,
+      "winner": 0.08
+    },
+    "percentInjured": 0.013,
+    "dnp": [
+      {
+        "bbrID": "arenagi01",
+        "name": "Gilbert Arenas",
+        "team": "WAS",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 29
+      },
+      {
+        "bbrID": "alstora01",
+        "name": "Rafer Alston",
+        "team": "HOU",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 22
+      },
+      {
+        "bbrID": "mingya01",
+        "name": "Yao Ming",
+        "team": "HOU",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 69
+      },
+      {
+        "bbrID": "hillgr01",
+        "name": "Grant Hill",
+        "team": "PHO",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 76
+      },
+      {
+        "bbrID": "claxtsp01",
+        "name": "Speedy Claxton",
+        "team": "ATL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 139
+      },
+      {
+        "bbrID": "allento01",
+        "name": "Tony Allen",
+        "team": "BOS",
+        "rate": 0.077,
+        "asterisks": 1,
+        "rank_league": 147
+      },
+      {
+        "bbrID": "billuch01",
+        "name": "Chauncey Billups",
+        "team": "DET",
+        "rate": 0.118,
+        "asterisks": 2,
+        "rank_league": 7
+      },
+      {
+        "bbrID": "arizatr01",
+        "name": "Trevor Ariza",
+        "team": "LAL",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 146
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -49634,7 +50514,143 @@
   {
     "season": 2009,
     "winner": "LAL",
-    "average": 0.63,
+    "asterisks": {
+      "all": 0.63,
+      "allNotOpponent": 0.65,
+      "opponent": 0.54,
+      "winner": 0.04
+    },
+    "percentInjured": 0.038,
+    "dnp": [
+      {
+        "bbrID": "denglu01",
+        "name": "Luol Deng",
+        "team": "CHI",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 138
+      },
+      {
+        "bbrID": "garneke01",
+        "name": "Kevin Garnett",
+        "team": "BOS",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 10
+      },
+      {
+        "bbrID": "powele01",
+        "name": "Leon Powe",
+        "team": "BOS",
+        "rate": 0.857,
+        "asterisks": 1,
+        "rank_league": 149
+      },
+      {
+        "bbrID": "iversal01",
+        "name": "Allen Iverson",
+        "team": "DET",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 29
+      },
+      {
+        "bbrID": "mcgratr01",
+        "name": "Tracy McGrady",
+        "team": "HOU",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 74
+      },
+      {
+        "bbrID": "mingya01",
+        "name": "Yao Ming",
+        "team": "HOU",
+        "rate": 0.308,
+        "asterisks": 1,
+        "rank_league": 36
+      },
+      {
+        "bbrID": "ginobma01",
+        "name": "Manu Ginóbili",
+        "team": "SAS",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 17
+      },
+      {
+        "bbrID": "moonja01",
+        "name": "Jamario Moon",
+        "team": "MIA",
+        "rate": 0.571,
+        "asterisks": 1,
+        "rank_league": 53
+      },
+      {
+        "bbrID": "horfoal01",
+        "name": "Al Horford",
+        "team": "ATL",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 136
+      },
+      {
+        "bbrID": "chandty01",
+        "name": "Tyson Chandler",
+        "team": "NOH",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 77
+      },
+      {
+        "bbrID": "okurme01",
+        "name": "Mehmet Okur",
+        "team": "UTA",
+        "rate": 0.6,
+        "asterisks": 1,
+        "rank_league": 76
+      },
+      {
+        "bbrID": "fishede01",
+        "name": "Derek Fisher",
+        "team": "LAL",
+        "rate": 0.043,
+        "asterisks": 1,
+        "rank_league": 79
+      },
+      {
+        "bbrID": "nelsoja01",
+        "name": "Jameer Nelson",
+        "team": "ORL",
+        "rate": 0.792,
+        "asterisks": 1,
+        "rank_league": 65
+      },
+      {
+        "bbrID": "howardw01",
+        "name": "Dwight Howard",
+        "team": "ORL",
+        "rate": 0.042,
+        "asterisks": 2,
+        "rank_league": 12
+      },
+      {
+        "bbrID": "leeco01",
+        "name": "Courtney Lee",
+        "team": "ORL",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 103
+      },
+      {
+        "bbrID": "alstora01",
+        "name": "Rafer Alston",
+        "team": "ORL",
+        "rate": 0.042,
+        "asterisks": 1,
+        "rank_league": 58
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -54671,7 +55687,71 @@
   {
     "season": 2010,
     "winner": "LAL",
-    "average": 0.21,
+    "asterisks": {
+      "all": 0.21,
+      "allNotOpponent": 0.18,
+      "opponent": 0.38,
+      "winner": 0
+    },
+    "percentInjured": 0.013,
+    "dnp": [
+      {
+        "bbrID": "bogutan01",
+        "name": "Andrew Bogut",
+        "team": "MIL",
+        "rate": 0.857,
+        "asterisks": 1,
+        "rank_league": 56
+      },
+      {
+        "bbrID": "garneke01",
+        "name": "Kevin Garnett",
+        "team": "BOS",
+        "rate": 0.042,
+        "asterisks": 1,
+        "rank_league": 39
+      },
+      {
+        "bbrID": "kirilan01",
+        "name": "Andrei Kirilenko",
+        "team": "UTA",
+        "rate": 0.8,
+        "asterisks": 1,
+        "rank_league": 45
+      },
+      {
+        "bbrID": "okurme01",
+        "name": "Mehmet Okur",
+        "team": "UTA",
+        "rate": 0.6,
+        "asterisks": 1,
+        "rank_league": 90
+      },
+      {
+        "bbrID": "hilarne01",
+        "name": "Nenê",
+        "team": "DEN",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 16
+      },
+      {
+        "bbrID": "przybjo01",
+        "name": "Joel Przybilla",
+        "team": "POR",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 136
+      },
+      {
+        "bbrID": "roybr01",
+        "name": "Brandon Roy",
+        "team": "POR",
+        "rate": 0.5,
+        "asterisks": 2,
+        "rank_league": 7
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -59526,7 +60606,87 @@
   {
     "season": 2011,
     "winner": "DAL",
-    "average": 0.2,
+    "asterisks": {
+      "all": 0.2,
+      "allNotOpponent": 0.22,
+      "opponent": 0.06,
+      "winner": 0.04
+    },
+    "percentInjured": 0.014,
+    "dnp": [
+      {
+        "bbrID": "breweco01",
+        "name": "Corey Brewer",
+        "team": "DAL",
+        "rate": 0.048,
+        "asterisks": 1,
+        "rank_league": 143
+      },
+      {
+        "bbrID": "hinriki01",
+        "name": "Kirk Hinrich",
+        "team": "ATL",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 144
+      },
+      {
+        "bbrID": "richaja01",
+        "name": "Jason Richardson",
+        "team": "ORL",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 33
+      },
+      {
+        "bbrID": "billuch01",
+        "name": "Chauncey Billups",
+        "team": "NYK",
+        "rate": 0.75,
+        "asterisks": 1,
+        "rank_league": 37
+      },
+      {
+        "bbrID": "westda01",
+        "name": "David West",
+        "team": "NOH",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 68
+      },
+      {
+        "bbrID": "artesro01",
+        "name": "Metta World Peace",
+        "team": "LAL",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 43
+      },
+      {
+        "bbrID": "afflaar01",
+        "name": "Arron Afflalo",
+        "team": "DEN",
+        "rate": 0.4,
+        "asterisks": 1,
+        "rank_league": 89
+      },
+      {
+        "bbrID": "gayru01",
+        "name": "Rudy Gay",
+        "team": "MEM",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 47
+      },
+      {
+        "bbrID": "ginobma01",
+        "name": "Manu Ginóbili",
+        "team": "SAS",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 5
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -64345,7 +65505,143 @@
   {
     "season": 2012,
     "winner": "MIA",
-    "average": 0.49,
+    "asterisks": {
+      "all": 0.49,
+      "allNotOpponent": 0.52,
+      "opponent": 0.25,
+      "winner": 0.35
+    },
+    "percentInjured": 0.029,
+    "dnp": [
+      {
+        "bbrID": "rosede01",
+        "name": "Derrick Rose",
+        "team": "CHI",
+        "rate": 0.833,
+        "asterisks": 2,
+        "rank_league": 7
+      },
+      {
+        "bbrID": "noahjo01",
+        "name": "Joakim Noah",
+        "team": "CHI",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 36
+      },
+      {
+        "bbrID": "howardw01",
+        "name": "Dwight Howard",
+        "team": "ORL",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 3
+      },
+      {
+        "bbrID": "shumpim01",
+        "name": "Iman Shumpert",
+        "team": "NYK",
+        "rate": 0.8,
+        "asterisks": 1,
+        "rank_league": 118
+      },
+      {
+        "bbrID": "davisba01",
+        "name": "Baron Davis",
+        "team": "NYK",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 132
+      },
+      {
+        "bbrID": "boshch01",
+        "name": "Chris Bosh",
+        "team": "MIA",
+        "rate": 0.391,
+        "asterisks": 1,
+        "rank_league": 34
+      },
+      {
+        "bbrID": "odomla01",
+        "name": "Lamar Odom",
+        "team": "DAL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 87
+      },
+      {
+        "bbrID": "allenra02",
+        "name": "Ray Allen",
+        "team": "BOS",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 35
+      },
+      {
+        "bbrID": "rondora01",
+        "name": "Rajon Rondo",
+        "team": "BOS",
+        "rate": 0.05,
+        "asterisks": 2,
+        "rank_league": 21
+      },
+      {
+        "bbrID": "horfoal01",
+        "name": "Al Horford",
+        "team": "ATL",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 86
+      },
+      {
+        "bbrID": "smithjo03",
+        "name": "Josh Smith",
+        "team": "ATL",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 12
+      },
+      {
+        "bbrID": "chandwi01",
+        "name": "Wilson Chandler",
+        "team": "DEN",
+        "rate": 0.857,
+        "asterisks": 1,
+        "rank_league": 138
+      },
+      {
+        "bbrID": "fernaru01",
+        "name": "Rudy Fernández",
+        "team": "DEN",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 108
+      },
+      {
+        "bbrID": "artesro01",
+        "name": "Metta World Peace",
+        "team": "LAL",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 60
+      },
+      {
+        "bbrID": "billuch01",
+        "name": "Chauncey Billups",
+        "team": "LAC",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 93
+      },
+      {
+        "bbrID": "milescj01",
+        "name": "C.J. Miles",
+        "team": "UTA",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 120
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -69620,7 +70916,183 @@
   {
     "season": 2013,
     "winner": "MIA",
-    "average": 0.84,
+    "asterisks": {
+      "all": 0.84,
+      "allNotOpponent": 0.74,
+      "opponent": 1.5,
+      "winner": 0
+    },
+    "percentInjured": 0.039,
+    "dnp": [
+      {
+        "bbrID": "rosede01",
+        "name": "Derrick Rose",
+        "team": "CHI",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 10
+      },
+      {
+        "bbrID": "hinriki01",
+        "name": "Kirk Hinrich",
+        "team": "CHI",
+        "rate": 0.667,
+        "asterisks": 1,
+        "rank_league": 137
+      },
+      {
+        "bbrID": "denglu01",
+        "name": "Luol Deng",
+        "team": "CHI",
+        "rate": 0.583,
+        "asterisks": 2,
+        "rank_league": 27
+      },
+      {
+        "bbrID": "leeda02",
+        "name": "David Lee",
+        "team": "GSW",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 79
+      },
+      {
+        "bbrID": "gallida01",
+        "name": "Danilo Gallinari",
+        "team": "DEN",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 29
+      },
+      {
+        "bbrID": "rondora01",
+        "name": "Rajon Rondo",
+        "team": "BOS",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 66
+      },
+      {
+        "bbrID": "prigipa01",
+        "name": "Pablo Prigioni",
+        "team": "NYK",
+        "rate": 0.083,
+        "asterisks": 1,
+        "rank_league": 82
+      },
+      {
+        "bbrID": "smithjr01",
+        "name": "J.R. Smith",
+        "team": "NYK",
+        "rate": 0.083,
+        "asterisks": 1,
+        "rank_league": 50
+      },
+      {
+        "bbrID": "novakst01",
+        "name": "Steve Novak",
+        "team": "NYK",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 149
+      },
+      {
+        "bbrID": "willilo02",
+        "name": "Lou Williams",
+        "team": "ATL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 101
+      },
+      {
+        "bbrID": "grangda01",
+        "name": "Danny Granger",
+        "team": "IND",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 86
+      },
+      {
+        "bbrID": "hillge01",
+        "name": "George Hill",
+        "team": "IND",
+        "rate": 0.053,
+        "asterisks": 2,
+        "rank_league": 25
+      },
+      {
+        "bbrID": "linje01",
+        "name": "Jeremy Lin",
+        "team": "HOU",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 84
+      },
+      {
+        "bbrID": "delfica01",
+        "name": "Carlos Delfino",
+        "team": "HOU",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 114
+      },
+      {
+        "bbrID": "westbru01",
+        "name": "Russell Westbrook",
+        "team": "OKC",
+        "rate": 0.818,
+        "asterisks": 2,
+        "rank_league": 4
+      },
+      {
+        "bbrID": "bryanko01",
+        "name": "Kobe Bryant",
+        "team": "LAL",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 11
+      },
+      {
+        "bbrID": "meeksjo01",
+        "name": "Jodie Meeks",
+        "team": "LAL",
+        "rate": 0.75,
+        "asterisks": 1,
+        "rank_league": 129
+      },
+      {
+        "bbrID": "nashst01",
+        "name": "Steve Nash",
+        "team": "LAL",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 65
+      },
+      {
+        "bbrID": "artesro01",
+        "name": "Metta World Peace",
+        "team": "LAL",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 41
+      },
+      {
+        "bbrID": "mcgratr01",
+        "name": "Tracy McGrady",
+        "team": "SAS",
+        "rate": 0.143,
+        "asterisks": 1,
+        "rank_league": 132
+      },
+      {
+        "bbrID": "splitti01",
+        "name": "Tiago Splitter",
+        "team": "SAS",
+        "rate": 0.095,
+        "asterisks": 1,
+        "rank_league": 64
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -74895,7 +76367,79 @@
   {
     "season": 2014,
     "winner": "SAS",
-    "average": 0.2,
+    "asterisks": {
+      "all": 0.2,
+      "allNotOpponent": 0.22,
+      "opponent": 0.08,
+      "winner": 0
+    },
+    "percentInjured": 0.014,
+    "dnp": [
+      {
+        "bbrID": "horfoal01",
+        "name": "Al Horford",
+        "team": "ATL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 89
+      },
+      {
+        "bbrID": "bogutan01",
+        "name": "Andrew Bogut",
+        "team": "GSW",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 114
+      },
+      {
+        "bbrID": "randoza01",
+        "name": "Zach Randolph",
+        "team": "MEM",
+        "rate": 0.143,
+        "asterisks": 1,
+        "rank_league": 98
+      },
+      {
+        "bbrID": "ibakase01",
+        "name": "Serge Ibaka",
+        "team": "OKC",
+        "rate": 0.105,
+        "asterisks": 1,
+        "rank_league": 40
+      },
+      {
+        "bbrID": "lopezbr01",
+        "name": "Brook Lopez",
+        "team": "BRK",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 79
+      },
+      {
+        "bbrID": "hilarne01",
+        "name": "Nenê",
+        "team": "WAS",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 100
+      },
+      {
+        "bbrID": "rosede01",
+        "name": "Derrick Rose",
+        "team": "CHI",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 137
+      },
+      {
+        "bbrID": "jeffeal01",
+        "name": "Al Jefferson",
+        "team": "CHA",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 90
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -80170,7 +81714,159 @@
   {
     "season": 2015,
     "winner": "GSW",
-    "average": 0.84,
+    "asterisks": {
+      "all": 0.84,
+      "allNotOpponent": 0.74,
+      "opponent": 1.52,
+      "winner": 0.13
+    },
+    "percentInjured": 0.041,
+    "dnp": [
+      {
+        "bbrID": "mirotni01",
+        "name": "Nikola Mirotić",
+        "team": "CHI",
+        "rate": 0.083,
+        "asterisks": 1,
+        "rank_league": 43
+      },
+      {
+        "bbrID": "gasolpa01",
+        "name": "Pau Gasol",
+        "team": "CHI",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 135
+      },
+      {
+        "bbrID": "holidjr01",
+        "name": "Jrue Holiday",
+        "team": "NOP",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 100
+      },
+      {
+        "bbrID": "leeda02",
+        "name": "David Lee",
+        "team": "GSW",
+        "rate": 0.095,
+        "asterisks": 1,
+        "rank_league": 120
+      },
+      {
+        "bbrID": "harride01",
+        "name": "Devin Harris",
+        "team": "DAL",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 91
+      },
+      {
+        "bbrID": "parsoch01",
+        "name": "Chandler Parsons",
+        "team": "DAL",
+        "rate": 0.8,
+        "asterisks": 1,
+        "rank_league": 46
+      },
+      {
+        "bbrID": "beverpa01",
+        "name": "Patrick Beverley",
+        "team": "HOU",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 62
+      },
+      {
+        "bbrID": "walljo01",
+        "name": "John Wall",
+        "team": "WAS",
+        "rate": 0.3,
+        "asterisks": 2,
+        "rank_league": 28
+      },
+      {
+        "bbrID": "sefolth01",
+        "name": "Thabo Sefolosha",
+        "team": "ATL",
+        "rate": 0.938,
+        "asterisks": 1,
+        "rank_league": 108
+      },
+      {
+        "bbrID": "korveky01",
+        "name": "Kyle Korver",
+        "team": "ATL",
+        "rate": 0.063,
+        "asterisks": 2,
+        "rank_league": 26
+      },
+      {
+        "bbrID": "varejan01",
+        "name": "Anderson Varejão",
+        "team": "CLE",
+        "rate": 0.95,
+        "asterisks": 1,
+        "rank_league": 89
+      },
+      {
+        "bbrID": "smithjr01",
+        "name": "J.R. Smith",
+        "team": "CLE",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 119
+      },
+      {
+        "bbrID": "loveke01",
+        "name": "Kevin Love",
+        "team": "CLE",
+        "rate": 0.75,
+        "asterisks": 2,
+        "rank_league": 5
+      },
+      {
+        "bbrID": "irvinky01",
+        "name": "Kyrie Irving",
+        "team": "CLE",
+        "rate": 0.3,
+        "asterisks": 2,
+        "rank_league": 18
+      },
+      {
+        "bbrID": "paulch01",
+        "name": "Chris Paul",
+        "team": "LAC",
+        "rate": 0.143,
+        "asterisks": 2,
+        "rank_league": 1
+      },
+      {
+        "bbrID": "matthwe02",
+        "name": "Wesley Matthews",
+        "team": "POR",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 25
+      },
+      {
+        "bbrID": "conlemi01",
+        "name": "Mike Conley",
+        "team": "MEM",
+        "rate": 0.273,
+        "asterisks": 2,
+        "rank_league": 22
+      },
+      {
+        "bbrID": "allento01",
+        "name": "Tony Allen",
+        "team": "MEM",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 63
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -84954,7 +86650,159 @@
   {
     "season": 2016,
     "winner": "CLE",
-    "average": 0.51,
+    "asterisks": {
+      "all": 0.51,
+      "allNotOpponent": 0.52,
+      "opponent": 0.48,
+      "winner": 0.07
+    },
+    "percentInjured": 0.03,
+    "dnp": [
+      {
+        "bbrID": "bradlav01",
+        "name": "Avery Bradley",
+        "team": "BOS",
+        "rate": 0.833,
+        "asterisks": 1,
+        "rank_league": 141
+      },
+      {
+        "bbrID": "olynyke01",
+        "name": "Kelly Olynyk",
+        "team": "BOS",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 89
+      },
+      {
+        "bbrID": "splitti01",
+        "name": "Tiago Splitter",
+        "team": "ATL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 129
+      },
+      {
+        "bbrID": "curryst01",
+        "name": "Stephen Curry",
+        "team": "GSW",
+        "rate": 0.25,
+        "asterisks": 2,
+        "rank_league": 0
+      },
+      {
+        "bbrID": "greendr01",
+        "name": "Draymond Green",
+        "team": "GSW",
+        "rate": 0.042,
+        "asterisks": 2,
+        "rank_league": 2
+      },
+      {
+        "bbrID": "bogutan01",
+        "name": "Andrew Bogut",
+        "team": "GSW",
+        "rate": 0.043,
+        "asterisks": 1,
+        "rank_league": 77
+      },
+      {
+        "bbrID": "parsoch01",
+        "name": "Chandler Parsons",
+        "team": "DAL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 76
+      },
+      {
+        "bbrID": "willide01",
+        "name": "Deron Williams",
+        "team": "DAL",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 98
+      },
+      {
+        "bbrID": "valanjo01",
+        "name": "Jonas Valančiūnas",
+        "team": "TOR",
+        "rate": 0.35,
+        "asterisks": 1,
+        "rank_league": 84
+      },
+      {
+        "bbrID": "loveke01",
+        "name": "Kevin Love",
+        "team": "CLE",
+        "rate": 0.048,
+        "asterisks": 2,
+        "rank_league": 18
+      },
+      {
+        "bbrID": "griffbl01",
+        "name": "Blake Griffin",
+        "team": "LAC",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 81
+      },
+      {
+        "bbrID": "paulch01",
+        "name": "Chris Paul",
+        "team": "LAC",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 1
+      },
+      {
+        "bbrID": "kiddgmi01",
+        "name": "Michael Kidd-Gilchrist",
+        "team": "CHO",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 139
+      },
+      {
+        "bbrID": "batumni01",
+        "name": "Nicolas Batum",
+        "team": "CHO",
+        "rate": 0.286,
+        "asterisks": 1,
+        "rank_league": 104
+      },
+      {
+        "bbrID": "boshch01",
+        "name": "Chris Bosh",
+        "team": "MIA",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 126
+      },
+      {
+        "bbrID": "whiteha01",
+        "name": "Hassan Whiteside",
+        "team": "MIA",
+        "rate": 0.286,
+        "asterisks": 1,
+        "rank_league": 63
+      },
+      {
+        "bbrID": "conlemi01",
+        "name": "Mike Conley",
+        "team": "MEM",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 46
+      },
+      {
+        "bbrID": "gasolma01",
+        "name": "Marc Gasol",
+        "team": "MEM",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 30
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -89745,7 +91593,127 @@
   {
     "season": 2017,
     "winner": "GSW",
-    "average": 0.32,
+    "asterisks": {
+      "all": 0.32,
+      "allNotOpponent": 0.27,
+      "opponent": 0.63,
+      "winner": 0.44
+    },
+    "percentInjured": 0.015,
+    "dnp": [
+      {
+        "bbrID": "goberru01",
+        "name": "Rudy Gobert",
+        "team": "UTA",
+        "rate": 0.182,
+        "asterisks": 2,
+        "rank_league": 15
+      },
+      {
+        "bbrID": "hillge01",
+        "name": "George Hill",
+        "team": "UTA",
+        "rate": 0.273,
+        "asterisks": 1,
+        "rank_league": 58
+      },
+      {
+        "bbrID": "griffbl01",
+        "name": "Blake Griffin",
+        "team": "LAC",
+        "rate": 0.571,
+        "asterisks": 1,
+        "rank_league": 33
+      },
+      {
+        "bbrID": "allento01",
+        "name": "Tony Allen",
+        "team": "MEM",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 89
+      },
+      {
+        "bbrID": "dedmode01",
+        "name": "Dewayne Dedmon",
+        "team": "SAS",
+        "rate": 0.063,
+        "asterisks": 1,
+        "rank_league": 148
+      },
+      {
+        "bbrID": "leonaka01",
+        "name": "Kawhi Leonard",
+        "team": "SAS",
+        "rate": 0.25,
+        "asterisks": 2,
+        "rank_league": 2
+      },
+      {
+        "bbrID": "leeda02",
+        "name": "David Lee",
+        "team": "SAS",
+        "rate": 0.063,
+        "asterisks": 1,
+        "rank_league": 127
+      },
+      {
+        "bbrID": "lowryky01",
+        "name": "Kyle Lowry",
+        "team": "TOR",
+        "rate": 0.1,
+        "asterisks": 2,
+        "rank_league": 7
+      },
+      {
+        "bbrID": "rondora01",
+        "name": "Rajon Rondo",
+        "team": "CHI",
+        "rate": 0.667,
+        "asterisks": 1,
+        "rank_league": 138
+      },
+      {
+        "bbrID": "thomais02",
+        "name": "Isaiah Thomas",
+        "team": "BOS",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 13
+      },
+      {
+        "bbrID": "duranke01",
+        "name": "Kevin Durant",
+        "team": "GSW",
+        "rate": 0.118,
+        "asterisks": 2,
+        "rank_league": 8
+      },
+      {
+        "bbrID": "iguodan01",
+        "name": "Andre Iguodala",
+        "team": "GSW",
+        "rate": 0.059,
+        "asterisks": 1,
+        "rank_league": 83
+      },
+      {
+        "bbrID": "pachuza01",
+        "name": "Zaza Pachulia",
+        "team": "GSW",
+        "rate": 0.118,
+        "asterisks": 1,
+        "rank_league": 137
+      },
+      {
+        "bbrID": "hilarne01",
+        "name": "Nenê",
+        "team": "HOU",
+        "rate": 0.182,
+        "asterisks": 1,
+        "rank_league": 143
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -93652,7 +95620,151 @@
   {
     "season": 2018,
     "winner": "GSW",
-    "average": 0.88,
+    "asterisks": {
+      "all": 0.88,
+      "allNotOpponent": 0.86,
+      "opponent": 1,
+      "winner": 0.87
+    },
+    "percentInjured": 0.044,
+    "dnp": [
+      {
+        "bbrID": "leonaka01",
+        "name": "Kawhi Leonard",
+        "team": "SAS",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 22
+      },
+      {
+        "bbrID": "curryst01",
+        "name": "Stephen Curry",
+        "team": "GSW",
+        "rate": 0.286,
+        "asterisks": 2,
+        "rank_league": 4
+      },
+      {
+        "bbrID": "iguodan01",
+        "name": "Andre Iguodala",
+        "team": "GSW",
+        "rate": 0.286,
+        "asterisks": 1,
+        "rank_league": 92
+      },
+      {
+        "bbrID": "embiijo01",
+        "name": "Joel Embiid",
+        "team": "PHI",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 51
+      },
+      {
+        "bbrID": "couside01",
+        "name": "DeMarcus Cousins",
+        "team": "NOP",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 24
+      },
+      {
+        "bbrID": "porteot01",
+        "name": "Otto Porter Jr.",
+        "team": "WAS",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 20
+      },
+      {
+        "bbrID": "vanvlfr01",
+        "name": "Fred VanVleet",
+        "team": "TOR",
+        "rate": 0.4,
+        "asterisks": 1,
+        "rank_league": 118
+      },
+      {
+        "bbrID": "haywago01",
+        "name": "Gordon Hayward",
+        "team": "BOS",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 63
+      },
+      {
+        "bbrID": "irvinky01",
+        "name": "Kyrie Irving",
+        "team": "BOS",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 26
+      },
+      {
+        "bbrID": "smartma01",
+        "name": "Marcus Smart",
+        "team": "BOS",
+        "rate": 0.211,
+        "asterisks": 1,
+        "rank_league": 79
+      },
+      {
+        "bbrID": "hillge01",
+        "name": "George Hill",
+        "team": "CLE",
+        "rate": 0.136,
+        "asterisks": 1,
+        "rank_league": 75
+      },
+      {
+        "bbrID": "loveke01",
+        "name": "Kevin Love",
+        "team": "CLE",
+        "rate": 0.045,
+        "asterisks": 1,
+        "rank_league": 39
+      },
+      {
+        "bbrID": "anderry01",
+        "name": "Ryan Anderson",
+        "team": "HOU",
+        "rate": 0.118,
+        "asterisks": 1,
+        "rank_league": 103
+      },
+      {
+        "bbrID": "mbahalu01",
+        "name": "Luc Mbah a Moute",
+        "team": "HOU",
+        "rate": 0.294,
+        "asterisks": 1,
+        "rank_league": 83
+      },
+      {
+        "bbrID": "sefolth01",
+        "name": "Thabo Sefolosha",
+        "team": "UTA",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 126
+      },
+      {
+        "bbrID": "rubiori01",
+        "name": "Ricky Rubio",
+        "team": "UTA",
+        "rate": 0.455,
+        "asterisks": 1,
+        "rank_league": 41
+      },
+      {
+        "bbrID": "roberan03",
+        "name": "Andre Roberson",
+        "team": "OKC",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 60
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -98471,7 +100583,111 @@
   {
     "season": 2019,
     "winner": "TOR",
-    "average": 0.68,
+    "asterisks": {
+      "all": 0.68,
+      "allNotOpponent": 0.72,
+      "opponent": 0.46,
+      "winner": 0
+    },
+    "percentInjured": 0.028,
+    "dnp": [
+      {
+        "bbrID": "couside01",
+        "name": "DeMarcus Cousins",
+        "team": "GSW",
+        "rate": 0.636,
+        "asterisks": 1,
+        "rank_league": 75
+      },
+      {
+        "bbrID": "duranke01",
+        "name": "Kevin Durant",
+        "team": "GSW",
+        "rate": 0.455,
+        "asterisks": 2,
+        "rank_league": 14
+      },
+      {
+        "bbrID": "iguodan01",
+        "name": "Andre Iguodala",
+        "team": "GSW",
+        "rate": 0.045,
+        "asterisks": 1,
+        "rank_league": 120
+      },
+      {
+        "bbrID": "looneke01",
+        "name": "Kevon Looney",
+        "team": "GSW",
+        "rate": 0.045,
+        "asterisks": 1,
+        "rank_league": 82
+      },
+      {
+        "bbrID": "crabbal01",
+        "name": "Allen Crabbe",
+        "team": "BRK",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 138
+      },
+      {
+        "bbrID": "davised01",
+        "name": "Ed Davis",
+        "team": "BRK",
+        "rate": 0.4,
+        "asterisks": 1,
+        "rank_league": 122
+      },
+      {
+        "bbrID": "embiijo01",
+        "name": "Joel Embiid",
+        "team": "PHI",
+        "rate": 0.083,
+        "asterisks": 2,
+        "rank_league": 21
+      },
+      {
+        "bbrID": "oladivi01",
+        "name": "Victor Oladipo",
+        "team": "IND",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 20
+      },
+      {
+        "bbrID": "smartma01",
+        "name": "Marcus Smart",
+        "team": "BOS",
+        "rate": 0.778,
+        "asterisks": 1,
+        "rank_league": 63
+      },
+      {
+        "bbrID": "griffbl01",
+        "name": "Blake Griffin",
+        "team": "DET",
+        "rate": 0.5,
+        "asterisks": 2,
+        "rank_league": 23
+      },
+      {
+        "bbrID": "roberan03",
+        "name": "Andre Roberson",
+        "team": "OKC",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 64
+      },
+      {
+        "bbrID": "nurkiju01",
+        "name": "Jusuf Nurkić",
+        "team": "POR",
+        "rate": 1,
+        "asterisks": 2,
+        "rank_league": 29
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -104002,7 +106218,199 @@
   {
     "season": 2020,
     "winner": "LAL",
-    "average": 0.58,
+    "asterisks": {
+      "all": 0.58,
+      "allNotOpponent": 0.57,
+      "opponent": 0.67,
+      "winner": 0.04
+    },
+    "percentInjured": 0.033,
+    "dnp": [
+      {
+        "bbrID": "simmobe01",
+        "name": "Ben Simmons",
+        "team": "PHI",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 64
+      },
+      {
+        "bbrID": "haywago01",
+        "name": "Gordon Hayward",
+        "team": "BOS",
+        "rate": 0.706,
+        "asterisks": 1,
+        "rank_league": 90
+      },
+      {
+        "bbrID": "conlemi01",
+        "name": "Mike Conley",
+        "team": "UTA",
+        "rate": 0.286,
+        "asterisks": 2,
+        "rank_league": 27
+      },
+      {
+        "bbrID": "bartowi01",
+        "name": "Will Barton",
+        "team": "DEN",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 140
+      },
+      {
+        "bbrID": "poweldw01",
+        "name": "Dwight Powell",
+        "team": "DAL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 113
+      },
+      {
+        "bbrID": "porzikr01",
+        "name": "Kristaps Porziņģis",
+        "team": "DAL",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 54
+      },
+      {
+        "bbrID": "beverpa01",
+        "name": "Patrick Beverley",
+        "team": "LAC",
+        "rate": 0.385,
+        "asterisks": 1,
+        "rank_league": 40
+      },
+      {
+        "bbrID": "harrijo01",
+        "name": "Joe Harris",
+        "team": "BRK",
+        "rate": 0.5,
+        "asterisks": 1,
+        "rank_league": 107
+      },
+      {
+        "bbrID": "holliro01",
+        "name": "Rondae Hollis-Jefferson",
+        "team": "TOR",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 131
+      },
+      {
+        "bbrID": "westbru01",
+        "name": "Russell Westbrook",
+        "team": "HOU",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 47
+      },
+      {
+        "bbrID": "houseda01",
+        "name": "Danuel House Jr.",
+        "team": "HOU",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 149
+      },
+      {
+        "bbrID": "olynyke01",
+        "name": "Kelly Olynyk",
+        "team": "MIA",
+        "rate": 0.048,
+        "asterisks": 1,
+        "rank_league": 125
+      },
+      {
+        "bbrID": "dragigo01",
+        "name": "Goran Dragić",
+        "team": "MIA",
+        "rate": 0.19,
+        "asterisks": 1,
+        "rank_league": 146
+      },
+      {
+        "bbrID": "lambje01",
+        "name": "Jeremy Lamb",
+        "team": "IND",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 61
+      },
+      {
+        "bbrID": "sabondo01",
+        "name": "Domantas Sabonis",
+        "team": "IND",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 60
+      },
+      {
+        "bbrID": "lillada01",
+        "name": "Damian Lillard",
+        "team": "POR",
+        "rate": 0.2,
+        "asterisks": 2,
+        "rank_league": 1
+      },
+      {
+        "bbrID": "mcgeeja01",
+        "name": "JaVale McGee",
+        "team": "LAL",
+        "rate": 0.048,
+        "asterisks": 1,
+        "rank_league": 136
+      },
+      {
+        "bbrID": "aminual01",
+        "name": "Al-Farouq Aminu",
+        "team": "ORL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 130
+      },
+      {
+        "bbrID": "gordoaa01",
+        "name": "Aaron Gordon",
+        "team": "ORL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 96
+      },
+      {
+        "bbrID": "isaacjo01",
+        "name": "Jonathan Isaac",
+        "team": "ORL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 85
+      },
+      {
+        "bbrID": "ilyaser01",
+        "name": "Ersan İlyasova",
+        "team": "MIL",
+        "rate": 0.1,
+        "asterisks": 1,
+        "rank_league": 139
+      },
+      {
+        "bbrID": "bledser01",
+        "name": "Eric Bledsoe",
+        "team": "MIL",
+        "rate": 0.1,
+        "asterisks": 2,
+        "rank_league": 19
+      },
+      {
+        "bbrID": "antetgi01",
+        "name": "Giannis Antetokounmpo",
+        "team": "MIL",
+        "rate": 0.1,
+        "asterisks": 2,
+        "rank_league": 3
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -109199,7 +111607,183 @@
   {
     "season": 2021,
     "winner": "MIL",
-    "average": 0.6,
+    "asterisks": {
+      "all": 0.6,
+      "allNotOpponent": 0.63,
+      "opponent": 0.4,
+      "winner": 0.98
+    },
+    "percentInjured": 0.03,
+    "dnp": [
+      {
+        "bbrID": "brownja02",
+        "name": "Jaylen Brown",
+        "team": "BOS",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 52
+      },
+      {
+        "bbrID": "walkeke02",
+        "name": "Kemba Walker",
+        "team": "BOS",
+        "rate": 0.4,
+        "asterisks": 2,
+        "rank_league": 25
+      },
+      {
+        "bbrID": "hardeja01",
+        "name": "James Harden",
+        "team": "BRK",
+        "rate": 0.25,
+        "asterisks": 2,
+        "rank_league": 2
+      },
+      {
+        "bbrID": "irvinky01",
+        "name": "Kyrie Irving",
+        "team": "BRK",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 72
+      },
+      {
+        "bbrID": "bartowi01",
+        "name": "Will Barton",
+        "team": "DEN",
+        "rate": 0.7,
+        "asterisks": 1,
+        "rank_league": 108
+      },
+      {
+        "bbrID": "murraja01",
+        "name": "Jamal Murray",
+        "team": "DEN",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 40
+      },
+      {
+        "bbrID": "leonaka01",
+        "name": "Kawhi Leonard",
+        "team": "LAC",
+        "rate": 0.421,
+        "asterisks": 2,
+        "rank_league": 4
+      },
+      {
+        "bbrID": "zubaciv01",
+        "name": "Ivica Zubac",
+        "team": "LAC",
+        "rate": 0.105,
+        "asterisks": 1,
+        "rank_league": 49
+      },
+      {
+        "bbrID": "divindo01",
+        "name": "Donte DiVincenzo",
+        "team": "MIL",
+        "rate": 0.87,
+        "asterisks": 1,
+        "rank_league": 54
+      },
+      {
+        "bbrID": "antetgi01",
+        "name": "Giannis Antetokounmpo",
+        "team": "MIL",
+        "rate": 0.087,
+        "asterisks": 2,
+        "rank_league": 3
+      },
+      {
+        "bbrID": "youngtr01",
+        "name": "Trae Young",
+        "team": "ATL",
+        "rate": 0.056,
+        "asterisks": 2,
+        "rank_league": 17
+      },
+      {
+        "bbrID": "robinmi01",
+        "name": "Mitchell Robinson",
+        "team": "NYK",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 121
+      },
+      {
+        "bbrID": "bertada01",
+        "name": "Dāvis Bertāns",
+        "team": "WAS",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 78
+      },
+      {
+        "bbrID": "embiijo01",
+        "name": "Joel Embiid",
+        "team": "PHI",
+        "rate": 0.083,
+        "asterisks": 2,
+        "rank_league": 14
+      },
+      {
+        "bbrID": "greenda02",
+        "name": "Danny Green",
+        "team": "PHI",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 34
+      },
+      {
+        "bbrID": "caldwke01",
+        "name": "Kentavious Caldwell-Pope",
+        "team": "LAL",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 133
+      },
+      {
+        "bbrID": "davisan02",
+        "name": "Anthony Davis",
+        "team": "LAL",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 15
+      },
+      {
+        "bbrID": "paulch01",
+        "name": "Chris Paul",
+        "team": "PHO",
+        "rate": 0.091,
+        "asterisks": 2,
+        "rank_league": 13
+      },
+      {
+        "bbrID": "johnsca02",
+        "name": "Cameron Johnson",
+        "team": "PHO",
+        "rate": 0.045,
+        "asterisks": 1,
+        "rank_league": 137
+      },
+      {
+        "bbrID": "mitchdo01",
+        "name": "Donovan Mitchell",
+        "team": "UTA",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 48
+      },
+      {
+        "bbrID": "conlemi01",
+        "name": "Mike Conley",
+        "team": "UTA",
+        "rate": 0.455,
+        "asterisks": 1,
+        "rank_league": 43
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -115076,7 +117660,255 @@
   {
     "season": 2022,
     "winner": "GSW",
-    "average": 0.78,
+    "asterisks": {
+      "all": 0.78,
+      "allNotOpponent": 0.74,
+      "opponent": 1.05,
+      "winner": 0.42
+    },
+    "percentInjured": 0.045,
+    "dnp": [
+      {
+        "bbrID": "doncilu01",
+        "name": "Luka Dončić",
+        "team": "DAL",
+        "rate": 0.111,
+        "asterisks": 2,
+        "rank_league": 7
+      },
+      {
+        "bbrID": "hardati02",
+        "name": "Tim Hardaway Jr.",
+        "team": "DAL",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 104
+      },
+      {
+        "bbrID": "campafa01",
+        "name": "Facundo Campazzo",
+        "team": "DEN",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 138
+      },
+      {
+        "bbrID": "murraja01",
+        "name": "Jamal Murray",
+        "team": "DEN",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 43
+      },
+      {
+        "bbrID": "portemi01",
+        "name": "Michael Porter Jr.",
+        "team": "DEN",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 128
+      },
+      {
+        "bbrID": "paytoga02",
+        "name": "Gary Payton II",
+        "team": "GSW",
+        "rate": 0.409,
+        "asterisks": 1,
+        "rank_league": 129
+      },
+      {
+        "bbrID": "adamsst01",
+        "name": "Steven Adams",
+        "team": "MEM",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 72
+      },
+      {
+        "bbrID": "brookdi01",
+        "name": "Dillon Brooks",
+        "team": "MEM",
+        "rate": 0.083,
+        "asterisks": 1,
+        "rank_league": 106
+      },
+      {
+        "bbrID": "moranja01",
+        "name": "Ja Morant",
+        "team": "MEM",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 93
+      },
+      {
+        "bbrID": "barnesc01",
+        "name": "Scottie Barnes",
+        "team": "TOR",
+        "rate": 0.333,
+        "asterisks": 1,
+        "rank_league": 53
+      },
+      {
+        "bbrID": "vanvlfr01",
+        "name": "Fred VanVleet",
+        "team": "TOR",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 8
+      },
+      {
+        "bbrID": "thybuma01",
+        "name": "Matisse Thybulle",
+        "team": "PHI",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 67
+      },
+      {
+        "bbrID": "embiijo01",
+        "name": "Joel Embiid",
+        "team": "PHI",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 3
+      },
+      {
+        "bbrID": "harrijo01",
+        "name": "Joe Harris",
+        "team": "BRK",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 136
+      },
+      {
+        "bbrID": "simmobe01",
+        "name": "Ben Simmons",
+        "team": "BRK",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 39
+      },
+      {
+        "bbrID": "williro04",
+        "name": "Robert Williams",
+        "team": "BOS",
+        "rate": 0.25,
+        "asterisks": 1,
+        "rank_league": 94
+      },
+      {
+        "bbrID": "smartma01",
+        "name": "Marcus Smart",
+        "team": "BOS",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 34
+      },
+      {
+        "bbrID": "horfoal01",
+        "name": "Al Horford",
+        "team": "BOS",
+        "rate": 0.042,
+        "asterisks": 1,
+        "rank_league": 56
+      },
+      {
+        "bbrID": "whitede01",
+        "name": "Derrick White",
+        "team": "BOS",
+        "rate": 0.042,
+        "asterisks": 2,
+        "rank_league": 26
+      },
+      {
+        "bbrID": "capelca01",
+        "name": "Clint Capela",
+        "team": "ATL",
+        "rate": 0.6,
+        "asterisks": 2,
+        "rank_league": 14
+      },
+      {
+        "bbrID": "bogdabo01",
+        "name": "Bogdan Bogdanović",
+        "team": "ATL",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 55
+      },
+      {
+        "bbrID": "lowryky01",
+        "name": "Kyle Lowry",
+        "team": "MIA",
+        "rate": 0.444,
+        "asterisks": 1,
+        "rank_league": 48
+      },
+      {
+        "bbrID": "butleji01",
+        "name": "Jimmy Butler",
+        "team": "MIA",
+        "rate": 0.056,
+        "asterisks": 2,
+        "rank_league": 10
+      },
+      {
+        "bbrID": "herroty01",
+        "name": "Tyler Herro",
+        "team": "MIA",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 105
+      },
+      {
+        "bbrID": "balllo01",
+        "name": "Lonzo Ball",
+        "team": "CHI",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 78
+      },
+      {
+        "bbrID": "carusal01",
+        "name": "Alex Caruso",
+        "team": "CHI",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 64
+      },
+      {
+        "bbrID": "lavinza01",
+        "name": "Zach LaVine",
+        "team": "CHI",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 58
+      },
+      {
+        "bbrID": "middlkh01",
+        "name": "Khris Middleton",
+        "team": "MIL",
+        "rate": 0.833,
+        "asterisks": 1,
+        "rank_league": 45
+      },
+      {
+        "bbrID": "willizi01",
+        "name": "Zion Williamson",
+        "team": "NOP",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 79
+      },
+      {
+        "bbrID": "bookede01",
+        "name": "Devin Booker",
+        "team": "PHO",
+        "rate": 0.231,
+        "asterisks": 2,
+        "rank_league": 16
+      }
+    ],
     "rounds": [
       {
         "round": 1,
@@ -120151,7 +122983,151 @@
   {
     "season": 2023,
     "winner": "BOS",
-    "average": 0.5,
+    "asterisks": {
+      "all": 0.5,
+      "allNotOpponent": 0.52,
+      "opponent": 0.17,
+      "winner": 0
+    },
+    "percentInjured": 0.031,
+    "dnp": [
+      {
+        "bbrID": "murrade01",
+        "name": "Dejounte Murray",
+        "team": "ATL",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 52
+      },
+      {
+        "bbrID": "randlju01",
+        "name": "Julius Randle",
+        "team": "NYK",
+        "rate": 0.143,
+        "asterisks": 1,
+        "rank_league": 146
+      },
+      {
+        "bbrID": "simmobe01",
+        "name": "Ben Simmons",
+        "team": "BRK",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 114
+      },
+      {
+        "bbrID": "embiijo01",
+        "name": "Joel Embiid",
+        "team": "PHI",
+        "rate": 0.333,
+        "asterisks": 2,
+        "rank_league": 1
+      },
+      {
+        "bbrID": "greendr01",
+        "name": "Draymond Green",
+        "team": "GSW",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 49
+      },
+      {
+        "bbrID": "paytoga02",
+        "name": "Gary Payton II",
+        "team": "GSW",
+        "rate": 0.125,
+        "asterisks": 1,
+        "rank_league": 128
+      },
+      {
+        "bbrID": "mcdanja02",
+        "name": "Jaden McDaniels",
+        "team": "MIN",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 130
+      },
+      {
+        "bbrID": "anderky01",
+        "name": "Kyle Anderson",
+        "team": "MIN",
+        "rate": 0.2,
+        "asterisks": 1,
+        "rank_league": 111
+      },
+      {
+        "bbrID": "adamsst01",
+        "name": "Steven Adams",
+        "team": "MEM",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 69
+      },
+      {
+        "bbrID": "clarkbr01",
+        "name": "Brandon Clarke",
+        "team": "MEM",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 142
+      },
+      {
+        "bbrID": "moranja01",
+        "name": "Ja Morant",
+        "team": "MEM",
+        "rate": 0.167,
+        "asterisks": 2,
+        "rank_league": 24
+      },
+      {
+        "bbrID": "kennalu01",
+        "name": "Luke Kennard",
+        "team": "MEM",
+        "rate": 0.167,
+        "asterisks": 1,
+        "rank_league": 135
+      },
+      {
+        "bbrID": "herroty01",
+        "name": "Tyler Herro",
+        "team": "MIA",
+        "rate": 0.857,
+        "asterisks": 1,
+        "rank_league": 80
+      },
+      {
+        "bbrID": "butleji01",
+        "name": "Jimmy Butler",
+        "team": "MIA",
+        "rate": 0.143,
+        "asterisks": 2,
+        "rank_league": 11
+      },
+      {
+        "bbrID": "antetgi01",
+        "name": "Giannis Antetokounmpo",
+        "team": "MIL",
+        "rate": 0.4,
+        "asterisks": 2,
+        "rank_league": 4
+      },
+      {
+        "bbrID": "georgpa01",
+        "name": "Paul George",
+        "team": "LAC",
+        "rate": 1,
+        "asterisks": 1,
+        "rank_league": 34
+      },
+      {
+        "bbrID": "leonaka01",
+        "name": "Kawhi Leonard",
+        "team": "LAC",
+        "rate": 0.6,
+        "asterisks": 2,
+        "rank_league": 9
+      }
+    ],
     "rounds": [
       {
         "round": 1,

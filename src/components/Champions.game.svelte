@@ -76,10 +76,10 @@
 		list-style-type: none;
 		width: 24px;
 		height: 8px;
-		background: #eee;
+		background: rgba(255, 255, 255, 0.25);
 		margin-right: 1px;
 		margin-bottom: 1px;
-		border: 1px solid #ccc;
+		/* border: 1px solid #fff; */
 	}
 
 	.dnp {
@@ -87,15 +87,15 @@
 	}
 
 	.dnp[data-level="0"] {
-		background: deeppink;
+		background: var(--color-primary);
 	}
 
 	.dnp[data-level="1"] {
-		background: lightsalmon;
+		background: var(--color-secondary);
 	}
 
 	.dnp[data-level="2"] {
-		background: #ccc;
+		background: var(--color-tertiary);
 	}
 
 	span {
