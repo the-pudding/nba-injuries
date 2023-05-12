@@ -36,7 +36,7 @@
         "rate": 0.1,
         "asterisks": 1,
         "rank_league": 42,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "grantho01",
@@ -54,7 +54,7 @@
         "rate": 0.1,
         "asterisks": 1,
         "rank_league": 85,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "brownpj01",
@@ -63,7 +63,7 @@
         "rate": 0.118,
         "asterisks": 1,
         "rank_league": 87,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "boguemu01",
@@ -3673,7 +3673,7 @@
         "rate": 0.6,
         "asterisks": 1,
         "rank_league": 75,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "majerda01",
@@ -3682,7 +3682,7 @@
         "rate": 0.2,
         "asterisks": 1,
         "rank_league": 78,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "bryanko01",
@@ -7664,7 +7664,7 @@
         "rate": 0.125,
         "asterisks": 1,
         "rank_league": 115,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "besttr01",
@@ -7673,7 +7673,7 @@
         "rate": 0.154,
         "asterisks": 1,
         "rank_league": 118,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "hendeal01",
@@ -7691,7 +7691,7 @@
         "rate": 0.45,
         "asterisks": 1,
         "rank_league": 129,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "mckieaa01",
@@ -10929,7 +10929,7 @@
         "rate": 0.333,
         "asterisks": 2,
         "rank_league": 11,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "bryanko01",
@@ -10947,7 +10947,7 @@
         "rate": 0.043,
         "asterisks": 2,
         "rank_league": 16,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "snower01",
@@ -10974,7 +10974,7 @@
         "rate": 0.125,
         "asterisks": 1,
         "rank_league": 123,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "fishede01",
@@ -15310,7 +15310,7 @@
         "rate": 0.043,
         "asterisks": 2,
         "rank_league": 23,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "anderde01",
@@ -15319,7 +15319,7 @@
         "rate": 0.462,
         "asterisks": 1,
         "rank_league": 36,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "hardati01",
@@ -15337,7 +15337,7 @@
         "rate": 0.2,
         "asterisks": 1,
         "rank_league": 43,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "lynchge01",
@@ -15346,7 +15346,7 @@
         "rate": 0.565,
         "asterisks": 1,
         "rank_league": 51,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "davisda01",
@@ -15355,7 +15355,7 @@
         "rate": 0.333,
         "asterisks": 1,
         "rank_league": 92,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "johnsla02",
@@ -15382,7 +15382,7 @@
         "rate": 0.5,
         "asterisks": 1,
         "rank_league": 146,
-        "headshot": false
+        "headshot": true
       }
     ],
     "rounds": [
@@ -18416,7 +18416,7 @@
         "rate": 0.556,
         "asterisks": 2,
         "rank_league": 17,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "lewisra02",
@@ -18434,7 +18434,7 @@
         "rate": 0.313,
         "asterisks": 1,
         "rank_league": 39,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "mashbja01",
@@ -22035,7 +22035,7 @@
         "rate": 0.167,
         "asterisks": 2,
         "rank_league": 15,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "billuch01",
@@ -22053,7 +22053,7 @@
         "rate": 0.042,
         "asterisks": 1,
         "rank_league": 31,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "webbech01",
@@ -22062,7 +22062,7 @@
         "rate": 0.417,
         "asterisks": 1,
         "rank_league": 35,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "anderde01",
@@ -22071,7 +22071,7 @@
         "rate": 0.714,
         "asterisks": 1,
         "rank_league": 46,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "pippesc01",
@@ -22080,7 +22080,7 @@
         "rate": 0.429,
         "asterisks": 1,
         "rank_league": 58,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "mashbja01",
@@ -22098,7 +22098,7 @@
         "rate": 0.1,
         "asterisks": 1,
         "rank_league": 85,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "sabonar01",
@@ -26656,7 +26656,7 @@
         "rate": 0.111,
         "asterisks": 2,
         "rank_league": 13,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "malonka01",
@@ -26665,7 +26665,7 @@
         "rate": 0.045,
         "asterisks": 1,
         "rank_league": 70,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "jacksbo01",
@@ -26683,7 +26683,7 @@
         "rate": 0.5,
         "asterisks": 1,
         "rank_league": 105,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "anthoca01",
@@ -26701,7 +26701,7 @@
         "rate": 0.083,
         "asterisks": 1,
         "rank_league": 145,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "szczewa02",
@@ -26710,7 +26710,7 @@
         "rate": 0.333,
         "asterisks": 1,
         "rank_league": 147,
-        "headshot": false
+        "headshot": true
       }
     ],
     "rounds": [
@@ -31037,7 +31037,7 @@
         "rate": 0.133,
         "asterisks": 2,
         "rank_league": 15,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "lewisra02",
@@ -31082,7 +31082,7 @@
         "rate": 0.769,
         "asterisks": 1,
         "rank_league": 93,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "radmavl01",
@@ -35427,7 +35427,7 @@
         "rate": 0.667,
         "asterisks": 1,
         "rank_league": 51,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "hughela01",
@@ -35499,7 +35499,7 @@
         "rate": 0.043,
         "asterisks": 1,
         "rank_league": 119,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "tinslja01",
@@ -35517,7 +35517,7 @@
         "rate": 0.043,
         "asterisks": 1,
         "rank_league": 139,
-        "headshot": false
+        "headshot": true
       }
     ],
     "rounds": [
@@ -40138,7 +40138,7 @@
         "rate": 1,
         "asterisks": 2,
         "rank_league": 4,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "butleca01",
@@ -44707,7 +44707,7 @@
         "rate": 0.333,
         "asterisks": 2,
         "rank_league": 22,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "arenagi01",
@@ -44716,7 +44716,7 @@
         "rate": 0.333,
         "asterisks": 2,
         "rank_league": 29,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "mingya01",
@@ -44725,7 +44725,7 @@
         "rate": 1,
         "asterisks": 1,
         "rank_league": 69,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "hillgr01",
@@ -44734,7 +44734,7 @@
         "rate": 0.2,
         "asterisks": 1,
         "rank_league": 76,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "claxtsp01",
@@ -50667,7 +50667,7 @@
         "rate": 1,
         "asterisks": 2,
         "rank_league": 29,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "mingya01",
@@ -50676,7 +50676,7 @@
         "rate": 0.308,
         "asterisks": 1,
         "rank_league": 36,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "moonja01",
@@ -50685,7 +50685,7 @@
         "rate": 0.571,
         "asterisks": 1,
         "rank_league": 53,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "alstora01",
@@ -50694,7 +50694,7 @@
         "rate": 0.042,
         "asterisks": 1,
         "rank_league": 58,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "nelsoja01",
@@ -50712,7 +50712,7 @@
         "rate": 1,
         "asterisks": 1,
         "rank_league": 74,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "okurme01",
@@ -65765,7 +65765,7 @@
         "rate": 1,
         "asterisks": 1,
         "rank_league": 108,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "shumpim01",
@@ -65792,7 +65792,7 @@
         "rate": 0.2,
         "asterisks": 1,
         "rank_league": 132,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "chandwi01",
@@ -71256,7 +71256,7 @@
         "rate": 0.143,
         "asterisks": 1,
         "rank_league": 132,
-        "headshot": false
+        "headshot": true
       },
       {
         "bbrID": "hinriki01",

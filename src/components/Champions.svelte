@@ -18,12 +18,7 @@
 
 	const maxAsterisks = 3;
 
-	const roundNames = [
-		"First",
-		"Conference Semifinals",
-		"Conference Finals",
-		"Finals"
-	];
+	const roundNames = ["First Round", "Conf. Semi", "Conf. Finals", "Finals"];
 
 	const columns = [
 		{ label: "name", prop: "name" },
@@ -137,7 +132,7 @@
 					</p>
 					{#each rounds as { round, opponent, games }}
 						<div class="rounds">
-							<!-- <p>{roundNames[round - 1]}: {winner} vs {opponent}</p> -->
+							<p class="round-name">{roundNames[round - 1]}</p>
 							<p class="opponent">{opponent}</p>
 							<div class="games">
 								{#each games as game}
