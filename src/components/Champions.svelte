@@ -8,6 +8,8 @@
 	import ButtonSet from "$components/helpers/ButtonSet.svelte";
 	import SortTable from "$components/helpers/SortTable.svelte";
 
+	const copy = getContext("copy");
+
 	let rank = "league";
 	let visibles = [];
 	let valueLimp = "Off";
@@ -86,20 +88,23 @@
 
 <!-- TODO component -->
 <div class="ui">
-	<div>
-		<ButtonSet
-			legend="Sort by"
-			options={[{ value: "Year" }, { value: "Asterisks" }]}
-			bind:value={valueSort}
-		/>
+	<div class="buttons">
+		<div>
+			<ButtonSet
+				legend="Sort by"
+				options={[{ value: "Year" }, { value: "Asterisks" }]}
+				bind:value={valueSort}
+			/>
+		</div>
+		<div>
+			<ButtonSet
+				legend="Enable LIMP"
+				options={[{ value: "On" }, { value: "Off" }]}
+				bind:value={valueLimp}
+			/>
+		</div>
 	</div>
-	<div>
-		<ButtonSet
-			legend="Enable LIMP"
-			options={[{ value: "On" }, { value: "Off" }]}
-			bind:value={valueLimp}
-		/>
-	</div>
+	<p>{@html copy.limpAbridged}</p>
 </div>
 
 <section id="champions">
@@ -108,10 +113,8 @@
 		{@const arrow = visible ? "▼" : "▶"}
 		{@const scaledAsterisks = calcAsterisks(asterisks, valueLimp)}
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
-		<div
-			class="season"
-			animate:flip={{ delay: i * 75, duration: 1000, easing: cubicInOut }}
-		>
+		<!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
+		<div class="season">
 			<h3 class="name">
 				<button on:click={() => (visibles[i] = !visible)}>
 					<span class="arrow">{@html arrow}</span>
@@ -148,7 +151,18 @@
 					{/each}
 				</div>
 				<div class="dnp">
-					<SortTable rows={dnp} {columns} {caption} />
+					<!-- <SortTable rows={dnp} {columns} {caption} /> -->
+					<ul>
+						{#each dnp as { name, bbrID, headshot }}
+							{@const src = headshot
+								? `assets/headshots/${bbrID}.png`
+								: "assets/headshot-default.png"}
+							<li>
+								<img {src} alt="headshot of {name}" />
+								<p>{name}</p>
+							</li>
+						{/each}
+					</ul>
 				</div>
 				<p class="injured">
 					playoff injury rate: {Math.round(percentInjured * 100)}%
@@ -254,12 +268,47 @@
 	}
 
 	.ui {
+	}
+
+	.ui .buttons {
 		display: flex;
 		justify-content: center;
 	}
 
-	.ui > div {
+	.buttons > div {
 		font-size: var(--20px);
 		margin: 0 8px;
+	}
+
+	.ui p {
+		font-size: var(--14px);
+		max-width: 300px;
+		margin: 16px auto;
+	}
+
+	.dnp ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.dnp li {
+		list-style-type: none;
+		padding: 8px;
+		width: 128px;
+	}
+
+	.dnp p {
+		font-size: var(--12px);
+		font-family: var(--font-body);
+		text-align: center;
+		margin: 0;
+		padding: 4px;
+		line-height: 1.2;
+		border-top: 2px solid white;
+	}
+
+	.dnp img {
+		filter: grayscale(100%);
 	}
 </style>
