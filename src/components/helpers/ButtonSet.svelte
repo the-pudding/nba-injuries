@@ -63,7 +63,7 @@
 	}
 
 	.legend {
-		font-size: 1em;
+		font-size: var(--16px);
 		padding-bottom: 4px;
 	}
 

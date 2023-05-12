@@ -71,7 +71,7 @@
 
 	li {
 		list-style-type: none;
-		width: 24px;
+		width: 32px;
 		height: 8px;
 		background: rgba(255, 255, 255, 0.25);
 		margin-right: 1px;
