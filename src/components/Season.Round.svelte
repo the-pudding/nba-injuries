@@ -10,7 +10,7 @@
 	const roundNames = ["First Round", "Conf. Semi", "Conf. Finals", "Finals"];
 </script>
 
-<div class="round">
+<div class="c">
 	<p class="name">{roundNames[round - 1]}</p>
 	<p class="opponent">{teams[opponent]}</p>
 	<div class="games">
@@ -18,12 +18,19 @@
 			{@const opponents = game.playersOpponent}
 			{@const winners = game.playersWinner}
 			{@const result = game.winner === winnerAbbr ? "W" : "L"}
-			<Game {game} {opponents} {winners} {result} />
+			<Game {opponents} {result} />
 		{/each}
 	</div>
 </div>
 
 <style>
+	.c {
+		display: flex;
+		flex-direction: column;
+		margin-right: 16px;
+		align-items: center;
+	}
+
 	.opponent {
 		margin: 0;
 		text-align: center;
@@ -34,13 +41,6 @@
 	.games {
 		display: flex;
 		align-items: flex-start;
-	}
-
-	.round {
-		display: flex;
-		flex-direction: column;
-		margin-right: 16px;
-		align-items: center;
 	}
 
 	.name {

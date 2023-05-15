@@ -1,18 +1,11 @@
 <script>
 	export let opponents;
 	export let result;
-	export let rank;
 
-	function getLevel(dnp, rank_team, rank_league, rank) {
+	function getLevel(dnp, rank_team, rank_league) {
 		if (!dnp) return;
-		if (rank === "team") {
-			if (rank_team < 2) return 0;
-			else if (rank_team < 5) return 1;
-		} else if (rank === "league") {
-			if (rank_league < 50) return 0;
-			else if (rank_league < 150) return 1;
-		}
-
+		if (rank_league < 50) return 0;
+		else if (rank_league < 150) return 1;
 		return 2;
 	}
 </script>
@@ -22,7 +15,7 @@
 	<ul class="opponent">
 		{#each opponents as { bbrID, name, rank_team, rank_league, reason }}
 			{@const dnp = reason && reason !== "Did Not Play"}
-			{@const level = getLevel(dnp, rank_team, rank_league, rank)}
+			{@const level = getLevel(dnp, rank_team, rank_league)}
 			<li
 				class:dnp
 				data-level={level}

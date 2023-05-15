@@ -3,11 +3,8 @@
 	import { flip } from "svelte/animate";
 	import { cubicInOut } from "svelte/easing";
 	import { max, sum, mean, range, scaleLinear } from "d3";
-	import Summary from "$components/Season.Summary.svelte";
-	import Round from "$components/Season.Round.svelte";
+	import Season from "$components/Season.svelte";
 	import Options from "$components/Options.svelte";
-	// import SortTable from "$components/helpers/SortTable.svelte";
-
 	import getSeasonData from "$data/getSeasonData.js";
 
 	let rank = "league";
@@ -67,85 +64,19 @@
 <Options bind:valueSort bind:valueLimp />
 
 <section id="champions">
-	{#each seasons as { season, winnerAbbr, winnerName, rounds, asterisks, dnp, percentInjured }, i (season)}
-		{@const visible = visibles[i]}
-		{@const scaledAsterisks = calcAsterisks(asterisks, valueLimp)}
-		<!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
-		<details class="season" open={false}>
-			<summary>
-				<Summary {season} {winnerAbbr} {winnerName} {scaledAsterisks} />
-			</summary>
-			<div class="inner">
-				<div class="rounds">
-					{#each rounds as { round, opponent, games }}
-						<Round {round} {opponent} {games} {winnerAbbr} />
-					{/each}
-				</div>
-			</div>
-			<!-- <div class="details" class:visible>
-				<div class="chart"></div>
-			</div> -->
-		</details>
+	{#each seasons as season, i (season.season)}
+		<!-- {@const visible = visibles[i]} -->
+		{@const scaledAsterisks = calcAsterisks(season.asterisks, valueLimp)}
+		<Season {...season} {scaledAsterisks} />
 	{/each}
 </section>
 
 <style>
 	section {
-		/* font-family: var(--mono); */
 		width: 75vw;
+		/* TODO based on font */
 		max-width: 1400px;
 		margin: 0 auto;
-	}
-
-	.rounds {
-		display: flex;
-	}
-
-	.rank {
-		margin: 0;
-	}
-
-	.active {
-		background: black;
-		color: white;
-	}
-
-	.details {
-		display: none;
-	}
-
-	.details.visible {
-		display: block;
-	}
-
-	.dnp ul {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.dnp li {
-		list-style-type: none;
-		padding: 8px;
-		width: 128px;
-	}
-
-	.dnp p {
-		font-size: var(--12px);
-		font-family: var(--font-body);
-		text-align: center;
-		margin: 0;
-		padding: 4px;
-		line-height: 1.2;
-		border-top: 2px solid white;
-	}
-
-	.dnp img {
-		filter: grayscale(100%);
-	}
-
-	summary {
-		font-size: min(4vw, 80px);
-		cursor: pointer;
+		/* font-family: var(--mono); */
 	}
 </style>
