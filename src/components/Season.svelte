@@ -10,9 +10,11 @@
 	export let rounds;
 	export let dnp;
 	export let scaledAsterisks;
-	export let winner;
-	export let asterisks;
-	export let percentInjured;
+	// export let winner;
+	// export let asterisks;
+	// export let percentInjured;
+
+	$: opponents = rounds.map(({ opponent }) => opponent);
 </script>
 
 <!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
@@ -27,7 +29,7 @@
 			{/each}
 		</div>
 		<div class="dnp">
-			<Dnp {dnp} {winnerAbbr} />
+			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
 	</div>
 </details>

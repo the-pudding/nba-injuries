@@ -3,45 +3,63 @@
 	import getLevel from "$utils/getLevel.js";
 	export let dnp;
 	export let winnerAbbr;
+	export let opponents;
+
+	const labels = ["Winner", "Opponents", "Rest of League"];
 
 	function getSrc(headshot, bbrID) {
 		return headshot
 			? `assets/headshots/${bbrID}.png`
 			: "assets/headshot-default.png";
 	}
+
+	$: dnpWinners = dnp.filter(({ team }) => team === winnerAbbr);
+	$: dnpOpponents = dnp.filter(({ team }) => opponents.includes(team));
+	$: dnpOthers = dnp.filter(
+		({ team }) => !opponents.includes(team) && team !== winnerAbbr
+	);
+	$: all = [dnpWinners, dnpOpponents, dnpOthers];
 </script>
 
 <div class="c">
 	<h3>Missed Playoff Games by Player</h3>
 	<ul>
-		{#each dnp as { name, bbrID, headshot, team, rate, rank_league }}
-			{@const winner = team === winnerAbbr}
-			{@const src = getSrc(headshot, bbrID)}
-			{@const level = getLevel({ dnp: true, rank: rank_league })}
-			{@const fg =
-				level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
-			<li data-level={level}>
-				<!-- <img
+		{#each all as players, i}
+			{#if players.length}
+				<li class="divider">
+					<span class="label"><strong>{labels[i]} &rarr;</strong></span>
+				</li>
+			{/if}
+
+			{#each players as { name, bbrID, headshot, team, rate, rank_league }}
+				{@const winner = team === winnerAbbr}
+				{@const src = getSrc(headshot, bbrID)}
+				{@const level = getLevel({ dnp: true, rank: rank_league })}
+				{@const fg =
+					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
+				<li data-level={level}>
+					<!-- <img
 					class="logo"
 					src="assets/logos/{team.toLowerCase()}.svg"
 					alt="{team} logo"
 				/> -->
-				<p class="team">{team}</p>
-				<p class="percent" style:color={fg}>{Math.round(rate * 100)}%</p>
+					<p class="team">{team}</p>
+					<p class="percent" style:color={fg}>{Math.round(rate * 100)}%</p>
 
-				<div class="circle">
-					<span class="img-bg">
-						<img {src} alt="headshot of {name}" />
-					</span>
-					<span class="progress">
-						<Progress progress={rate} {fg} width="0.1" />
-					</span>
-				</div>
-				<p class="name"><strong>{name}</strong></p>
-				<!-- <p>team: {team}</p>
+					<div class="circle">
+						<span class="img-bg">
+							<img {src} alt="headshot of {name}" />
+						</span>
+						<span class="progress">
+							<Progress progress={rate} {fg} width="0.1" />
+						</span>
+					</div>
+					<p class="name"><strong>{name}</strong></p>
+					<!-- <p>team: {team}</p>
 				<p>missed: {Math.round(rate * 100)}%</p>
 				<p>rank: {rank_league}</p> -->
-			</li>
+				</li>
+			{/each}
 		{/each}
 	</ul>
 </div>
@@ -64,10 +82,36 @@
 		padding: 8px;
 		padding-bottom: 0;
 		margin: 8px;
+		margin-bottom: 16px;
 		margin-right: 16px;
 		margin-left: 0;
 		border-top: 1px solid rgba(255, 255, 255, 0.5);
 		background: linear-gradient(180deg, var(--color-bluedark), transparent 50%);
+	}
+
+	li.divider {
+		padding: 0;
+		margin: 0;
+		background: transparent;
+		border: none;
+		width: 0;
+		/* text-align: left; */
+		/* border-left: 2px solid rgba(255, 255, 255, 0.5); */
+		/* width: 16px; */
+		/* transform: translate(0, -8px); */
+		/* display: flex; */
+	}
+
+	.label {
+		display: inline-block;
+		/* justify-content: center; */
+		transform-origin: 0 0;
+		/* transform: rotate(-90deg) translate(-100%, -100%); */
+		transform: translate(0, -120%);
+		line-height: 1;
+		white-space: nowrap;
+		font-size: var(--14px);
+		color: rgba(255, 255, 255, 0.5);
 	}
 
 	.circle {
