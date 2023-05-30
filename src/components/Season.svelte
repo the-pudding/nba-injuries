@@ -35,6 +35,7 @@
 <style>
 	.rounds {
 		display: flex;
+		margin: 32px auto;
 	}
 
 	summary {

@@ -25,7 +25,8 @@
     "blue": "#0a47c2",
     "yellow": "#ffea00",
     "green": "#6ed5d5",
-    "bluelight": "#b0c6f2"
+    "bluelight": "#b0c6f2",
+    "bluedark": "#083691"
   },
   "": {
     "12px": "0.75rem",

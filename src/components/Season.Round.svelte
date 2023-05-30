@@ -1,6 +1,6 @@
 <script>
 	import Game from "$components/Round.Game.svelte";
-	import teams from "$data/teams.json";
+	import teams from "$data/teams-name.json";
 
 	export let round;
 	export let opponent;

@@ -1,13 +1,7 @@
 <script>
+	import getLevel from "$utils/getLevel.js";
 	export let opponents;
 	export let result;
-
-	function getLevel(dnp, rank_team, rank_league) {
-		if (!dnp) return;
-		if (rank_league < 50) return 0;
-		else if (rank_league < 150) return 1;
-		return 2;
-	}
 </script>
 
 <div class="game">
@@ -15,7 +9,7 @@
 	<ul class="opponent">
 		{#each opponents as { bbrID, name, rank_team, rank_league, reason }}
 			{@const dnp = reason && reason !== "Did Not Play"}
-			{@const level = getLevel(dnp, rank_team, rank_league)}
+			{@const level = getLevel({ dnp, rank: rank_league })}
 			<li
 				class:dnp
 				data-level={level}

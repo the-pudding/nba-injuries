@@ -1,5 +1,6 @@
-import { json } from "d3";
+import { ascending, descending, json } from "d3";
 import teams from "$data/teams.json";
+import getLevel from "$utils/getLevel.js";
 
 export default async function getSeasonData() {
 	const raw = await json("assets/champions.json");
@@ -11,5 +12,12 @@ export default async function getSeasonData() {
 			winnerName: teams[d.winner]
 		}));
 
+	seasons.forEach((season) =>
+		season.dnp.sort((a, b) => {
+			const levelA = getLevel({ dnp: true, rank: a.rank_league });
+			const levelB = getLevel({ dnp: true, rank: b.rank_league });
+			return ascending(levelA, levelB) || descending(a.rate, b.rate);
+		})
+	);
 	return seasons;
 }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 May 2023 16:43:55 GMT
+ * Generated on Tue, 30 May 2023 18:40:51 GMT
  */
 
 :root {
@@ -28,6 +28,7 @@
   --color-yellow: #ffea00;
   --color-green: #6ed5d5;
   --color-bluelight: #b0c6f2;
+  --color-bluedark: #083691;
   --12px: 0.75rem;
   --14px: 0.875rem;
   --16px: 1rem;

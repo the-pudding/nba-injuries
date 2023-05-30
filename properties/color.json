@@ -50,6 +50,9 @@
 		},
 		"bluelight": {
 			"value": "#b0c6f2"
+		},
+		"bluedark": {
+			"value": "#083691"
 		}
 	}
 }

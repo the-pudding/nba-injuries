@@ -27,6 +27,10 @@
 </div>
 
 <style>
+	.options {
+		font-family: var(--mono);
+	}
+
 	.buttons {
 		display: flex;
 		justify-content: center;

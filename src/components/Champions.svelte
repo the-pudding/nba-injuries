@@ -77,6 +77,6 @@
 		/* TODO based on font */
 		max-width: 1400px;
 		margin: 0 auto;
-		/* font-family: var(--mono); */
+		font-family: var(--mono);
 	}
 </style>
