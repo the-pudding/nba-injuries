@@ -39,10 +39,10 @@
 					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
 				<li data-level={level}>
 					<!-- <img
-					class="logo"
-					src="assets/logos/{team.toLowerCase()}.svg"
-					alt="{team} logo"
-				/> -->
+						class="logo"
+						src="assets/logos/{team.toLowerCase()}.svg"
+						alt="{team} logo"
+					/> -->
 					<p class="team">{team}</p>
 					<p class="percent" style:color={fg}>{Math.round(rate * 100)}%</p>
 
@@ -150,30 +150,32 @@
 
 	.img-bg img {
 		filter: grayscale(100%);
-		transform: translate(0, 7.5%);
-	}
-	.logo {
-		width: 32px;
+		transform: translate(0, 6px);
+		transition: all 0.5s ease-in-out;
 		padding: 4px;
+	}
+
+	.logo {
+		width: 36px;
+		padding: 0px;
 		position: absolute;
 		top: 0;
 		left: 0;
-		background: rgba(255, 255, 255, 0.5);
 		border-radius: 50%;
-		opacity: 1;
+		opacity: 0.75;
 	}
 
 	.team {
 		position: absolute;
-		top: 4px;
-		left: 4px;
+		top: 6px;
+		left: 6px;
 		font-size: var(--12px);
 	}
 
 	.percent {
 		position: absolute;
-		top: 4px;
-		right: 4px;
+		top: 6px;
+		right: 6px;
 		font-size: var(--12px);
 	}
 </style>
