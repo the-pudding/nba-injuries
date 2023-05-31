@@ -74,9 +74,9 @@
 <style>
 	section {
 		width: 75vw;
-		/* TODO based on font */
 		max-width: 1400px;
 		margin: 0 auto;
 		font-family: var(--mono);
+		min-height: 600px;
 	}
 </style>

@@ -29,7 +29,9 @@
 		transition: opacity 0.25s ease-in-out;
 	}
 
-	.name:hover:after {
-		opacity: 1;
+	@media (hover: hover) and (pointer: fine) {
+		.name:hover:after {
+			opacity: 1;
+		}
 	}
 </style>
