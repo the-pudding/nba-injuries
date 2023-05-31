@@ -28,6 +28,7 @@
 				{@const winner = team === winnerAbbr}
 				{@const src = getSrc(headshot, bbrID)}
 				{@const level = getLevel(rank_league)}
+				{@const fallback = !headshot}
 				{@const fg =
 					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
 				{@const label = players.length && j === 0 ? `${labels[i]} →` : ""}
@@ -42,7 +43,7 @@
 
 					<div class="circle">
 						<span class="img-bg">
-							<img {src} alt="headshot of {name}" />
+							<img {src} class:fallback alt="headshot of {name}" />
 						</span>
 						<span class="progress">
 							<Progress progress={rate} {fg} width="0.1" />
@@ -130,6 +131,10 @@
 		transform: translate(0, 6px);
 		transition: all 0.5s ease-in-out;
 		padding: 4px;
+	}
+
+	.img-bg img.fallback {
+		opacity: 0.5;
 	}
 	/* 
 	.logo {
