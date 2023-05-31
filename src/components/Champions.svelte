@@ -75,7 +75,7 @@
 	section {
 		width: 75vw;
 		max-width: 1400px;
-		margin: 0 auto;
+		margin: 32px auto;
 		font-family: var(--mono);
 		min-height: 600px;
 	}

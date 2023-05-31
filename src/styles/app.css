@@ -16,6 +16,7 @@
 	--z-top: 100;
 	--z-overlay: 1000;
 
+
 	/* presets (used in reset.css) */
 	--border-radius: 2px;
 	--font-body: var(--serif);
@@ -104,4 +105,8 @@ line-height: 1.2;
 
 p, li {
 	line-height: 1.6;
+}
+
+.options .explanation strong {
+	border-bottom: 1px solid currentColor;
 }

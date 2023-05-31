@@ -12,7 +12,7 @@
 
 <div class="c">
 	<p class="name">{roundNames[round - 1]}</p>
-	<p class="opponent">{teams[opponent]}</p>
+	<p class="opponent"><strong>{teams[opponent]}</strong></p>
 	<div class="games">
 		{#each games as game}
 			{@const opponents = game.playersOpponent}
@@ -41,6 +41,7 @@
 	.games {
 		display: flex;
 		align-items: flex-start;
+		margin-top: 4px;
 	}
 
 	.name {
@@ -48,5 +49,6 @@
 		margin-bottom: 8px;
 		text-align: center;
 		line-height: 1;
+		color: var(--color-bluelight);
 	}
 </style>

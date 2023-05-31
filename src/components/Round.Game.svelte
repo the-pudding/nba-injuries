@@ -1,5 +1,6 @@
 <script>
 	import getLevel from "$utils/getLevel.js";
+	import getDnp from "$utils/getDnp.js";
 	export let opponents;
 	export let result;
 </script>
@@ -8,11 +9,11 @@
 	<p class="number">{result}</p>
 	<ul class="opponent">
 		{#each opponents as { bbrID, name, rank_team, rank_league, reason }}
-			{@const dnp = reason && reason !== "Did Not Play"}
-			{@const level = getLevel({ dnp, rank: rank_league })}
+			{@const level = getLevel(rank_league)}
+			{@const dnp = getDnp({ reason, level })}
 			<li
 				class:dnp
-				data-level={level}
+				data-level={dnp ? level : ""}
 				data-reason={reason}
 				data-id={bbrID}
 				data-name={name}
@@ -22,23 +23,6 @@
 			</li>
 		{/each}
 	</ul>
-	<!-- <hr />
-	<ul class="winner">
-		{#each winners as { bbrID, name, rank_team, rank_league, reason }}
-			{@const dnp = reason && reason !== "Did Not Play"}
-			{@const level = getLevel(dnp, rank_team, rank_league, rank)}
-			<li
-				class:dnp
-				data-level={level}
-				data-reason={reason}
-				data-id={bbrID}
-				data-name={name}
-				title="{name}: {rank_league}"
-			>
-				<span>{name}</span>
-			</li>
-		{/each}
-	</ul> -->
 </div>
 
 <style>

@@ -14,8 +14,8 @@ export default async function getSeasonData() {
 
 	seasons.forEach((season) =>
 		season.dnp.sort((a, b) => {
-			const levelA = getLevel({ dnp: true, rank: a.rank_league });
-			const levelB = getLevel({ dnp: true, rank: b.rank_league });
+			const levelA = getLevel(a.rank_league);
+			const levelB = getLevel(b.rank_league);
 			return ascending(levelA, levelB) || descending(a.rate, b.rate);
 		})
 	);

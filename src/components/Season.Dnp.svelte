@@ -22,22 +22,16 @@
 </script>
 
 <div class="c">
-	<h3>Missed Playoff Games</h3>
 	<ul>
 		{#each all as players, i}
-			{#if players.length}
-				<li class="divider">
-					<span class="label"><strong>{labels[i]} &rarr;</strong></span>
-				</li>
-			{/if}
-
-			{#each players as { name, bbrID, headshot, team, rate, rank_league }}
+			{#each players as { name, bbrID, headshot, team, rate, rank_league }, j}
 				{@const winner = team === winnerAbbr}
 				{@const src = getSrc(headshot, bbrID)}
-				{@const level = getLevel({ dnp: true, rank: rank_league })}
+				{@const level = getLevel(rank_league)}
 				{@const fg =
 					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
-				<li data-level={level}>
+				{@const label = players.length && j === 0 ? `${labels[i]} →` : ""}
+				<li data-level={level} data-label={label}>
 					<!-- <img
 						class="logo"
 						src="assets/logos/{team.toLowerCase()}.svg"
@@ -65,15 +59,10 @@
 </div>
 
 <style>
-	h3 {
-		/* text-align: center; */
-	}
-
 	ul {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 0;
-		/* justify-content: center; */
 	}
 
 	li {
@@ -85,33 +74,21 @@
 		margin-bottom: 16px;
 		margin-right: 16px;
 		margin-left: 0;
-		border-top: 1px solid rgba(255, 255, 255, 0.5);
+		border-top: 1px solid var(--color-bluelight);
 		background: linear-gradient(180deg, var(--color-bluedark), transparent 50%);
 	}
 
-	li.divider {
-		padding: 0;
-		margin: 0;
-		background: transparent;
-		border: none;
-		width: 0;
-		/* text-align: left; */
-		/* border-left: 2px solid rgba(255, 255, 255, 0.5); */
-		/* width: 16px; */
-		/* transform: translate(0, -8px); */
-		/* display: flex; */
-	}
-
-	.label {
-		display: inline-block;
-		/* justify-content: center; */
-		transform-origin: 0 0;
-		/* transform: rotate(-90deg) translate(-100%, -100%); */
-		transform: translate(0, -120%);
+	li:before {
+		content: attr(data-label);
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(0, -150%);
 		line-height: 1;
 		white-space: nowrap;
 		font-size: var(--14px);
-		color: rgba(255, 255, 255, 0.5);
+		color: var(--color-bluelight);
 	}
 
 	.circle {
@@ -123,7 +100,7 @@
 
 	.img-bg {
 		display: block;
-		border: 1px solid rgba(255, 255, 255, 0.75);
+		border: 1px solid var(--color-bluelight);
 		background: var(--color-bluedark);
 		border-radius: 50%;
 		overflow: hidden;
@@ -154,7 +131,7 @@
 		transition: all 0.5s ease-in-out;
 		padding: 4px;
 	}
-
+	/* 
 	.logo {
 		width: 36px;
 		padding: 0px;
@@ -163,7 +140,7 @@
 		left: 0;
 		border-radius: 50%;
 		opacity: 0.75;
-	}
+	} */
 
 	.team {
 		position: absolute;

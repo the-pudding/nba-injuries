@@ -1,8 +1,9 @@
 <script>
+	import { range } from "d3";
 	import Summary from "$components/Season.Summary.svelte";
 	import Round from "$components/Season.Round.svelte";
 	import Dnp from "$components/Season.Dnp.svelte";
-	// import SortTable from "$components/helpers/SortTable.svelte";
+	import Legend from "$components/Legend.svelte";
 
 	export let season;
 	export let winnerAbbr;
@@ -15,33 +16,62 @@
 	// export let percentInjured;
 
 	$: opponents = rounds.map(({ opponent }) => opponent);
+	$: asterisks = range(scaledAsterisks)
+		.map(() => "*")
+		.join("");
 </script>
 
 <!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
 <details class="season" open={false}>
-	<summary>
-		<Summary {season} {winnerAbbr} {winnerName} {scaledAsterisks} />
+	<summary data-asterisks={asterisks.length}>
+		<Summary {season} {winnerName} {asterisks} />
 	</summary>
 	<div class="inner">
+		<Legend />
 		<div class="rounds">
-			{#each rounds as { round, opponent, games }}
-				<Round {round} {opponent} {games} {winnerAbbr} />
-			{/each}
+			<h3>Missed Games for Opponents by Round</h3>
+			<div>
+				{#each rounds as { round, opponent, games }}
+					<Round {round} {opponent} {games} {winnerAbbr} />
+				{/each}
+			</div>
 		</div>
 		<div class="dnp">
+			<h3>Missed Games for All Players</h3>
 			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
 	</div>
 </details>
 
 <style>
-	.rounds {
+	.rounds div {
 		display: flex;
-		margin: 32px auto;
+		margin: 16px auto 32px auto;
+	}
+
+	details {
+		margin-top: 16px;
+		user-select: none;
 	}
 
 	summary {
 		font-size: min(4vw, 80px);
 		cursor: pointer;
+	}
+
+	[data-asterisks="0"] {
+		color: var(--color-fg);
+	}
+
+	[data-asterisks="1"] {
+		color: var(--color-tertiary);
+	}
+
+	[data-asterisks="2"] {
+		color: var(--color-secondary);
+	}
+
+	[data-asterisks="3"] {
+		color: var(--color-primary);
 	}
 </style>

@@ -1,17 +1,11 @@
 <script>
-	import { range } from "d3";
 	export let season;
-	export let winnerAbbr;
 	export let winnerName;
-	export let scaledAsterisks;
-	// @html range(Math.round(scaledAsterisks)
-	$: asterisks = range(scaledAsterisks)
-		.map(() => "<sup>*</sup>")
-		.join("");
+	export let asterisks;
 </script>
 
 <span class="year">{season}</span>
-<span class="name">{winnerName}{@html asterisks}</span>
+<span class="name">{winnerName}<sup>{@html asterisks}</sup></span>
 
 <style>
 	span {
@@ -33,5 +27,10 @@
 		.name:hover:after {
 			opacity: 1;
 		}
+	}
+
+	sup {
+		/* top: 0; */
+		font-size: 100%;
 	}
 </style>

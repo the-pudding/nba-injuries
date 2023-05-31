@@ -23,7 +23,7 @@
 			/>
 		</div>
 	</div>
-	<p>{@html copy.limpAbridged}</p>
+	<p class="explanation">{@html copy.limpAbridged}</p>
 </div>
 
 <style>
