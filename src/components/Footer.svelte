@@ -43,7 +43,7 @@
 				? url
 				: `https://pudding.cool/${url}`}
 			<div class="story">
-				<a {href}>
+				<a {href} target="_self">
 					<img
 						src="https://pudding.cool/common/assets/thumbnails/640/{image}.jpg"
 						alt="thumbnail"
@@ -59,7 +59,7 @@
 			{@html wordmark}
 		</div>
 		<p>
-			<a href="https://pudding.cool">The Pudding</a>
+			<a href="https://pudding.cool" target="_self">The Pudding</a>
 			is a digital publication that explains ideas debated in culture with visual
 			essays.
 		</p>

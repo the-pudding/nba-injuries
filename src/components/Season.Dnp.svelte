@@ -22,7 +22,7 @@
 </script>
 
 <div class="c">
-	<h3>Missed Playoff Games by Player</h3>
+	<h3>Missed Playoff Games</h3>
 	<ul>
 		{#each all as players, i}
 			{#if players.length}
