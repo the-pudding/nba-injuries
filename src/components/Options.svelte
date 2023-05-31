@@ -11,7 +11,7 @@
 		<div class="buttonset">
 			<ButtonSet
 				legend="Sort by"
-				options={[{ value: "Year" }, { value: "Asterisks" }]}
+				options={[{ value: "Asterisks" }, { value: "Year" }]}
 				bind:value={valueSort}
 			/>
 		</div>

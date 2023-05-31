@@ -10,26 +10,26 @@
 	export let winnerName;
 	export let rounds;
 	export let dnp;
-	export let scaledAsterisks;
+	export let asterisksCount;
 	// export let winner;
 	// export let asterisks;
 	// export let percentInjured;
 
 	$: opponents = rounds.map(({ opponent }) => opponent);
-	$: asterisks = range(scaledAsterisks)
+	$: asterisks = range(Math.floor(asterisksCount))
 		.map(() => "*")
 		.join("");
 </script>
 
 <!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
 <details class="season" open={false}>
-	<summary data-asterisks={asterisks.length}>
+	<summary data-asterisks={asterisksCount}>
 		<Summary {season} {winnerName} {asterisks} />
 	</summary>
 	<div class="inner">
 		<Legend />
 		<div class="rounds">
-			<h3>Missed Games for Opponents by Round</h3>
+			<h3>Missing Opponents by Round</h3>
 			<div>
 				{#each rounds as { round, opponent, games }}
 					<Round {round} {opponent} {games} {winnerAbbr} />
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<div class="dnp">
-			<h3>Missed Games for All Players</h3>
+			<h3>Percent of Playoffs Missed by Player</h3>
 			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
 	</div>
@@ -55,7 +55,7 @@
 	}
 
 	summary {
-		font-size: min(4vw, 80px);
+		font-size: min(3.5vw, 64px);
 		cursor: pointer;
 	}
 

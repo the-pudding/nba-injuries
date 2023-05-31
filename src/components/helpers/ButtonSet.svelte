@@ -87,22 +87,24 @@
 	}
 
 	.option + .option label {
-		border-left-width: 0;
+		/* border-left-width: 0; */
 	}
 
 	.option + .option > label {
-		border-left-width: 0;
+		/* border-left-width: 0; */
 	}
 
 	input[type="radio"] + label {
 		background: var(--color-fg);
 		color: var(--color-bg);
+		opacity: 0.5;
 	}
 
 	input[type="radio"]:checked + label,
 	input[type="radio"]:checked:hover + label {
 		background: var(--color-bg);
 		color: var(--color-fg);
+		opacity: 1;
 	}
 
 	input[type="radio"]:hover + label {

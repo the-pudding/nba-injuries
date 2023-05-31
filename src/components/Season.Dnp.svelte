@@ -5,7 +5,7 @@
 	export let winnerAbbr;
 	export let opponents;
 
-	const labels = ["Winner", "Opponents", "Rest of League"];
+	const labels = ["Opponents", "Champions", "Rest of League"];
 
 	function getSrc(headshot, bbrID) {
 		return headshot
@@ -18,12 +18,16 @@
 	$: dnpOthers = dnp.filter(
 		({ team }) => !opponents.includes(team) && team !== winnerAbbr
 	);
-	$: all = [dnpWinners, dnpOpponents, dnpOthers];
+	$: all = [dnpOpponents, dnpWinners, dnpOthers];
 </script>
 
 <div class="c">
-	<ul>
-		{#each all as players, i}
+	{#each all as players, i}
+		{@const label = players.length ? `${labels[i]}` : ""}
+		{#if label}
+			<h4 class="label">{label}</h4>
+		{/if}
+		<ul>
 			{#each players as { name, bbrID, headshot, team, rate, rank_league }, j}
 				{@const winner = team === winnerAbbr}
 				{@const src = getSrc(headshot, bbrID)}
@@ -31,8 +35,7 @@
 				{@const fallback = !headshot}
 				{@const fg =
 					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
-				{@const label = players.length && j === 0 ? `${labels[i]} →` : ""}
-				<li data-level={level} data-label={label}>
+				<li data-level={level}>
 					<!-- <img
 						class="logo"
 						src="assets/logos/{team.toLowerCase()}.svg"
@@ -55,8 +58,8 @@
 				<p>rank: {rank_league}</p> -->
 				</li>
 			{/each}
-		{/each}
-	</ul>
+		</ul>
+	{/each}
 </div>
 
 <style>
@@ -72,24 +75,18 @@
 		padding: 8px;
 		padding-bottom: 0;
 		margin: 8px;
-		margin-bottom: 16px;
+		margin-bottom: 8px;
 		margin-right: 16px;
 		margin-left: 0;
 		border-top: 1px solid var(--color-bluelight);
 		background: linear-gradient(180deg, var(--color-bluedark), transparent 50%);
 	}
 
-	li:before {
-		content: attr(data-label);
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		transform: translate(0, -150%);
+	.label {
 		line-height: 1;
-		white-space: nowrap;
-		font-size: var(--14px);
+		font-size: var(--16px);
 		color: var(--color-bluelight);
+		margin-bottom: 8px;
 	}
 
 	.circle {

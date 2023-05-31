@@ -9,8 +9,8 @@
 
 	let rank = "league";
 	let visibles = [];
-	let valueLimp = "Off";
-	let valueSort = "Year";
+	let valueLimp = "On";
+	let valueSort = "Asterisks";
 	let seasons = [];
 
 	const maxAsterisks = 3;
@@ -53,9 +53,11 @@
 		seasons = [...seasons];
 	}
 
-	function calcAsterisks(asterisks) {
-		if (valueLimp === "Off") return scales.opponent(asterisks.opponent);
-		return scales.plusminus(asterisks.plusMinus);
+	function getAsterisks(asterisks) {
+		// if (valueLimp === "Off") return scales.opponent(asterisks.opponent);
+		// return scales.plusminus(asterisks.plusMinus);
+		if (valueLimp === "Off") return asterisks.opponent;
+		return asterisks.plusMinus;
 	}
 
 	$: if (seasons.length) sortSeasons(valueSort, valueLimp);
@@ -66,8 +68,8 @@
 <section id="champions">
 	{#each seasons as season, i (season.season)}
 		<!-- {@const visible = visibles[i]} -->
-		{@const scaledAsterisks = calcAsterisks(season.asterisks, valueLimp)}
-		<Season {...season} {scaledAsterisks} />
+		{@const asterisksCount = getAsterisks(season.asterisks, valueLimp)}
+		<Season {...season} {asterisksCount} />
 	{/each}
 </section>
 
