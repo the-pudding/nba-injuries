@@ -3,11 +3,11 @@
     "season": 1997,
     "winner": "CHI",
     "asterisks": {
-      "all": 0.16,
-      "allNotOpponent": 0.18,
-      "opponent": 0.05,
+      "all": 4.84,
+      "allNotOpponent": 4.64,
+      "opponent": 0.2,
       "winner": 0,
-      "plusMinus": 0.05
+      "plusMinus": 0.2
     },
     "percentInjured": 0.016,
     "dnp": [
@@ -3220,11 +3220,11 @@
     "season": 1998,
     "winner": "CHI",
     "asterisks": {
-      "all": 0.2,
-      "allNotOpponent": 0.21,
-      "opponent": 0.14,
+      "all": 5.92,
+      "allNotOpponent": 5.35,
+      "opponent": 0.57,
       "winner": 0,
-      "plusMinus": 0.14
+      "plusMinus": 0.57
     },
     "percentInjured": 0.016,
     "dnp": [
@@ -6770,11 +6770,11 @@
     "season": 1999,
     "winner": "SAS",
     "asterisks": {
-      "all": 0.18,
-      "allNotOpponent": 0.16,
-      "opponent": 0.31,
+      "all": 5.45,
+      "allNotOpponent": 4.2,
+      "opponent": 1.25,
       "winner": 0,
-      "plusMinus": 0.31
+      "plusMinus": 1.25
     },
     "percentInjured": 0.016,
     "dnp": [
@@ -9645,11 +9645,11 @@
     "season": 2000,
     "winner": "LAL",
     "asterisks": {
-      "all": 0.37,
-      "allNotOpponent": 0.4,
-      "opponent": 0.2,
-      "winner": 0.18,
-      "plusMinus": 0.020000000000000018
+      "all": 11.15,
+      "allNotOpponent": 10.37,
+      "opponent": 0.79,
+      "winner": 0.73,
+      "plusMinus": 0.06000000000000005
     },
     "percentInjured": 0.023,
     "dnp": [
@@ -13537,11 +13537,11 @@
     "season": 2001,
     "winner": "LAL",
     "asterisks": {
-      "all": 0.42,
-      "allNotOpponent": 0.36,
-      "opponent": 0.84,
-      "winner": 0.66,
-      "plusMinus": 0.17999999999999994
+      "all": 12.7,
+      "allNotOpponent": 9.35,
+      "opponent": 3.35,
+      "winner": 2.65,
+      "plusMinus": 0.7000000000000002
     },
     "percentInjured": 0.035,
     "dnp": [
@@ -16313,11 +16313,11 @@
     "season": 2002,
     "winner": "LAL",
     "asterisks": {
-      "all": 0.24,
-      "allNotOpponent": 0.22,
-      "opponent": 0.34,
-      "winner": 0.06,
-      "plusMinus": 0.28
+      "all": 7.1,
+      "allNotOpponent": 5.73,
+      "opponent": 1.37,
+      "winner": 0.25,
+      "plusMinus": 1.12
     },
     "percentInjured": 0.016,
     "dnp": [
@@ -19512,11 +19512,11 @@
     "season": 2003,
     "winner": "SAS",
     "asterisks": {
-      "all": 0.51,
-      "allNotOpponent": 0.48,
-      "opponent": 0.71,
-      "winner": 0.67,
-      "plusMinus": 0.039999999999999925
+      "all": 15.4,
+      "allNotOpponent": 12.56,
+      "opponent": 2.83,
+      "winner": 2.67,
+      "plusMinus": 0.16000000000000014
     },
     "percentInjured": 0.04,
     "dnp": [
@@ -23665,11 +23665,11 @@
     "season": 2004,
     "winner": "DET",
     "asterisks": {
-      "all": 0.28,
-      "allNotOpponent": 0.32,
-      "opponent": 0.05,
-      "winner": 0.09,
-      "plusMinus": -0.039999999999999994
+      "all": 8.51,
+      "allNotOpponent": 8.31,
+      "opponent": 0.2,
+      "winner": 0.37,
+      "plusMinus": -0.16999999999999998
     },
     "percentInjured": 0.021,
     "dnp": [
@@ -27557,11 +27557,11 @@
     "season": 2005,
     "winner": "SAS",
     "asterisks": {
-      "all": 0.31,
-      "allNotOpponent": 0.28,
-      "opponent": 0.56,
-      "winner": 0.34,
-      "plusMinus": 0.22000000000000003
+      "all": 9.39,
+      "allNotOpponent": 7.15,
+      "opponent": 2.23,
+      "winner": 1.36,
+      "plusMinus": 0.8699999999999999
     },
     "percentInjured": 0.025,
     "dnp": [
@@ -31422,11 +31422,11 @@
     "season": 2006,
     "winner": "MIA",
     "asterisks": {
-      "all": 0.34,
-      "allNotOpponent": 0.4,
+      "all": 10.29,
+      "allNotOpponent": 10.29,
       "opponent": 0,
-      "winner": 0.08,
-      "plusMinus": -0.08
+      "winner": 0.33,
+      "plusMinus": -0.33
     },
     "percentInjured": 0.027,
     "dnp": [
@@ -35602,11 +35602,11 @@
     "season": 2007,
     "winner": "SAS",
     "asterisks": {
-      "all": 0.21,
-      "allNotOpponent": 0.21,
-      "opponent": 0.21,
-      "winner": 0.13,
-      "plusMinus": 0.07999999999999999
+      "all": 6.4,
+      "allNotOpponent": 5.57,
+      "opponent": 0.83,
+      "winner": 0.53,
+      "plusMinus": 0.29999999999999993
     },
     "percentInjured": 0.011,
     "dnp": [
@@ -39632,11 +39632,11 @@
     "season": 2008,
     "winner": "BOS",
     "asterisks": {
-      "all": 0.37,
-      "allNotOpponent": 0.35,
-      "opponent": 0.47,
-      "winner": 0.63,
-      "plusMinus": -0.16000000000000003
+      "all": 10.97,
+      "allNotOpponent": 9.09,
+      "opponent": 1.88,
+      "winner": 2.5,
+      "plusMinus": -0.6200000000000001
     },
     "percentInjured": 0.024,
     "dnp": [
@@ -44862,11 +44862,11 @@
     "season": 2009,
     "winner": "LAL",
     "asterisks": {
-      "all": 0.65,
-      "allNotOpponent": 0.66,
-      "opponent": 0.54,
-      "winner": 0.04,
-      "plusMinus": 0.5
+      "all": 19.37,
+      "allNotOpponent": 17.2,
+      "opponent": 2.17,
+      "winner": 0.14,
+      "plusMinus": 2.03
     },
     "percentInjured": 0.038,
     "dnp": [
@@ -49405,11 +49405,11 @@
     "season": 2010,
     "winner": "LAL",
     "asterisks": {
-      "all": 0.3,
-      "allNotOpponent": 0.29,
-      "opponent": 0.38,
+      "all": 8.93,
+      "allNotOpponent": 7.43,
+      "opponent": 1.5,
       "winner": 0,
-      "plusMinus": 0.38
+      "plusMinus": 1.5
     },
     "percentInjured": 0.02,
     "dnp": [
@@ -53720,11 +53720,11 @@
     "season": 2011,
     "winner": "DAL",
     "asterisks": {
-      "all": 0.32,
-      "allNotOpponent": 0.36,
-      "opponent": 0.1,
-      "winner": 0.68,
-      "plusMinus": -0.5800000000000001
+      "all": 9.72,
+      "allNotOpponent": 9.3,
+      "opponent": 0.42,
+      "winner": 2.72,
+      "plusMinus": -2.3000000000000003
     },
     "percentInjured": 0.022,
     "dnp": [
@@ -58026,11 +58026,11 @@
     "season": 2012,
     "winner": "MIA",
     "asterisks": {
-      "all": 0.54,
-      "allNotOpponent": 0.59,
-      "opponent": 0.25,
-      "winner": 0.35,
-      "plusMinus": -0.09999999999999998
+      "all": 16.3,
+      "allNotOpponent": 15.3,
+      "opponent": 1,
+      "winner": 1.4,
+      "plusMinus": -0.3999999999999999
     },
     "percentInjured": 0.032,
     "dnp": [
@@ -62800,11 +62800,11 @@
     "season": 2013,
     "winner": "MIA",
     "asterisks": {
-      "all": 1.03,
-      "allNotOpponent": 0.93,
-      "opponent": 1.68,
-      "winner": 0.16,
-      "plusMinus": 1.52
+      "all": 30.77,
+      "allNotOpponent": 24.06,
+      "opponent": 6.71,
+      "winner": 0.64,
+      "plusMinus": 6.07
     },
     "percentInjured": 0.051,
     "dnp": [
@@ -67628,11 +67628,11 @@
     "season": 2014,
     "winner": "SAS",
     "asterisks": {
-      "all": 0.3,
-      "allNotOpponent": 0.31,
-      "opponent": 0.26,
+      "all": 9.05,
+      "allNotOpponent": 8.02,
+      "opponent": 1.03,
       "winner": 0,
-      "plusMinus": 0.26
+      "plusMinus": 1.03
     },
     "percentInjured": 0.02,
     "dnp": [
@@ -72339,11 +72339,11 @@
     "season": 2015,
     "winner": "GSW",
     "asterisks": {
-      "all": 1.04,
-      "allNotOpponent": 0.94,
-      "opponent": 1.65,
-      "winner": 0.51,
-      "plusMinus": 1.14
+      "all": 31.07,
+      "allNotOpponent": 24.49,
+      "opponent": 6.58,
+      "winner": 2.03,
+      "plusMinus": 4.550000000000001
     },
     "percentInjured": 0.052,
     "dnp": [
@@ -76705,11 +76705,11 @@
     "season": 2016,
     "winner": "CLE",
     "asterisks": {
-      "all": 0.63,
-      "allNotOpponent": 0.65,
-      "opponent": 0.52,
-      "winner": 0.48,
-      "plusMinus": 0.040000000000000036
+      "all": 18.93,
+      "allNotOpponent": 16.83,
+      "opponent": 2.1,
+      "winner": 1.9,
+      "plusMinus": 0.20000000000000018
     },
     "percentInjured": 0.038,
     "dnp": [
@@ -81086,11 +81086,11 @@
     "season": 2017,
     "winner": "GSW",
     "asterisks": {
-      "all": 0.43,
-      "allNotOpponent": 0.36,
-      "opponent": 0.89,
-      "winner": 0.44,
-      "plusMinus": 0.45
+      "all": 12.91,
+      "allNotOpponent": 9.36,
+      "opponent": 3.55,
+      "winner": 1.75,
+      "plusMinus": 1.7999999999999998
     },
     "percentInjured": 0.022,
     "dnp": [
@@ -84645,11 +84645,11 @@
     "season": 2018,
     "winner": "GSW",
     "asterisks": {
-      "all": 1.06,
-      "allNotOpponent": 0.99,
-      "opponent": 1.54,
-      "winner": 0.97,
-      "plusMinus": 0.5700000000000001
+      "all": 31.8,
+      "allNotOpponent": 25.66,
+      "opponent": 6.14,
+      "winner": 3.9,
+      "plusMinus": 2.2399999999999998
     },
     "percentInjured": 0.057,
     "dnp": [
@@ -89059,11 +89059,11 @@
     "season": 2019,
     "winner": "TOR",
     "asterisks": {
-      "all": 0.79,
-      "allNotOpponent": 0.83,
-      "opponent": 0.54,
+      "all": 23.7,
+      "allNotOpponent": 21.54,
+      "opponent": 2.17,
       "winner": 0,
-      "plusMinus": 0.54
+      "plusMinus": 2.17
     },
     "percentInjured": 0.034,
     "dnp": [
@@ -94046,11 +94046,11 @@
     "season": 2020,
     "winner": "LAL",
     "asterisks": {
-      "all": 0.81,
-      "allNotOpponent": 0.8,
-      "opponent": 0.88,
-      "winner": 0.3,
-      "plusMinus": 0.5800000000000001
+      "all": 24.43,
+      "allNotOpponent": 20.93,
+      "opponent": 3.5,
+      "winner": 1.2,
+      "plusMinus": 2.3
     },
     "percentInjured": 0.049,
     "dnp": [
@@ -98820,11 +98820,11 @@
     "season": 2021,
     "winner": "MIL",
     "asterisks": {
-      "all": 0.77,
-      "allNotOpponent": 0.81,
-      "opponent": 0.49,
-      "winner": 0.98,
-      "plusMinus": -0.49
+      "all": 23.09,
+      "allNotOpponent": 21.14,
+      "opponent": 1.95,
+      "winner": 3.92,
+      "plusMinus": -1.97
     },
     "percentInjured": 0.039,
     "dnp": [
@@ -104191,11 +104191,11 @@
     "season": 2022,
     "winner": "GSW",
     "asterisks": {
-      "all": 0.9,
-      "allNotOpponent": 0.88,
-      "opponent": 1.05,
-      "winner": 0.46,
-      "plusMinus": 0.5900000000000001
+      "all": 26.97,
+      "allNotOpponent": 22.77,
+      "opponent": 4.2,
+      "winner": 1.83,
+      "plusMinus": 2.37
     },
     "percentInjured": 0.052,
     "dnp": [
@@ -108917,8 +108917,8 @@
     "season": 2023,
     "winner": "BOS",
     "asterisks": {
-      "all": 0.63,
-      "allNotOpponent": 0.6,
+      "all": 12.62,
+      "allNotOpponent": 11.45,
       "opponent": 1.17,
       "winner": 0,
       "plusMinus": 1.17

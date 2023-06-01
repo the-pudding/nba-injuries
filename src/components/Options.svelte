@@ -23,12 +23,15 @@
 			/>
 		</div>
 	</div>
-	<p class="explanation">{@html copy.limpAbridged}</p>
+	<div class="explanation">
+		<p class="limp">{@html copy.limpAbridged}</p>
+	</div>
 </div>
 
 <style>
 	.options {
 		font-family: var(--mono);
+		margin-bottom: 64px;
 	}
 
 	.buttons {
@@ -41,9 +44,13 @@
 		margin: 0 8px;
 	}
 
+	.explanation {
+		max-width: 20.5rem;
+		margin: 16px auto;
+	}
+
 	p {
 		font-size: var(--14px);
-		max-width: 300px;
-		margin: 16px auto;
+		margin: 0;
 	}
 </style>

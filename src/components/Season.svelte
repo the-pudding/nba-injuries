@@ -55,7 +55,7 @@
 	}
 
 	summary {
-		font-size: min(3.5vw, 64px);
+		font-size: min(3.65vw, 64px);
 		cursor: pointer;
 	}
 
