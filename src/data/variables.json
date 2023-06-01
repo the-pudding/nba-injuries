@@ -26,7 +26,8 @@
     "yellow": "#ffea00",
     "green": "#6ed5d5",
     "bluelight": "#b0c6f2",
-    "bluedark": "#083691"
+    "bluedark": "#083691",
+    "bluefaded": "#5476d2"
   },
   "": {
     "12px": "0.75rem",

@@ -110,3 +110,21 @@ p, li {
 .limp strong {
 	border-bottom: 1px solid currentColor;
 }
+
+.custom-tooltip {
+	--tooltip-background-color: var(--color-fg);
+	--tooltip-border-radius: 0px;
+	--tooltip-box-shadow: 0 0 4px 2px var(--color-bg);
+	--tooltip-font-family: var(--mono);
+	--tooltip-font-size: var(--12px);
+	--tooltip-font-weight: 600;
+	--tooltip-line-height: 1;
+	--tooltip-color: var(--color-bg);
+	--tooltip-offset-x: 0;
+	--tooltip-offset-y: 0;
+	--tooltip-padding: 4px;
+	--tooltip-z-index: var(--z-overlay);
+	--tooltip-arrow-size: 10px;
+	pointer-events: none;
+	text-align: center;
+}

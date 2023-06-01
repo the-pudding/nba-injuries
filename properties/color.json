@@ -53,6 +53,9 @@
 		},
 		"bluedark": {
 			"value": "#083691"
+		},
+		"bluefaded": {
+			"value": "#5476d2"
 		}
 	}
 }
