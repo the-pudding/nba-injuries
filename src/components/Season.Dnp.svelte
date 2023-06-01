@@ -3,7 +3,7 @@
 	import getLevel from "$utils/getLevel.js";
 	export let dnp;
 	export let winnerAbbr;
-	export let opponents;
+	// export let opponents;
 
 	const labels = ["Top 30 Players", "Top 150 Players"];
 
@@ -23,7 +23,7 @@
 	{#each all as players, i}
 		{@const label = players.length ? `${labels[i]}` : ""}
 		{#if label}
-			<h4 class="label">{label}</h4>
+			<h4 class="label" data-level={i}>{label}</h4>
 		{/if}
 		<ul>
 			{#each players as { name, bbrID, headshot, team, rate, rank_league }, j}
@@ -83,7 +83,7 @@
 	.label {
 		line-height: 1;
 		font-size: var(--16px);
-		color: var(--color-bluelight);
+		/* color: var(--color-bluelight); */
 		margin-bottom: 8px;
 	}
 
@@ -154,5 +154,13 @@
 		top: 6px;
 		right: 6px;
 		font-size: var(--12px);
+	}
+
+	.label[data-level="0"] {
+		color: var(--color-primary);
+	}
+
+	.label[data-level="1"] {
+		color: var(--color-secondary);
 	}
 </style>
