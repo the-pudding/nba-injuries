@@ -16,7 +16,7 @@
 	// export let percentInjured;
 
 	$: opponents = rounds.map(({ opponent }) => opponent);
-	$: asterisks = range(Math.floor(asterisksCount))
+	$: asterisks = range(Math.ceil(asterisksCount))
 		.map(() => "*")
 		.join("");
 </script>
@@ -44,6 +44,10 @@
 </details>
 
 <style>
+	.inner {
+		padding: 16px 32px;
+	}
+
 	.rounds div {
 		display: flex;
 		margin: 16px auto 32px auto;
@@ -55,7 +59,7 @@
 	}
 
 	summary {
-		font-size: min(3.65vw, 64px);
+		font-size: min(3.5vw, 64px);
 		cursor: pointer;
 	}
 
