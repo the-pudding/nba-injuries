@@ -5,7 +5,7 @@
 	export let winnerAbbr;
 	export let opponents;
 
-	const labels = ["Opponents", "Champions", "Rest of League"];
+	const labels = ["Top 30 Players", "Top 150 Players"];
 
 	function getSrc(headshot, bbrID) {
 		return headshot
@@ -13,12 +13,10 @@
 			: "assets/headshot-default.png";
 	}
 
-	$: dnpWinners = dnp.filter(({ team }) => team === winnerAbbr);
-	$: dnpOpponents = dnp.filter(({ team }) => opponents.includes(team));
-	$: dnpOthers = dnp.filter(
-		({ team }) => !opponents.includes(team) && team !== winnerAbbr
-	);
-	$: all = [dnpOpponents, dnpWinners, dnpOthers];
+	$: dnp30 = dnp.filter(({ rank_league }) => getLevel(rank_league) === 0);
+	$: dnp150 = dnp.filter(({ rank_league }) => getLevel(rank_league) === 1);
+
+	$: all = [dnp30, dnp150];
 </script>
 
 <div class="c">

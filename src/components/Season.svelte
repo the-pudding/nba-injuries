@@ -62,20 +62,4 @@
 		font-size: min(3.5vw, 64px);
 		cursor: pointer;
 	}
-
-	[data-asterisks="0"] {
-		color: var(--color-fg);
-	}
-
-	[data-asterisks="1"] {
-		color: var(--color-tertiary);
-	}
-
-	[data-asterisks="2"] {
-		color: var(--color-secondary);
-	}
-
-	[data-asterisks="3"] {
-		color: var(--color-primary);
-	}
 </style>
