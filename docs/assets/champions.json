@@ -108915,21 +108915,21 @@
   },
   {
     "season": 2023,
-    "winner": "BOS",
+    "winner": "MIA",
     "asterisks": {
-      "all": 12.62,
-      "allNotOpponent": 11.45,
-      "opponent": 1.17,
-      "winner": 0,
-      "plusMinus": 1.17
+      "all": 18.42,
+      "allNotOpponent": 15.91,
+      "opponent": 2.51,
+      "winner": 3.42,
+      "plusMinus": -0.9100000000000001
     },
-    "percentInjured": 0.042,
+    "percentInjured": 0.038,
     "dnp": [
       {
         "bbrID": "embiijo01",
         "name": "Joel Embiid",
         "team": "PHI",
-        "rate": 0.333,
+        "rate": 0.182,
         "asterisks": 2,
         "rank_league": 1,
         "headshot": true
@@ -108956,7 +108956,7 @@
         "bbrID": "butleji01",
         "name": "Jimmy Butler",
         "team": "MIA",
-        "rate": 0.143,
+        "rate": 0.056,
         "asterisks": 2,
         "rank_league": 11,
         "headshot": true
@@ -108971,6 +108971,15 @@
         "headshot": true
       },
       {
+        "bbrID": "quickim01",
+        "name": "Immanuel Quickley",
+        "team": "NYK",
+        "rate": 0.273,
+        "asterisks": 2,
+        "rank_league": 29,
+        "headshot": true
+      },
+      {
         "bbrID": "georgpa01",
         "name": "Paul George",
         "team": "LAC",
@@ -108980,10 +108989,19 @@
         "headshot": true
       },
       {
+        "bbrID": "paulch01",
+        "name": "Chris Paul",
+        "team": "PHO",
+        "rate": 0.364,
+        "asterisks": 1,
+        "rank_league": 39,
+        "headshot": true
+      },
+      {
         "bbrID": "greendr01",
         "name": "Draymond Green",
         "team": "GSW",
-        "rate": 0.125,
+        "rate": 0.077,
         "asterisks": 1,
         "rank_league": 49,
         "headshot": true
@@ -109010,7 +109028,7 @@
         "bbrID": "herroty01",
         "name": "Tyler Herro",
         "team": "MIA",
-        "rate": 0.857,
+        "rate": 0.944,
         "asterisks": 1,
         "rank_league": 80,
         "headshot": true
@@ -109022,6 +109040,24 @@
         "rate": 1,
         "asterisks": 1,
         "rank_league": 88,
+        "headshot": true
+      },
+      {
+        "bbrID": "brogdma01",
+        "name": "Malcolm Brogdon",
+        "team": "BOS",
+        "rate": 0.05,
+        "asterisks": 1,
+        "rank_league": 91,
+        "headshot": true
+      },
+      {
+        "bbrID": "loveke01",
+        "name": "Kevin Love",
+        "team": "MIA",
+        "rate": 0.111,
+        "asterisks": 1,
+        "rank_league": 95,
         "headshot": true
       },
       {
@@ -109064,16 +109100,25 @@
         "bbrID": "harremo01",
         "name": "Montrezl Harrell",
         "team": "PHI",
-        "rate": 0.667,
+        "rate": 0.818,
         "asterisks": 1,
         "rank_league": 115,
+        "headshot": true
+      },
+      {
+        "bbrID": "okogijo01",
+        "name": "Josh Okogie",
+        "team": "PHO",
+        "rate": 0.091,
+        "asterisks": 1,
+        "rank_league": 123,
         "headshot": true
       },
       {
         "bbrID": "paytoga02",
         "name": "Gary Payton II",
         "team": "GSW",
-        "rate": 0.125,
+        "rate": 0.077,
         "asterisks": 1,
         "rank_league": 128,
         "headshot": true
@@ -109085,6 +109130,15 @@
         "rate": 1,
         "asterisks": 1,
         "rank_league": 130,
+        "headshot": true
+      },
+      {
+        "bbrID": "vandeja01",
+        "name": "Jarred Vanderbilt",
+        "team": "LAL",
+        "rate": 0.063,
+        "asterisks": 1,
+        "rank_league": 133,
         "headshot": true
       },
       {
@@ -109127,7 +109181,7 @@
         "bbrID": "randlju01",
         "name": "Julius Randle",
         "team": "NYK",
-        "rate": 0.143,
+        "rate": 0.091,
         "asterisks": 1,
         "rank_league": 146,
         "headshot": true
@@ -109136,1192 +109190,994 @@
     "rounds": [
       {
         "round": 1,
-        "opponent": "ATL",
+        "opponent": "MIL",
         "games": [
           {
-            "gameId": "202304150BOS",
-            "date": "2023-04-15",
+            "gameId": "202304160MIL",
+            "date": "2023-04-16",
             "season": 2023,
             "conference": "East",
             "round": 1,
             "game": 1,
-            "teamHome": "BOS",
-            "teamAway": "ATL",
-            "scoreHome": 112,
-            "scoreAway": 99,
-            "winner": "BOS",
-            "opponent": "ATL",
+            "teamHome": "MIL",
+            "teamAway": "MIA",
+            "scoreHome": 117,
+            "scoreAway": 130,
+            "winner": "MIA",
+            "opponent": "MIL",
             "playersWinner": [
               {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
                 "reason": ""
               },
               {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
                 "reason": ""
               },
               {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
                 "reason": ""
               },
               {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
                 "reason": ""
               },
               {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
-                "reason": ""
-              },
-              {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "youngtr01",
-                "name": "Trae Young",
-                "rank_league": 7,
+                "bbrID": "antetgi01",
+                "name": "Giannis Antetokounmpo",
+                "rank_league": 4,
                 "reason": ""
               },
               {
-                "bbrID": "capelca01",
-                "name": "Clint Capela",
-                "rank_league": 43,
+                "bbrID": "holidjr01",
+                "name": "Jrue Holiday",
+                "rank_league": 8,
                 "reason": ""
               },
               {
-                "bbrID": "murrade01",
-                "name": "Dejounte Murray",
-                "rank_league": 52,
+                "bbrID": "lopezbr01",
+                "name": "Brook Lopez",
+                "rank_league": 59,
                 "reason": ""
               },
               {
-                "bbrID": "bogdabo01",
-                "name": "Bogdan Bogdanović",
-                "rank_league": 77,
+                "bbrID": "middlkh01",
+                "name": "Khris Middleton",
+                "rank_league": 90,
                 "reason": ""
               },
               {
-                "bbrID": "mathega01",
-                "name": "Garrison Mathews",
-                "rank_league": 88,
+                "bbrID": "portibo01",
+                "name": "Bobby Portis",
+                "rank_league": 104,
+                "reason": ""
+              },
+              {
+                "bbrID": "allengr01",
+                "name": "Grayson Allen",
+                "rank_league": 121,
+                "reason": ""
+              },
+              {
+                "bbrID": "crowdja01",
+                "name": "Jae Crowder",
+                "rank_league": 138,
+                "reason": ""
+              },
+              {
+                "bbrID": "connapa01",
+                "name": "Pat Connaughton",
+                "rank_league": 140,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "okongon01",
-                "name": "Onyeka Okongwu",
-                "rank_league": 113,
+                "bbrID": "inglejo01",
+                "name": "Joe Ingles",
+                "rank_league": 228,
                 "reason": ""
               },
               {
-                "bbrID": "griffaj01",
-                "name": "AJ Griffin",
-                "rank_league": 181,
+                "bbrID": "matthwe02",
+                "name": "Wesley Matthews",
+                "rank_league": 234,
+                "reason": ""
+              },
+              {
+                "bbrID": "carteje01",
+                "name": "Jevon Carter",
+                "rank_league": 279,
+                "reason": ""
+              },
+              {
+                "bbrID": "dragigo01",
+                "name": "Goran Dragić",
+                "rank_league": 361,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "beysa01",
-                "name": "Saddiq Bey",
-                "rank_league": 190,
-                "reason": ""
-              },
-              {
-                "bbrID": "collijo01",
-                "name": "John Collins",
-                "rank_league": 192,
-                "reason": ""
-              },
-              {
-                "bbrID": "holidaa01",
-                "name": "Aaron Holiday",
-                "rank_league": 210,
+                "bbrID": "leoname01",
+                "name": "Meyers Leonard",
+                "rank_league": 453,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "johnsja05",
-                "name": "Jalen Johnson",
-                "rank_league": 264,
-                "reason": ""
-              },
-              {
-                "bbrID": "huntede01",
-                "name": "De'Andre Hunter",
-                "rank_league": 272,
-                "reason": ""
-              },
-              {
-                "bbrID": "fernabr01",
-                "name": "Bruno Fernando",
-                "rank_league": 305,
+                "bbrID": "antetth01",
+                "name": "Thanasis Antetokounmpo",
+                "rank_league": 497,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "martity01",
-                "name": "Tyrese Martin",
-                "rank_league": 455,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "krejcvi01",
-                "name": "Vit Krejci",
-                "rank_league": 496,
+                "bbrID": "beaucma01",
+                "name": "MarJon Beauchamp",
+                "rank_league": 521,
                 "reason": "Did Not Play"
               }
             ]
           },
           {
-            "gameId": "202304180BOS",
-            "date": "2023-04-18",
+            "gameId": "202304190MIL",
+            "date": "2023-04-19",
             "season": 2023,
             "conference": "East",
             "round": 1,
             "game": 2,
-            "teamHome": "BOS",
-            "teamAway": "ATL",
-            "scoreHome": 119,
-            "scoreAway": 106,
-            "winner": "BOS",
-            "opponent": "ATL",
+            "teamHome": "MIL",
+            "teamAway": "MIA",
+            "scoreHome": 138,
+            "scoreAway": 122,
+            "winner": "MIL",
+            "opponent": "MIL",
             "playersWinner": [
               {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
-                "reason": ""
-              },
-              {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
-                "reason": ""
-              },
-              {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
-                "reason": ""
-              },
-              {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
-                "reason": ""
-              },
-              {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
-                "reason": ""
-              },
-              {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": ""
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "youngtr01",
-                "name": "Trae Young",
-                "rank_league": 7,
+                "bbrID": "antetgi01",
+                "name": "Giannis Antetokounmpo",
+                "rank_league": 4,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "holidjr01",
+                "name": "Jrue Holiday",
+                "rank_league": 8,
                 "reason": ""
               },
               {
-                "bbrID": "capelca01",
-                "name": "Clint Capela",
-                "rank_league": 43,
+                "bbrID": "lopezbr01",
+                "name": "Brook Lopez",
+                "rank_league": 59,
                 "reason": ""
               },
               {
-                "bbrID": "murrade01",
-                "name": "Dejounte Murray",
-                "rank_league": 52,
+                "bbrID": "middlkh01",
+                "name": "Khris Middleton",
+                "rank_league": 90,
                 "reason": ""
               },
               {
-                "bbrID": "bogdabo01",
-                "name": "Bogdan Bogdanović",
-                "rank_league": 77,
+                "bbrID": "portibo01",
+                "name": "Bobby Portis",
+                "rank_league": 104,
                 "reason": ""
               },
               {
-                "bbrID": "mathega01",
-                "name": "Garrison Mathews",
-                "rank_league": 88,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "okongon01",
-                "name": "Onyeka Okongwu",
-                "rank_league": 113,
+                "bbrID": "allengr01",
+                "name": "Grayson Allen",
+                "rank_league": 121,
                 "reason": ""
               },
               {
-                "bbrID": "griffaj01",
-                "name": "AJ Griffin",
-                "rank_league": 181,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "beysa01",
-                "name": "Saddiq Bey",
-                "rank_league": 190,
+                "bbrID": "crowdja01",
+                "name": "Jae Crowder",
+                "rank_league": 138,
                 "reason": ""
               },
               {
-                "bbrID": "collijo01",
-                "name": "John Collins",
-                "rank_league": 192,
+                "bbrID": "connapa01",
+                "name": "Pat Connaughton",
+                "rank_league": 140,
                 "reason": ""
               },
               {
-                "bbrID": "holidaa01",
-                "name": "Aaron Holiday",
-                "rank_league": 210,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "johnsja05",
-                "name": "Jalen Johnson",
-                "rank_league": 264,
+                "bbrID": "inglejo01",
+                "name": "Joe Ingles",
+                "rank_league": 228,
                 "reason": ""
               },
               {
-                "bbrID": "huntede01",
-                "name": "De'Andre Hunter",
-                "rank_league": 272,
+                "bbrID": "matthwe02",
+                "name": "Wesley Matthews",
+                "rank_league": 234,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "carteje01",
+                "name": "Jevon Carter",
+                "rank_league": 279,
                 "reason": ""
               },
               {
-                "bbrID": "fernabr01",
-                "name": "Bruno Fernando",
-                "rank_league": 305,
-                "reason": "Did Not Play"
+                "bbrID": "dragigo01",
+                "name": "Goran Dragić",
+                "rank_league": 361,
+                "reason": ""
               },
               {
-                "bbrID": "martity01",
-                "name": "Tyrese Martin",
-                "rank_league": 455,
-                "reason": "Did Not Play"
+                "bbrID": "leoname01",
+                "name": "Meyers Leonard",
+                "rank_league": 453,
+                "reason": ""
               },
               {
-                "bbrID": "krejcvi01",
-                "name": "Vit Krejci",
-                "rank_league": 496,
-                "reason": "Did Not Play"
+                "bbrID": "antetth01",
+                "name": "Thanasis Antetokounmpo",
+                "rank_league": 497,
+                "reason": ""
+              },
+              {
+                "bbrID": "beaucma01",
+                "name": "MarJon Beauchamp",
+                "rank_league": 521,
+                "reason": ""
               }
             ]
           },
           {
-            "gameId": "202304210ATL",
-            "date": "2023-04-21",
+            "gameId": "202304220MIA",
+            "date": "2023-04-22",
             "season": 2023,
             "conference": "East",
             "round": 1,
             "game": 3,
-            "teamHome": "ATL",
-            "teamAway": "BOS",
-            "scoreHome": 130,
-            "scoreAway": 122,
-            "winner": "ATL",
-            "opponent": "ATL",
+            "teamHome": "MIA",
+            "teamAway": "MIL",
+            "scoreHome": 121,
+            "scoreAway": 99,
+            "winner": "MIA",
+            "opponent": "MIL",
             "playersWinner": [
               {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
-                "reason": ""
-              },
-              {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
-                "reason": ""
-              },
-              {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
-                "reason": ""
-              },
-              {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
-                "reason": ""
-              },
-              {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
-                "reason": ""
-              },
-              {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": ""
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": ""
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": ""
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "youngtr01",
-                "name": "Trae Young",
-                "rank_league": 7,
+                "bbrID": "antetgi01",
+                "name": "Giannis Antetokounmpo",
+                "rank_league": 4,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "holidjr01",
+                "name": "Jrue Holiday",
+                "rank_league": 8,
                 "reason": ""
               },
               {
-                "bbrID": "capelca01",
-                "name": "Clint Capela",
-                "rank_league": 43,
+                "bbrID": "lopezbr01",
+                "name": "Brook Lopez",
+                "rank_league": 59,
                 "reason": ""
               },
               {
-                "bbrID": "murrade01",
-                "name": "Dejounte Murray",
-                "rank_league": 52,
+                "bbrID": "middlkh01",
+                "name": "Khris Middleton",
+                "rank_league": 90,
                 "reason": ""
               },
               {
-                "bbrID": "bogdabo01",
-                "name": "Bogdan Bogdanović",
-                "rank_league": 77,
+                "bbrID": "portibo01",
+                "name": "Bobby Portis",
+                "rank_league": 104,
                 "reason": ""
               },
               {
-                "bbrID": "mathega01",
-                "name": "Garrison Mathews",
-                "rank_league": 88,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "okongon01",
-                "name": "Onyeka Okongwu",
-                "rank_league": 113,
+                "bbrID": "allengr01",
+                "name": "Grayson Allen",
+                "rank_league": 121,
                 "reason": ""
               },
               {
-                "bbrID": "griffaj01",
-                "name": "AJ Griffin",
-                "rank_league": 181,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "beysa01",
-                "name": "Saddiq Bey",
-                "rank_league": 190,
+                "bbrID": "crowdja01",
+                "name": "Jae Crowder",
+                "rank_league": 138,
                 "reason": ""
               },
               {
-                "bbrID": "collijo01",
-                "name": "John Collins",
-                "rank_league": 192,
+                "bbrID": "connapa01",
+                "name": "Pat Connaughton",
+                "rank_league": 140,
                 "reason": ""
               },
               {
-                "bbrID": "holidaa01",
-                "name": "Aaron Holiday",
-                "rank_league": 210,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "johnsja05",
-                "name": "Jalen Johnson",
-                "rank_league": 264,
+                "bbrID": "inglejo01",
+                "name": "Joe Ingles",
+                "rank_league": 228,
                 "reason": ""
               },
               {
-                "bbrID": "huntede01",
-                "name": "De'Andre Hunter",
-                "rank_league": 272,
+                "bbrID": "matthwe02",
+                "name": "Wesley Matthews",
+                "rank_league": 234,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "carteje01",
+                "name": "Jevon Carter",
+                "rank_league": 279,
                 "reason": ""
               },
               {
-                "bbrID": "fernabr01",
-                "name": "Bruno Fernando",
-                "rank_league": 305,
-                "reason": "Did Not Play"
+                "bbrID": "dragigo01",
+                "name": "Goran Dragić",
+                "rank_league": 361,
+                "reason": ""
               },
               {
-                "bbrID": "martity01",
-                "name": "Tyrese Martin",
-                "rank_league": 455,
-                "reason": "Did Not Play"
+                "bbrID": "leoname01",
+                "name": "Meyers Leonard",
+                "rank_league": 453,
+                "reason": ""
               },
               {
-                "bbrID": "krejcvi01",
-                "name": "Vit Krejci",
-                "rank_league": 496,
-                "reason": "Did Not Play"
+                "bbrID": "antetth01",
+                "name": "Thanasis Antetokounmpo",
+                "rank_league": 497,
+                "reason": ""
+              },
+              {
+                "bbrID": "beaucma01",
+                "name": "MarJon Beauchamp",
+                "rank_league": 521,
+                "reason": ""
               }
             ]
           },
           {
-            "gameId": "202304230ATL",
-            "date": "2023-04-23",
+            "gameId": "202304240MIA",
+            "date": "2023-04-24",
             "season": 2023,
             "conference": "East",
             "round": 1,
             "game": 4,
-            "teamHome": "ATL",
-            "teamAway": "BOS",
-            "scoreHome": 121,
-            "scoreAway": 129,
-            "winner": "BOS",
-            "opponent": "ATL",
+            "teamHome": "MIA",
+            "teamAway": "MIL",
+            "scoreHome": 119,
+            "scoreAway": 114,
+            "winner": "MIA",
+            "opponent": "MIL",
             "playersWinner": [
               {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
-                "reason": ""
-              },
-              {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
-                "reason": ""
-              },
-              {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
-                "reason": ""
-              },
-              {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
                 "reason": "Inactive"
               },
               {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
                 "reason": ""
               },
               {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
                 "reason": ""
               },
               {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
                 "reason": ""
               },
               {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
                 "reason": ""
               },
               {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
                 "reason": "Inactive"
               },
               {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Inactive"
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
-                "reason": "Inactive"
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "youngtr01",
-                "name": "Trae Young",
-                "rank_league": 7,
+                "bbrID": "antetgi01",
+                "name": "Giannis Antetokounmpo",
+                "rank_league": 4,
                 "reason": ""
               },
               {
-                "bbrID": "capelca01",
-                "name": "Clint Capela",
-                "rank_league": 43,
+                "bbrID": "holidjr01",
+                "name": "Jrue Holiday",
+                "rank_league": 8,
                 "reason": ""
               },
               {
-                "bbrID": "murrade01",
-                "name": "Dejounte Murray",
-                "rank_league": 52,
+                "bbrID": "lopezbr01",
+                "name": "Brook Lopez",
+                "rank_league": 59,
                 "reason": ""
               },
               {
-                "bbrID": "bogdabo01",
-                "name": "Bogdan Bogdanović",
-                "rank_league": 77,
+                "bbrID": "middlkh01",
+                "name": "Khris Middleton",
+                "rank_league": 90,
                 "reason": ""
               },
               {
-                "bbrID": "mathega01",
-                "name": "Garrison Mathews",
-                "rank_league": 88,
+                "bbrID": "portibo01",
+                "name": "Bobby Portis",
+                "rank_league": 104,
+                "reason": ""
+              },
+              {
+                "bbrID": "allengr01",
+                "name": "Grayson Allen",
+                "rank_league": 121,
+                "reason": ""
+              },
+              {
+                "bbrID": "crowdja01",
+                "name": "Jae Crowder",
+                "rank_league": 138,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "okongon01",
-                "name": "Onyeka Okongwu",
-                "rank_league": 113,
+                "bbrID": "connapa01",
+                "name": "Pat Connaughton",
+                "rank_league": 140,
                 "reason": ""
               },
               {
-                "bbrID": "griffaj01",
-                "name": "AJ Griffin",
-                "rank_league": 181,
+                "bbrID": "inglejo01",
+                "name": "Joe Ingles",
+                "rank_league": 228,
+                "reason": ""
+              },
+              {
+                "bbrID": "matthwe02",
+                "name": "Wesley Matthews",
+                "rank_league": 234,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "carteje01",
+                "name": "Jevon Carter",
+                "rank_league": 279,
+                "reason": ""
+              },
+              {
+                "bbrID": "dragigo01",
+                "name": "Goran Dragić",
+                "rank_league": 361,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "beysa01",
-                "name": "Saddiq Bey",
-                "rank_league": 190,
-                "reason": ""
-              },
-              {
-                "bbrID": "collijo01",
-                "name": "John Collins",
-                "rank_league": 192,
-                "reason": ""
-              },
-              {
-                "bbrID": "holidaa01",
-                "name": "Aaron Holiday",
-                "rank_league": 210,
+                "bbrID": "leoname01",
+                "name": "Meyers Leonard",
+                "rank_league": 453,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "johnsja05",
-                "name": "Jalen Johnson",
-                "rank_league": 264,
-                "reason": ""
-              },
-              {
-                "bbrID": "huntede01",
-                "name": "De'Andre Hunter",
-                "rank_league": 272,
-                "reason": ""
-              },
-              {
-                "bbrID": "fernabr01",
-                "name": "Bruno Fernando",
-                "rank_league": 305,
+                "bbrID": "antetth01",
+                "name": "Thanasis Antetokounmpo",
+                "rank_league": 497,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "martity01",
-                "name": "Tyrese Martin",
-                "rank_league": 455,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "krejcvi01",
-                "name": "Vit Krejci",
-                "rank_league": 496,
+                "bbrID": "beaucma01",
+                "name": "MarJon Beauchamp",
+                "rank_league": 521,
                 "reason": "Did Not Play"
               }
             ]
           },
           {
-            "gameId": "202304250BOS",
-            "date": "2023-04-25",
+            "gameId": "202304260MIL",
+            "date": "2023-04-26",
             "season": 2023,
             "conference": "East",
             "round": 1,
             "game": 5,
-            "teamHome": "BOS",
-            "teamAway": "ATL",
-            "scoreHome": 117,
-            "scoreAway": 119,
-            "winner": "ATL",
-            "opponent": "ATL",
-            "playersWinner": [
-              {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
-                "reason": ""
-              },
-              {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
-                "reason": ""
-              },
-              {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
-                "reason": ""
-              },
-              {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
-                "reason": ""
-              },
-              {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
-                "reason": ""
-              },
-              {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
-                "reason": ""
-              },
-              {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
-                "reason": ""
-              },
-              {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
-                "reason": ""
-              },
-              {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
-                "reason": "Inactive"
-              }
-            ],
-            "playersOpponent": [
-              {
-                "bbrID": "youngtr01",
-                "name": "Trae Young",
-                "rank_league": 7,
-                "reason": ""
-              },
-              {
-                "bbrID": "capelca01",
-                "name": "Clint Capela",
-                "rank_league": 43,
-                "reason": ""
-              },
-              {
-                "bbrID": "murrade01",
-                "name": "Dejounte Murray",
-                "rank_league": 52,
-                "reason": "Not With Team"
-              },
-              {
-                "bbrID": "bogdabo01",
-                "name": "Bogdan Bogdanović",
-                "rank_league": 77,
-                "reason": ""
-              },
-              {
-                "bbrID": "mathega01",
-                "name": "Garrison Mathews",
-                "rank_league": 88,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "okongon01",
-                "name": "Onyeka Okongwu",
-                "rank_league": 113,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffaj01",
-                "name": "AJ Griffin",
-                "rank_league": 181,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "beysa01",
-                "name": "Saddiq Bey",
-                "rank_league": 190,
-                "reason": ""
-              },
-              {
-                "bbrID": "collijo01",
-                "name": "John Collins",
-                "rank_league": 192,
-                "reason": ""
-              },
-              {
-                "bbrID": "holidaa01",
-                "name": "Aaron Holiday",
-                "rank_league": 210,
-                "reason": ""
-              },
-              {
-                "bbrID": "johnsja05",
-                "name": "Jalen Johnson",
-                "rank_league": 264,
-                "reason": ""
-              },
-              {
-                "bbrID": "huntede01",
-                "name": "De'Andre Hunter",
-                "rank_league": 272,
-                "reason": ""
-              },
-              {
-                "bbrID": "fernabr01",
-                "name": "Bruno Fernando",
-                "rank_league": 305,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "martity01",
-                "name": "Tyrese Martin",
-                "rank_league": 455,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "krejcvi01",
-                "name": "Vit Krejci",
-                "rank_league": 496,
-                "reason": "Did Not Play"
-              }
-            ]
-          },
-          {
-            "gameId": "202304270ATL",
-            "date": "2023-04-27",
-            "season": 2023,
-            "conference": "East",
-            "round": 1,
-            "game": 6,
-            "teamHome": "ATL",
-            "teamAway": "BOS",
-            "scoreHome": 120,
+            "teamHome": "MIL",
+            "teamAway": "MIA",
+            "scoreHome": 126,
             "scoreAway": 128,
-            "winner": "BOS",
-            "opponent": "ATL",
+            "winner": "MIA",
+            "opponent": "MIL",
             "playersWinner": [
               {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
-                "reason": ""
-              },
-              {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
-                "reason": ""
-              },
-              {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
-                "reason": ""
-              },
-              {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
-                "reason": ""
-              },
-              {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
-                "reason": ""
-              },
-              {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
-                "reason": ""
-              },
-              {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "youngtr01",
-                "name": "Trae Young",
-                "rank_league": 7,
+                "bbrID": "antetgi01",
+                "name": "Giannis Antetokounmpo",
+                "rank_league": 4,
                 "reason": ""
               },
               {
-                "bbrID": "capelca01",
-                "name": "Clint Capela",
-                "rank_league": 43,
+                "bbrID": "holidjr01",
+                "name": "Jrue Holiday",
+                "rank_league": 8,
                 "reason": ""
               },
               {
-                "bbrID": "murrade01",
-                "name": "Dejounte Murray",
-                "rank_league": 52,
+                "bbrID": "lopezbr01",
+                "name": "Brook Lopez",
+                "rank_league": 59,
                 "reason": ""
               },
               {
-                "bbrID": "bogdabo01",
-                "name": "Bogdan Bogdanović",
-                "rank_league": 77,
+                "bbrID": "middlkh01",
+                "name": "Khris Middleton",
+                "rank_league": 90,
                 "reason": ""
               },
               {
-                "bbrID": "mathega01",
-                "name": "Garrison Mathews",
-                "rank_league": 88,
+                "bbrID": "portibo01",
+                "name": "Bobby Portis",
+                "rank_league": 104,
+                "reason": ""
+              },
+              {
+                "bbrID": "allengr01",
+                "name": "Grayson Allen",
+                "rank_league": 121,
+                "reason": ""
+              },
+              {
+                "bbrID": "crowdja01",
+                "name": "Jae Crowder",
+                "rank_league": 138,
+                "reason": ""
+              },
+              {
+                "bbrID": "connapa01",
+                "name": "Pat Connaughton",
+                "rank_league": 140,
+                "reason": ""
+              },
+              {
+                "bbrID": "inglejo01",
+                "name": "Joe Ingles",
+                "rank_league": 228,
+                "reason": ""
+              },
+              {
+                "bbrID": "matthwe02",
+                "name": "Wesley Matthews",
+                "rank_league": 234,
+                "reason": ""
+              },
+              {
+                "bbrID": "carteje01",
+                "name": "Jevon Carter",
+                "rank_league": 279,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "okongon01",
-                "name": "Onyeka Okongwu",
-                "rank_league": 113,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffaj01",
-                "name": "AJ Griffin",
-                "rank_league": 181,
+                "bbrID": "dragigo01",
+                "name": "Goran Dragić",
+                "rank_league": 361,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "beysa01",
-                "name": "Saddiq Bey",
-                "rank_league": 190,
-                "reason": ""
-              },
-              {
-                "bbrID": "collijo01",
-                "name": "John Collins",
-                "rank_league": 192,
-                "reason": ""
-              },
-              {
-                "bbrID": "holidaa01",
-                "name": "Aaron Holiday",
-                "rank_league": 210,
+                "bbrID": "leoname01",
+                "name": "Meyers Leonard",
+                "rank_league": 453,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "johnsja05",
-                "name": "Jalen Johnson",
-                "rank_league": 264,
-                "reason": ""
-              },
-              {
-                "bbrID": "huntede01",
-                "name": "De'Andre Hunter",
-                "rank_league": 272,
-                "reason": ""
-              },
-              {
-                "bbrID": "fernabr01",
-                "name": "Bruno Fernando",
-                "rank_league": 305,
+                "bbrID": "antetth01",
+                "name": "Thanasis Antetokounmpo",
+                "rank_league": 497,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "martity01",
-                "name": "Tyrese Martin",
-                "rank_league": 455,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "krejcvi01",
-                "name": "Vit Krejci",
-                "rank_league": 496,
+                "bbrID": "beaucma01",
+                "name": "MarJon Beauchamp",
+                "rank_league": 521,
                 "reason": "Did Not Play"
               }
             ]
@@ -110330,220 +110186,1866 @@
       },
       {
         "round": 2,
-        "opponent": "PHI",
+        "opponent": "NYK",
         "games": [
           {
-            "gameId": "202305010BOS",
-            "date": "2023-05-01",
+            "gameId": "202304300NYK",
+            "date": "2023-04-30",
             "season": 2023,
             "conference": "East",
             "round": 2,
             "game": 1,
-            "teamHome": "BOS",
-            "teamAway": "PHI",
-            "scoreHome": 115,
-            "scoreAway": 119,
-            "winner": "PHI",
-            "opponent": "PHI",
+            "teamHome": "NYK",
+            "teamAway": "MIA",
+            "scoreHome": 101,
+            "scoreAway": 108,
+            "winner": "MIA",
+            "opponent": "NYK",
             "playersWinner": [
               {
-                "bbrID": "tatumja01",
-                "name": "Jayson Tatum",
-                "rank_league": 3,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "whitede01",
-                "name": "Derrick White",
-                "rank_league": 12,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "smartma01",
-                "name": "Marcus Smart",
-                "rank_league": 42,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "horfoal01",
-                "name": "Al Horford",
-                "rank_league": 46,
-                "reason": ""
-              },
-              {
-                "bbrID": "brownja02",
-                "name": "Jaylen Brown",
-                "rank_league": 48,
-                "reason": ""
-              },
-              {
-                "bbrID": "brogdma01",
-                "name": "Malcolm Brogdon",
-                "rank_league": 91,
-                "reason": ""
-              },
-              {
-                "bbrID": "williro04",
-                "name": "Robert Williams",
-                "rank_league": 94,
-                "reason": ""
-              },
-              {
-                "bbrID": "griffbl01",
-                "name": "Blake Griffin",
-                "rank_league": 153,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01",
-                "name": "Mike Muscala",
-                "rank_league": 168,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01",
-                "name": "Sam Hauser",
-                "rank_league": 174,
-                "reason": ""
-              },
-              {
-                "bbrID": "willigr01",
-                "name": "Grant Williams",
-                "rank_league": 182,
-                "reason": ""
-              },
-              {
-                "bbrID": "pritcpa01",
-                "name": "Payton Pritchard",
-                "rank_league": 211,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "name": "Luke Kornet",
-                "rank_league": 225,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "name": "Justin Champagnie",
-                "rank_league": 315,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "name": "Danilo Gallinari",
-                "rank_league": 539,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "embiijo01",
-                "name": "Joel Embiid",
-                "rank_league": 1,
+                "bbrID": "brunsja01",
+                "name": "Jalen Brunson",
+                "rank_league": 25,
+                "reason": ""
+              },
+              {
+                "bbrID": "quickim01",
+                "name": "Immanuel Quickley",
+                "rank_league": 29,
+                "reason": ""
+              },
+              {
+                "bbrID": "hartjo01",
+                "name": "Josh Hart",
+                "rank_league": 47,
+                "reason": ""
+              },
+              {
+                "bbrID": "robinmi01",
+                "name": "Mitchell Robinson",
+                "rank_league": 54,
+                "reason": ""
+              },
+              {
+                "bbrID": "harteis01",
+                "name": "Isaiah Hartenstein",
+                "rank_league": 92,
+                "reason": ""
+              },
+              {
+                "bbrID": "randlju01",
+                "name": "Julius Randle",
+                "rank_league": 146,
+                "reason": "Did Not Dress"
+              },
+              {
+                "bbrID": "grimequ01",
+                "name": "Quentin Grimes",
+                "rank_league": 161,
+                "reason": ""
+              },
+              {
+                "bbrID": "rosede01",
+                "name": "Derrick Rose",
+                "rank_league": 216,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "toppiob01",
+                "name": "Obi Toppin",
+                "rank_league": 235,
+                "reason": ""
+              },
+              {
+                "bbrID": "fournev01",
+                "name": "Evan Fournier",
+                "rank_league": 258,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "mcbrimi01",
+                "name": "Miles McBride",
+                "rank_league": 265,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "barrerj01",
+                "name": "RJ Barrett",
+                "rank_league": 294,
+                "reason": ""
+              },
+              {
+                "bbrID": "simsje01",
+                "name": "Jericho Sims",
+                "rank_league": 307,
                 "reason": "Inactive"
               },
               {
-                "bbrID": "hardeja01",
-                "name": "James Harden",
-                "rank_league": 19,
-                "reason": ""
-              },
-              {
-                "bbrID": "meltode01",
-                "name": "De'Anthony Melton",
-                "rank_league": 72,
-                "reason": ""
-              },
-              {
-                "bbrID": "maxeyty01",
-                "name": "Tyrese Maxey",
-                "rank_league": 86,
-                "reason": ""
-              },
-              {
-                "bbrID": "harremo01",
-                "name": "Montrezl Harrell",
-                "rank_league": 115,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "harrito02",
-                "name": "Tobias Harris",
-                "rank_league": 117,
-                "reason": ""
-              },
-              {
-                "bbrID": "tuckepj01",
-                "name": "P.J. Tucker",
-                "rank_league": 169,
-                "reason": ""
-              },
-              {
-                "bbrID": "mcdanja01",
-                "name": "Jalen McDaniels",
-                "rank_league": 204,
-                "reason": ""
-              },
-              {
-                "bbrID": "reedpa01",
-                "name": "Paul Reed",
-                "rank_league": 206,
-                "reason": ""
-              },
-              {
-                "bbrID": "niangge01",
-                "name": "Georges Niang",
-                "rank_league": 261,
-                "reason": ""
-              },
-              {
-                "bbrID": "dedmode01",
-                "name": "Dewayne Dedmon",
-                "rank_league": 290,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "miltosh01",
-                "name": "Shake Milton",
-                "rank_league": 297,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "korkmfu01",
-                "name": "Furkan Korkmaz",
-                "rank_league": 317,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "houseda01",
-                "name": "Danuel House Jr.",
-                "rank_league": 341,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "sprinja01",
-                "name": "Jaden Springer",
-                "rank_league": 360,
+                "bbrID": "jeffrda01",
+                "name": "DaQuan Jeffries",
+                "rank_league": 539,
                 "reason": "Did Not Play"
               }
             ]
           },
           {
-            "gameId": "202305030BOS",
-            "date": "2023-05-03",
+            "gameId": "202305020NYK",
+            "date": "2023-05-02",
             "season": 2023,
             "conference": "East",
             "round": 2,
             "game": 2,
-            "teamHome": "BOS",
-            "teamAway": "PHI",
-            "scoreHome": 121,
-            "scoreAway": 87,
-            "winner": "BOS",
-            "opponent": "PHI",
+            "teamHome": "NYK",
+            "teamAway": "MIA",
+            "scoreHome": 111,
+            "scoreAway": 105,
+            "winner": "NYK",
+            "opponent": "NYK",
             "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "brunsja01",
+                "name": "Jalen Brunson",
+                "rank_league": 25,
+                "reason": ""
+              },
+              {
+                "bbrID": "quickim01",
+                "name": "Immanuel Quickley",
+                "rank_league": 29,
+                "reason": ""
+              },
+              {
+                "bbrID": "hartjo01",
+                "name": "Josh Hart",
+                "rank_league": 47,
+                "reason": ""
+              },
+              {
+                "bbrID": "robinmi01",
+                "name": "Mitchell Robinson",
+                "rank_league": 54,
+                "reason": ""
+              },
+              {
+                "bbrID": "harteis01",
+                "name": "Isaiah Hartenstein",
+                "rank_league": 92,
+                "reason": ""
+              },
+              {
+                "bbrID": "randlju01",
+                "name": "Julius Randle",
+                "rank_league": 146,
+                "reason": ""
+              },
+              {
+                "bbrID": "grimequ01",
+                "name": "Quentin Grimes",
+                "rank_league": 161,
+                "reason": ""
+              },
+              {
+                "bbrID": "rosede01",
+                "name": "Derrick Rose",
+                "rank_league": 216,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "toppiob01",
+                "name": "Obi Toppin",
+                "rank_league": 235,
+                "reason": ""
+              },
+              {
+                "bbrID": "fournev01",
+                "name": "Evan Fournier",
+                "rank_league": 258,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "mcbrimi01",
+                "name": "Miles McBride",
+                "rank_league": 265,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "barrerj01",
+                "name": "RJ Barrett",
+                "rank_league": 294,
+                "reason": ""
+              },
+              {
+                "bbrID": "simsje01",
+                "name": "Jericho Sims",
+                "rank_league": 307,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "jeffrda01",
+                "name": "DaQuan Jeffries",
+                "rank_league": 539,
+                "reason": "Did Not Play"
+              }
+            ]
+          },
+          {
+            "gameId": "202305060MIA",
+            "date": "2023-05-06",
+            "season": 2023,
+            "conference": "East",
+            "round": 2,
+            "game": 3,
+            "teamHome": "MIA",
+            "teamAway": "NYK",
+            "scoreHome": 105,
+            "scoreAway": 86,
+            "winner": "MIA",
+            "opponent": "NYK",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": ""
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": ""
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "brunsja01",
+                "name": "Jalen Brunson",
+                "rank_league": 25,
+                "reason": ""
+              },
+              {
+                "bbrID": "quickim01",
+                "name": "Immanuel Quickley",
+                "rank_league": 29,
+                "reason": ""
+              },
+              {
+                "bbrID": "hartjo01",
+                "name": "Josh Hart",
+                "rank_league": 47,
+                "reason": ""
+              },
+              {
+                "bbrID": "robinmi01",
+                "name": "Mitchell Robinson",
+                "rank_league": 54,
+                "reason": ""
+              },
+              {
+                "bbrID": "harteis01",
+                "name": "Isaiah Hartenstein",
+                "rank_league": 92,
+                "reason": ""
+              },
+              {
+                "bbrID": "randlju01",
+                "name": "Julius Randle",
+                "rank_league": 146,
+                "reason": ""
+              },
+              {
+                "bbrID": "grimequ01",
+                "name": "Quentin Grimes",
+                "rank_league": 161,
+                "reason": ""
+              },
+              {
+                "bbrID": "rosede01",
+                "name": "Derrick Rose",
+                "rank_league": 216,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "toppiob01",
+                "name": "Obi Toppin",
+                "rank_league": 235,
+                "reason": ""
+              },
+              {
+                "bbrID": "fournev01",
+                "name": "Evan Fournier",
+                "rank_league": 258,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "mcbrimi01",
+                "name": "Miles McBride",
+                "rank_league": 265,
+                "reason": ""
+              },
+              {
+                "bbrID": "barrerj01",
+                "name": "RJ Barrett",
+                "rank_league": 294,
+                "reason": ""
+              },
+              {
+                "bbrID": "simsje01",
+                "name": "Jericho Sims",
+                "rank_league": 307,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "jeffrda01",
+                "name": "DaQuan Jeffries",
+                "rank_league": 539,
+                "reason": ""
+              }
+            ]
+          },
+          {
+            "gameId": "202305080MIA",
+            "date": "2023-05-08",
+            "season": 2023,
+            "conference": "East",
+            "round": 2,
+            "game": 4,
+            "teamHome": "MIA",
+            "teamAway": "NYK",
+            "scoreHome": 109,
+            "scoreAway": 101,
+            "winner": "MIA",
+            "opponent": "NYK",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "brunsja01",
+                "name": "Jalen Brunson",
+                "rank_league": 25,
+                "reason": ""
+              },
+              {
+                "bbrID": "quickim01",
+                "name": "Immanuel Quickley",
+                "rank_league": 29,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "hartjo01",
+                "name": "Josh Hart",
+                "rank_league": 47,
+                "reason": ""
+              },
+              {
+                "bbrID": "robinmi01",
+                "name": "Mitchell Robinson",
+                "rank_league": 54,
+                "reason": ""
+              },
+              {
+                "bbrID": "harteis01",
+                "name": "Isaiah Hartenstein",
+                "rank_league": 92,
+                "reason": ""
+              },
+              {
+                "bbrID": "randlju01",
+                "name": "Julius Randle",
+                "rank_league": 146,
+                "reason": ""
+              },
+              {
+                "bbrID": "grimequ01",
+                "name": "Quentin Grimes",
+                "rank_league": 161,
+                "reason": ""
+              },
+              {
+                "bbrID": "rosede01",
+                "name": "Derrick Rose",
+                "rank_league": 216,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "toppiob01",
+                "name": "Obi Toppin",
+                "rank_league": 235,
+                "reason": ""
+              },
+              {
+                "bbrID": "fournev01",
+                "name": "Evan Fournier",
+                "rank_league": 258,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "mcbrimi01",
+                "name": "Miles McBride",
+                "rank_league": 265,
+                "reason": ""
+              },
+              {
+                "bbrID": "barrerj01",
+                "name": "RJ Barrett",
+                "rank_league": 294,
+                "reason": ""
+              },
+              {
+                "bbrID": "simsje01",
+                "name": "Jericho Sims",
+                "rank_league": 307,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "jeffrda01",
+                "name": "DaQuan Jeffries",
+                "rank_league": 539,
+                "reason": "Did Not Play"
+              }
+            ]
+          },
+          {
+            "gameId": "202305100NYK",
+            "date": "2023-05-10",
+            "season": 2023,
+            "conference": "East",
+            "round": 2,
+            "game": 5,
+            "teamHome": "NYK",
+            "teamAway": "MIA",
+            "scoreHome": 112,
+            "scoreAway": 103,
+            "winner": "NYK",
+            "opponent": "NYK",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "brunsja01",
+                "name": "Jalen Brunson",
+                "rank_league": 25,
+                "reason": ""
+              },
+              {
+                "bbrID": "quickim01",
+                "name": "Immanuel Quickley",
+                "rank_league": 29,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "hartjo01",
+                "name": "Josh Hart",
+                "rank_league": 47,
+                "reason": ""
+              },
+              {
+                "bbrID": "robinmi01",
+                "name": "Mitchell Robinson",
+                "rank_league": 54,
+                "reason": ""
+              },
+              {
+                "bbrID": "harteis01",
+                "name": "Isaiah Hartenstein",
+                "rank_league": 92,
+                "reason": ""
+              },
+              {
+                "bbrID": "randlju01",
+                "name": "Julius Randle",
+                "rank_league": 146,
+                "reason": ""
+              },
+              {
+                "bbrID": "grimequ01",
+                "name": "Quentin Grimes",
+                "rank_league": 161,
+                "reason": ""
+              },
+              {
+                "bbrID": "rosede01",
+                "name": "Derrick Rose",
+                "rank_league": 216,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "toppiob01",
+                "name": "Obi Toppin",
+                "rank_league": 235,
+                "reason": ""
+              },
+              {
+                "bbrID": "fournev01",
+                "name": "Evan Fournier",
+                "rank_league": 258,
+                "reason": "Did Not Dress"
+              },
+              {
+                "bbrID": "mcbrimi01",
+                "name": "Miles McBride",
+                "rank_league": 265,
+                "reason": ""
+              },
+              {
+                "bbrID": "barrerj01",
+                "name": "RJ Barrett",
+                "rank_league": 294,
+                "reason": ""
+              },
+              {
+                "bbrID": "simsje01",
+                "name": "Jericho Sims",
+                "rank_league": 307,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "jeffrda01",
+                "name": "DaQuan Jeffries",
+                "rank_league": 539,
+                "reason": "Did Not Play"
+              }
+            ]
+          },
+          {
+            "gameId": "202305120MIA",
+            "date": "2023-05-12",
+            "season": 2023,
+            "conference": "East",
+            "round": 2,
+            "game": 6,
+            "teamHome": "MIA",
+            "teamAway": "NYK",
+            "scoreHome": 96,
+            "scoreAway": 92,
+            "winner": "MIA",
+            "opponent": "NYK",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "brunsja01",
+                "name": "Jalen Brunson",
+                "rank_league": 25,
+                "reason": ""
+              },
+              {
+                "bbrID": "quickim01",
+                "name": "Immanuel Quickley",
+                "rank_league": 29,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "hartjo01",
+                "name": "Josh Hart",
+                "rank_league": 47,
+                "reason": ""
+              },
+              {
+                "bbrID": "robinmi01",
+                "name": "Mitchell Robinson",
+                "rank_league": 54,
+                "reason": ""
+              },
+              {
+                "bbrID": "harteis01",
+                "name": "Isaiah Hartenstein",
+                "rank_league": 92,
+                "reason": ""
+              },
+              {
+                "bbrID": "randlju01",
+                "name": "Julius Randle",
+                "rank_league": 146,
+                "reason": ""
+              },
+              {
+                "bbrID": "grimequ01",
+                "name": "Quentin Grimes",
+                "rank_league": 161,
+                "reason": ""
+              },
+              {
+                "bbrID": "rosede01",
+                "name": "Derrick Rose",
+                "rank_league": 216,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "toppiob01",
+                "name": "Obi Toppin",
+                "rank_league": 235,
+                "reason": ""
+              },
+              {
+                "bbrID": "fournev01",
+                "name": "Evan Fournier",
+                "rank_league": 258,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "mcbrimi01",
+                "name": "Miles McBride",
+                "rank_league": 265,
+                "reason": ""
+              },
+              {
+                "bbrID": "barrerj01",
+                "name": "RJ Barrett",
+                "rank_league": 294,
+                "reason": ""
+              },
+              {
+                "bbrID": "simsje01",
+                "name": "Jericho Sims",
+                "rank_league": 307,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "jeffrda01",
+                "name": "DaQuan Jeffries",
+                "rank_league": 539,
+                "reason": "Did Not Play"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "opponent": "BOS",
+        "games": [
+          {
+            "gameId": "202305170BOS",
+            "date": "2023-05-17",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 1,
+            "teamHome": "BOS",
+            "teamAway": "MIA",
+            "scoreHome": 116,
+            "scoreAway": 123,
+            "winner": "MIA",
+            "opponent": "BOS",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "tatumja01",
+                "name": "Jayson Tatum",
+                "rank_league": 3,
+                "reason": ""
+              },
+              {
+                "bbrID": "whitede01",
+                "name": "Derrick White",
+                "rank_league": 12,
+                "reason": ""
+              },
+              {
+                "bbrID": "smartma01",
+                "name": "Marcus Smart",
+                "rank_league": 42,
+                "reason": ""
+              },
+              {
+                "bbrID": "horfoal01",
+                "name": "Al Horford",
+                "rank_league": 46,
+                "reason": ""
+              },
+              {
+                "bbrID": "brownja02",
+                "name": "Jaylen Brown",
+                "rank_league": 48,
+                "reason": ""
+              },
+              {
+                "bbrID": "brogdma01",
+                "name": "Malcolm Brogdon",
+                "rank_league": 91,
+                "reason": ""
+              },
+              {
+                "bbrID": "williro04",
+                "name": "Robert Williams",
+                "rank_league": 94,
+                "reason": ""
+              },
+              {
+                "bbrID": "griffbl01",
+                "name": "Blake Griffin",
+                "rank_league": 153,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "muscami01",
+                "name": "Mike Muscala",
+                "rank_league": 168,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hausesa01",
+                "name": "Sam Hauser",
+                "rank_league": 174,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "willigr01",
+                "name": "Grant Williams",
+                "rank_league": 182,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "pritcpa01",
+                "name": "Payton Pritchard",
+                "rank_league": 211,
+                "reason": ""
+              },
+              {
+                "bbrID": "kornelu01",
+                "name": "Luke Kornet",
+                "rank_league": 225,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "champju01",
+                "name": "Justin Champagnie",
+                "rank_league": 315,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "gallida01",
+                "name": "Danilo Gallinari",
+                "rank_league": 539,
+                "reason": "Inactive"
+              }
+            ]
+          },
+          {
+            "gameId": "202305190BOS",
+            "date": "2023-05-19",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 2,
+            "teamHome": "BOS",
+            "teamAway": "MIA",
+            "scoreHome": 105,
+            "scoreAway": 111,
+            "winner": "MIA",
+            "opponent": "BOS",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "tatumja01",
+                "name": "Jayson Tatum",
+                "rank_league": 3,
+                "reason": ""
+              },
+              {
+                "bbrID": "whitede01",
+                "name": "Derrick White",
+                "rank_league": 12,
+                "reason": ""
+              },
+              {
+                "bbrID": "smartma01",
+                "name": "Marcus Smart",
+                "rank_league": 42,
+                "reason": ""
+              },
+              {
+                "bbrID": "horfoal01",
+                "name": "Al Horford",
+                "rank_league": 46,
+                "reason": ""
+              },
+              {
+                "bbrID": "brownja02",
+                "name": "Jaylen Brown",
+                "rank_league": 48,
+                "reason": ""
+              },
+              {
+                "bbrID": "brogdma01",
+                "name": "Malcolm Brogdon",
+                "rank_league": 91,
+                "reason": ""
+              },
+              {
+                "bbrID": "williro04",
+                "name": "Robert Williams",
+                "rank_league": 94,
+                "reason": ""
+              },
+              {
+                "bbrID": "griffbl01",
+                "name": "Blake Griffin",
+                "rank_league": 153,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "muscami01",
+                "name": "Mike Muscala",
+                "rank_league": 168,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hausesa01",
+                "name": "Sam Hauser",
+                "rank_league": 174,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "willigr01",
+                "name": "Grant Williams",
+                "rank_league": 182,
+                "reason": ""
+              },
+              {
+                "bbrID": "pritcpa01",
+                "name": "Payton Pritchard",
+                "rank_league": 211,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "kornelu01",
+                "name": "Luke Kornet",
+                "rank_league": 225,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "champju01",
+                "name": "Justin Champagnie",
+                "rank_league": 315,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "gallida01",
+                "name": "Danilo Gallinari",
+                "rank_league": 539,
+                "reason": "Inactive"
+              }
+            ]
+          },
+          {
+            "gameId": "202305210MIA",
+            "date": "2023-05-21",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 3,
+            "teamHome": "MIA",
+            "teamAway": "BOS",
+            "scoreHome": 128,
+            "scoreAway": 102,
+            "winner": "MIA",
+            "opponent": "BOS",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": ""
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": ""
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "tatumja01",
+                "name": "Jayson Tatum",
+                "rank_league": 3,
+                "reason": ""
+              },
+              {
+                "bbrID": "whitede01",
+                "name": "Derrick White",
+                "rank_league": 12,
+                "reason": ""
+              },
+              {
+                "bbrID": "smartma01",
+                "name": "Marcus Smart",
+                "rank_league": 42,
+                "reason": ""
+              },
+              {
+                "bbrID": "horfoal01",
+                "name": "Al Horford",
+                "rank_league": 46,
+                "reason": ""
+              },
+              {
+                "bbrID": "brownja02",
+                "name": "Jaylen Brown",
+                "rank_league": 48,
+                "reason": ""
+              },
+              {
+                "bbrID": "brogdma01",
+                "name": "Malcolm Brogdon",
+                "rank_league": 91,
+                "reason": ""
+              },
+              {
+                "bbrID": "williro04",
+                "name": "Robert Williams",
+                "rank_league": 94,
+                "reason": ""
+              },
+              {
+                "bbrID": "griffbl01",
+                "name": "Blake Griffin",
+                "rank_league": 153,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "muscami01",
+                "name": "Mike Muscala",
+                "rank_league": 168,
+                "reason": ""
+              },
+              {
+                "bbrID": "hausesa01",
+                "name": "Sam Hauser",
+                "rank_league": 174,
+                "reason": ""
+              },
+              {
+                "bbrID": "willigr01",
+                "name": "Grant Williams",
+                "rank_league": 182,
+                "reason": ""
+              },
+              {
+                "bbrID": "pritcpa01",
+                "name": "Payton Pritchard",
+                "rank_league": 211,
+                "reason": ""
+              },
+              {
+                "bbrID": "kornelu01",
+                "name": "Luke Kornet",
+                "rank_league": 225,
+                "reason": ""
+              },
+              {
+                "bbrID": "champju01",
+                "name": "Justin Champagnie",
+                "rank_league": 315,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "gallida01",
+                "name": "Danilo Gallinari",
+                "rank_league": 539,
+                "reason": "Inactive"
+              }
+            ]
+          },
+          {
+            "gameId": "202305230MIA",
+            "date": "2023-05-23",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 4,
+            "teamHome": "MIA",
+            "teamAway": "BOS",
+            "scoreHome": 99,
+            "scoreAway": 116,
+            "winner": "BOS",
+            "opponent": "BOS",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": ""
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": ""
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": ""
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
               {
                 "bbrID": "tatumja01",
                 "name": "Jayson Tatum",
@@ -110634,97 +112136,599 @@
                 "rank_league": 539,
                 "reason": "Inactive"
               }
-            ],
-            "playersOpponent": [
+            ]
+          },
+          {
+            "gameId": "202305250BOS",
+            "date": "2023-05-25",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 5,
+            "teamHome": "BOS",
+            "teamAway": "MIA",
+            "scoreHome": 110,
+            "scoreAway": 97,
+            "winner": "BOS",
+            "opponent": "BOS",
+            "playersWinner": [
               {
-                "bbrID": "embiijo01",
-                "name": "Joel Embiid",
-                "rank_league": 1,
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
                 "reason": ""
               },
               {
-                "bbrID": "hardeja01",
-                "name": "James Harden",
-                "rank_league": 19,
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
                 "reason": ""
               },
               {
-                "bbrID": "meltode01",
-                "name": "De'Anthony Melton",
-                "rank_league": 72,
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
                 "reason": ""
               },
               {
-                "bbrID": "maxeyty01",
-                "name": "Tyrese Maxey",
-                "rank_league": 86,
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
                 "reason": ""
               },
               {
-                "bbrID": "harremo01",
-                "name": "Montrezl Harrell",
-                "rank_league": 115,
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": ""
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": ""
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "harrito02",
-                "name": "Tobias Harris",
-                "rank_league": 117,
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "tatumja01",
+                "name": "Jayson Tatum",
+                "rank_league": 3,
                 "reason": ""
               },
               {
-                "bbrID": "tuckepj01",
-                "name": "P.J. Tucker",
-                "rank_league": 169,
+                "bbrID": "whitede01",
+                "name": "Derrick White",
+                "rank_league": 12,
                 "reason": ""
               },
               {
-                "bbrID": "mcdanja01",
-                "name": "Jalen McDaniels",
-                "rank_league": 204,
+                "bbrID": "smartma01",
+                "name": "Marcus Smart",
+                "rank_league": 42,
                 "reason": ""
               },
               {
-                "bbrID": "reedpa01",
-                "name": "Paul Reed",
-                "rank_league": 206,
+                "bbrID": "horfoal01",
+                "name": "Al Horford",
+                "rank_league": 46,
                 "reason": ""
               },
               {
-                "bbrID": "niangge01",
-                "name": "Georges Niang",
-                "rank_league": 261,
+                "bbrID": "brownja02",
+                "name": "Jaylen Brown",
+                "rank_league": 48,
                 "reason": ""
               },
               {
-                "bbrID": "dedmode01",
-                "name": "Dewayne Dedmon",
-                "rank_league": 290,
+                "bbrID": "brogdma01",
+                "name": "Malcolm Brogdon",
+                "rank_league": 91,
                 "reason": ""
               },
               {
-                "bbrID": "miltosh01",
-                "name": "Shake Milton",
-                "rank_league": 297,
+                "bbrID": "williro04",
+                "name": "Robert Williams",
+                "rank_league": 94,
                 "reason": ""
               },
               {
-                "bbrID": "korkmfu01",
-                "name": "Furkan Korkmaz",
-                "rank_league": 317,
+                "bbrID": "griffbl01",
+                "name": "Blake Griffin",
+                "rank_league": 153,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "muscami01",
+                "name": "Mike Muscala",
+                "rank_league": 168,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hausesa01",
+                "name": "Sam Hauser",
+                "rank_league": 174,
                 "reason": ""
               },
               {
-                "bbrID": "houseda01",
-                "name": "Danuel House Jr.",
-                "rank_league": 341,
+                "bbrID": "willigr01",
+                "name": "Grant Williams",
+                "rank_league": 182,
                 "reason": ""
               },
               {
-                "bbrID": "sprinja01",
-                "name": "Jaden Springer",
-                "rank_league": 360,
+                "bbrID": "pritcpa01",
+                "name": "Payton Pritchard",
+                "rank_league": 211,
                 "reason": ""
+              },
+              {
+                "bbrID": "kornelu01",
+                "name": "Luke Kornet",
+                "rank_league": 225,
+                "reason": ""
+              },
+              {
+                "bbrID": "champju01",
+                "name": "Justin Champagnie",
+                "rank_league": 315,
+                "reason": ""
+              },
+              {
+                "bbrID": "gallida01",
+                "name": "Danilo Gallinari",
+                "rank_league": 539,
+                "reason": "Inactive"
+              }
+            ]
+          },
+          {
+            "gameId": "202305270MIA",
+            "date": "2023-05-27",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 6,
+            "teamHome": "MIA",
+            "teamAway": "BOS",
+            "scoreHome": 103,
+            "scoreAway": 104,
+            "winner": "BOS",
+            "opponent": "BOS",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": ""
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "tatumja01",
+                "name": "Jayson Tatum",
+                "rank_league": 3,
+                "reason": ""
+              },
+              {
+                "bbrID": "whitede01",
+                "name": "Derrick White",
+                "rank_league": 12,
+                "reason": ""
+              },
+              {
+                "bbrID": "smartma01",
+                "name": "Marcus Smart",
+                "rank_league": 42,
+                "reason": ""
+              },
+              {
+                "bbrID": "horfoal01",
+                "name": "Al Horford",
+                "rank_league": 46,
+                "reason": ""
+              },
+              {
+                "bbrID": "brownja02",
+                "name": "Jaylen Brown",
+                "rank_league": 48,
+                "reason": ""
+              },
+              {
+                "bbrID": "brogdma01",
+                "name": "Malcolm Brogdon",
+                "rank_league": 91,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "williro04",
+                "name": "Robert Williams",
+                "rank_league": 94,
+                "reason": ""
+              },
+              {
+                "bbrID": "griffbl01",
+                "name": "Blake Griffin",
+                "rank_league": 153,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "muscami01",
+                "name": "Mike Muscala",
+                "rank_league": 168,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hausesa01",
+                "name": "Sam Hauser",
+                "rank_league": 174,
+                "reason": ""
+              },
+              {
+                "bbrID": "willigr01",
+                "name": "Grant Williams",
+                "rank_league": 182,
+                "reason": ""
+              },
+              {
+                "bbrID": "pritcpa01",
+                "name": "Payton Pritchard",
+                "rank_league": 211,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "kornelu01",
+                "name": "Luke Kornet",
+                "rank_league": 225,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "champju01",
+                "name": "Justin Champagnie",
+                "rank_league": 315,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "gallida01",
+                "name": "Danilo Gallinari",
+                "rank_league": 539,
+                "reason": "Inactive"
+              }
+            ]
+          },
+          {
+            "gameId": "202305290BOS",
+            "date": "2023-05-29",
+            "season": 2023,
+            "conference": "East",
+            "round": 3,
+            "game": 7,
+            "teamHome": "BOS",
+            "teamAway": "MIA",
+            "scoreHome": 84,
+            "scoreAway": 103,
+            "winner": "MIA",
+            "opponent": "BOS",
+            "playersWinner": [
+              {
+                "bbrID": "butleji01",
+                "name": "Jimmy Butler",
+                "rank_league": 11,
+                "reason": ""
+              },
+              {
+                "bbrID": "adebaba01",
+                "name": "Bam Adebayo",
+                "rank_league": 35,
+                "reason": ""
+              },
+              {
+                "bbrID": "lowryky01",
+                "name": "Kyle Lowry",
+                "rank_league": 55,
+                "reason": ""
+              },
+              {
+                "bbrID": "herroty01",
+                "name": "Tyler Herro",
+                "rank_league": 80,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01",
+                "name": "Kevin Love",
+                "rank_league": 95,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "martica02",
+                "name": "Caleb Martin",
+                "rank_league": 129,
+                "reason": ""
+              },
+              {
+                "bbrID": "strusma01",
+                "name": "Max Strus",
+                "rank_league": 178,
+                "reason": ""
+              },
+              {
+                "bbrID": "vincega01",
+                "name": "Gabe Vincent",
+                "rank_league": 186,
+                "reason": ""
+              },
+              {
+                "bbrID": "robindu01",
+                "name": "Duncan Robinson",
+                "rank_league": 256,
+                "reason": ""
+              },
+              {
+                "bbrID": "oladivi01",
+                "name": "Victor Oladipo",
+                "rank_league": 266,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "name": "Omer Yurtseven",
+                "rank_league": 324,
+                "reason": ""
+              },
+              {
+                "bbrID": "highsha01",
+                "name": "Haywood Highsmith",
+                "rank_league": 440,
+                "reason": ""
+              },
+              {
+                "bbrID": "jovicni01",
+                "name": "Nikola Jović",
+                "rank_league": 450,
+                "reason": ""
+              },
+              {
+                "bbrID": "hasleud01",
+                "name": "Udonis Haslem",
+                "rank_league": 461,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01",
+                "name": "Cody Zeller",
+                "rank_league": 466,
+                "reason": "Did Not Play"
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "tatumja01",
+                "name": "Jayson Tatum",
+                "rank_league": 3,
+                "reason": ""
+              },
+              {
+                "bbrID": "whitede01",
+                "name": "Derrick White",
+                "rank_league": 12,
+                "reason": ""
+              },
+              {
+                "bbrID": "smartma01",
+                "name": "Marcus Smart",
+                "rank_league": 42,
+                "reason": ""
+              },
+              {
+                "bbrID": "horfoal01",
+                "name": "Al Horford",
+                "rank_league": 46,
+                "reason": ""
+              },
+              {
+                "bbrID": "brownja02",
+                "name": "Jaylen Brown",
+                "rank_league": 48,
+                "reason": ""
+              },
+              {
+                "bbrID": "brogdma01",
+                "name": "Malcolm Brogdon",
+                "rank_league": 91,
+                "reason": ""
+              },
+              {
+                "bbrID": "williro04",
+                "name": "Robert Williams",
+                "rank_league": 94,
+                "reason": ""
+              },
+              {
+                "bbrID": "griffbl01",
+                "name": "Blake Griffin",
+                "rank_league": 153,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "muscami01",
+                "name": "Mike Muscala",
+                "rank_league": 168,
+                "reason": ""
+              },
+              {
+                "bbrID": "hausesa01",
+                "name": "Sam Hauser",
+                "rank_league": 174,
+                "reason": ""
+              },
+              {
+                "bbrID": "willigr01",
+                "name": "Grant Williams",
+                "rank_league": 182,
+                "reason": ""
+              },
+              {
+                "bbrID": "pritcpa01",
+                "name": "Payton Pritchard",
+                "rank_league": 211,
+                "reason": ""
+              },
+              {
+                "bbrID": "kornelu01",
+                "name": "Luke Kornet",
+                "rank_league": 225,
+                "reason": ""
+              },
+              {
+                "bbrID": "champju01",
+                "name": "Justin Champagnie",
+                "rank_league": 315,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "gallida01",
+                "name": "Danilo Gallinari",
+                "rank_league": 539,
+                "reason": "Inactive"
               }
             ]
           }
