@@ -78,7 +78,7 @@
 		margin: 0;
 		padding: 8px;
 		border-radius: 0;
-		border: 4px solid var(--color-fg);
+		border: none;
 		outline: none;
 		cursor: pointer;
 		font-family: inherit;
@@ -95,20 +95,20 @@
 	}
 
 	input[type="radio"] + label {
-		background: var(--color-fg);
-		color: var(--color-bg);
-		opacity: 0.5;
+		background: var(--color-bluedark);
+		color: var(--color-bluelight);
+		opacity: 0.8;
 	}
 
 	input[type="radio"]:checked + label,
 	input[type="radio"]:checked:hover + label {
-		background: var(--color-bg);
-		color: var(--color-fg);
+		background: var(--color-white);
+		color: var(--color-bg);
 		opacity: 1;
 	}
 
 	input[type="radio"]:hover + label {
-		background: var(--color-fg);
+		opacity: 1;
 	}
 
 	input[type="radio"]:focus + label {

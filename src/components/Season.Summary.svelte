@@ -1,36 +1,74 @@
 <script>
 	export let season;
-	export let winnerName;
+	export let name;
+	export let nameMobile;
+	export let abbr;
 	export let asterisks;
 </script>
 
-<span class="year">{season}</span>
-<span class="name">{winnerName}<sup>{@html asterisks}</sup></span>
+<div>
+	<span class="year">{season}</span>
+	<span>
+		<img src="assets/logos/{abbr.toLowerCase()}.svg" alt="logo for {abbr}" />
+	</span>
+	<span class="name desktop">
+		{name}<sup>{@html asterisks}</sup>
+	</span>
+	<span class="name mobile">
+		{nameMobile}<sup>{@html asterisks}</sup>
+	</span>
+</div>
 
 <style>
+	div {
+		display: inline-flex;
+		align-items: center;
+		padding: 24px 0;
+	}
+
 	span {
 		position: relative;
 		display: inline-block;
-	}
-
-	.name:after {
-		content: "👈";
-		position: absolute;
-		top: 0;
-		right: 0;
-		transform: translate(125%, 0);
-		opacity: 0;
-		transition: opacity 0.25s ease-in-out;
-	}
-
-	@media (hover: hover) and (pointer: fine) {
-		.name:hover:after {
-			opacity: 1;
-		}
+		line-height: 1;
+		margin: 0 4px;
 	}
 
 	sup {
 		/* top: 0; */
 		font-size: 100%;
+	}
+
+	img {
+		width: 1.5em;
+		display: none;
+		vertical-align: middle;
+	}
+
+	.name.desktop {
+		display: none;
+	}
+
+	.name.mobile {
+		display: inline-block;
+	}
+
+	@media only screen and (min-width: 960px) {
+		.name.desktop {
+			display: inline-block;
+		}
+
+		.name.mobile {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width: 480px) {
+		img {
+			display: inline-block;
+		}
+
+		span {
+			margin: 0 8px;
+		}
 	}
 </style>

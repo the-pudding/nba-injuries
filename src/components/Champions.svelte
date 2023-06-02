@@ -75,10 +75,21 @@
 
 <style>
 	section {
-		width: 75vw;
 		max-width: 1400px;
 		margin: 32px auto;
 		font-family: var(--mono);
 		min-height: 600px;
+	}
+
+	@media only screen and (min-width: 960px) {
+		section {
+			width: 90vw;
+		}
+	}
+
+	@media only screen and (min-width: 1200px) {
+		section {
+			width: 75vw;
+		}
 	}
 </style>

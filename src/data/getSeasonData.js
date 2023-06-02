@@ -1,5 +1,6 @@
 import { ascending, descending, json } from "d3";
 import teams from "$data/teams.json";
+import teamsName from "$data/teams-name.json";
 import getLevel from "$utils/getLevel.js";
 
 export default async function getSeasonData() {
@@ -9,7 +10,8 @@ export default async function getSeasonData() {
 		.map((d) => ({
 			...d,
 			winnerAbbr: d.winner,
-			winnerName: teams[d.winner]
+			winnerName: teams[d.winner],
+			winnerNameMascot: teamsName[d.winner]
 		}));
 
 	seasons.forEach((season) =>

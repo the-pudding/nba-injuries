@@ -8,6 +8,7 @@
 	export let season;
 	export let winnerAbbr;
 	export let winnerName;
+	export let winnerNameMascot;
 	export let rounds;
 	export let dnp;
 	export let asterisksCount;
@@ -24,7 +25,13 @@
 <!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
 <details class="season" open={false}>
 	<summary data-asterisks={asterisksCount}>
-		<Summary {season} {winnerName} {asterisks} />
+		<Summary
+			{season}
+			name={winnerName}
+			nameMobile={winnerNameMascot}
+			{asterisks}
+			abbr={winnerAbbr}
+		/>
 	</summary>
 	<div class="inner">
 		<Legend />
@@ -44,13 +51,19 @@
 </details>
 
 <style>
+	h3 {
+		line-height: 1.2;
+	}
+
 	.inner {
-		padding: 16px 32px;
+		padding: 16px 0;
 	}
 
 	.rounds div {
 		display: flex;
 		margin: 16px auto 32px auto;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
 	details {
@@ -59,7 +72,49 @@
 	}
 
 	summary {
-		font-size: min(3.5vw, 64px);
+		background: var(--color-bluedark);
+		font-size: max(24px, 4vw);
+		padding: 0 16px;
 		cursor: pointer;
+		position: relative;
+	}
+
+	summary:after {
+		content: "👈";
+		position: absolute;
+		top: 50%;
+		right: 32px;
+		transform: translate(0, -50%);
+		opacity: 0;
+		transition: opacity 0.25s ease-in-out;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		summary:hover:after {
+			opacity: 1;
+		}
+	}
+
+	@media only screen and (min-width: 640px) {
+		.rounds div {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+		}
+	}
+
+	@media only screen and (min-width: 960px) {
+		.rounds div {
+			flex-wrap: nowrap;
+			flex-direction: row;
+			justify-content: flex-start;
+		}
+	}
+
+	@media only screen and (min-width: 960px) {
+		summary {
+			padding: 0 32px;
+			font-size: min(3vw, 56px);
+		}
 	}
 </style>

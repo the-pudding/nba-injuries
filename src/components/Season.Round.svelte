@@ -46,9 +46,10 @@
 
 	.name {
 		margin: 0;
-		margin-bottom: 8px;
+		margin-bottom: 4px;
 		text-align: center;
 		line-height: 1;
 		color: var(--color-bluelight);
+		font-size: var(--12px);
 	}
 </style>

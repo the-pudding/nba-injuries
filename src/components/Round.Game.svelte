@@ -5,12 +5,21 @@
 	export let opponents;
 	export let result;
 
+	const maxGames = 26;
+	const maxGamesMobile = 14;
+	const margin = 16;
+
 	function getColor(dnp, level) {
 		if (!dnp) return "var(--color-bluefaded)";
 		else if (level === 0) return "var(--color-primary)";
 		else if (level === 1) return "var(--color-secondary)";
 		else if (level === 2) return "var(--color-tertiary)";
 	}
+
+	// $: mobile = $roundsWidth < 640 - margin * 2;
+	// $: max = mobile ? maxGamesMobile : maxGames;
+	// $: rounds = mobile ? 2 : 3;
+	// // $: width = Math.max(30, Math.min(40, ($roundsWidth - margin * rounds) / max));
 </script>
 
 <div class="game">
@@ -45,6 +54,7 @@
 		flex-direction: column;
 		align-items: center;
 		cursor: crosshair;
+		margin-bottom: 16px;
 	}
 
 	ul {
@@ -57,7 +67,7 @@
 
 	li {
 		list-style-type: none;
-		width: 32px;
+		width: 30px;
 		height: 8px;
 		background: var(--color-bluefaded);
 		/* margin-right: 1px;
