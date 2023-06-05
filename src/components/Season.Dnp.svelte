@@ -3,7 +3,7 @@
 	import getLevel from "$utils/getLevel.js";
 	export let dnp;
 	export let winnerAbbr;
-	// export let opponents;
+	export let opponents;
 
 	const labels = ["Top 30 Players", "Top 150 Players"];
 
@@ -22,6 +22,7 @@
 <div class="c">
 	{#each all as players, i}
 		{@const label = players.length ? `${labels[i]}` : ""}
+		{@const asterisks = i === 0 ? "**" : "*"}
 		{#if label}
 			<h4 class="label" data-level={i}>{label}</h4>
 		{/if}
@@ -31,6 +32,7 @@
 				{@const src = getSrc(headshot, bbrID)}
 				{@const level = getLevel(rank_league)}
 				{@const fallback = !headshot}
+				{@const played = opponents.includes(bbrID) || team === winnerAbbr}
 				{@const fg =
 					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
 				<li data-level={level}>
@@ -45,7 +47,9 @@
 							<Progress progress={rate} {fg} width="0.1" />
 						</span>
 					</div>
-					<p class="name"><strong>{name}</strong></p>
+					<p class="name">
+						<strong>{name}<sup>{played ? asterisks : ""}</sup></strong>
+					</p>
 				</li>
 			{/each}
 		</ul>
@@ -148,9 +152,14 @@
 		color: var(--color-secondary);
 	}
 
+	sup {
+		margin-left: 2px;
+	}
+
 	@media only screen and (min-width: 640px) {
 		li {
-			width: auto;
+			--width: 128px;
+			width: calc(var(--width) + 16px);
 		}
 
 		.progress {

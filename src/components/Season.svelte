@@ -16,7 +16,15 @@
 	// export let asterisks;
 	// export let percentInjured;
 
-	$: opponents = rounds.map(({ opponent }) => opponent);
+	$: opponents = [].concat(
+		...rounds.map(({ games }) =>
+			[].concat(
+				...games.map(({ playersOpponent }) =>
+					playersOpponent.filter((d) => d.reason).map((d) => d.bbrID)
+				)
+			)
+		)
+	);
 	$: asterisks = range(Math.ceil(asterisksCount))
 		.map(() => "*")
 		.join("");
