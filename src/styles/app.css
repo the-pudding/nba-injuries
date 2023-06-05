@@ -29,7 +29,7 @@
 	--color-link: currentColor;
 	--color-focus: var(--color-bg);
 	--color-mark: var(--color-secondary);
-	--color-selection: var(--color-gray-300);
+	--color-selection: var(--color-tertiary);
 	--color-border: var(--color-gray-300);
 	--color-button-bg: var(--color-gray-300);
 	--color-button-fg: var(--color-gray-900);
