@@ -1,7 +1,7 @@
 <script>
 	import { tooltip } from "@svelte-plugins/tooltips";
-	import getLevel from "$utils/getLevel.js";
 	import getDnp from "$utils/getDnp.js";
+	import players from "$data/player-lookup.csv";
 	export let opponents;
 	export let result;
 
@@ -9,11 +9,16 @@
 	const maxGamesMobile = 14;
 	const margin = 16;
 
-	function getColor(dnp, level) {
+	function getPlayer(id) {
+		const player = players.find((p) => p.bbrID === id);
+		return player || {};
+	}
+
+	function getColor(dnp, asterisks) {
 		if (!dnp) return "var(--color-bluefaded)";
-		else if (level === 0) return "var(--color-primary)";
-		else if (level === 1) return "var(--color-secondary)";
-		else if (level === 2) return "var(--color-tertiary)";
+		else if (asterisks === 2) return "var(--color-primary)";
+		else if (asterisks === 1) return "var(--color-secondary)";
+		return "var(--color-tertiary)";
 	}
 
 	// $: mobile = $roundsWidth < 640 - margin * 2;
@@ -25,20 +30,19 @@
 <div class="game">
 	<p class="result">{result}</p>
 	<ul class="opponent">
-		{#each opponents as { bbrID, name, rank_team, rank_league, reason }}
-			{@const level = getLevel(rank_league)}
-			{@const dnp = getDnp({ reason, level })}
-			{@const backgroundColor = getColor(dnp, level)}
-			{@const color = dnp ? "var(--color-bg)" : "var(--color-fg)"}
+		{#each opponents as { bbrID, asterisks, reason }}
+			{@const dnp = getDnp({ reason, asterisks })}
+			{@const backgroundColor = getColor(dnp, asterisks)}
+			{@const color = dnp ? "var(--color-bluedark)" : "var(--color-fg)"}
+			{@const player = getPlayer(bbrID)}
 			<li
 				class:dnp
-				data-level={dnp ? level : ""}
-				data-reason={reason}
+				data-asterisks={dnp ? asterisks : ""}
+				data-reason={reason || ""}
 				data-id={bbrID}
-				data-name={name}
 				use:tooltip={{
 					theme: "custom-tooltip",
-					content: name,
+					content: player.name,
 					align: "center",
 					arrow: false,
 					style: { backgroundColor, color }
@@ -90,15 +94,15 @@
 		/* border: 1px solid #000; */
 	}
 
-	.dnp[data-level="0"] {
+	.dnp[data-asterisks="2"] {
 		background: var(--color-primary);
 	}
 
-	.dnp[data-level="1"] {
+	.dnp[data-asterisks="1"] {
 		background: var(--color-secondary);
 	}
 
-	.dnp[data-level="2"] {
+	.dnp[data-asterisks="0"] {
 		background: var(--color-tertiary);
 	}
 

@@ -1,6 +1,6 @@
 <script>
 	import Progress from "$components/Progress.svelte";
-	import getLevel from "$utils/getLevel.js";
+	import players from "$data/player-lookup.csv";
 	export let dnp;
 	export let winnerAbbr;
 	export let opponents;
@@ -13,8 +13,13 @@
 			: "assets/headshot-default.png";
 	}
 
-	$: dnp30 = dnp.filter(({ rank_league }) => getLevel(rank_league) === 0);
-	$: dnp150 = dnp.filter(({ rank_league }) => getLevel(rank_league) === 1);
+	function getPlayer(id) {
+		const player = players.find((p) => p.bbrID === id);
+		return player || {};
+	}
+
+	$: dnp30 = dnp.filter(({ asterisks }) => asterisks === 2);
+	$: dnp150 = dnp.filter(({ asterisks }) => asterisks === 1);
 
 	$: all = [dnp30, dnp150];
 </script>
@@ -27,28 +32,28 @@
 			<h4 class="label" data-level={i}>{label}</h4>
 		{/if}
 		<ul>
-			{#each players as { name, bbrID, headshot, team, rate, rank_league }, j}
+			{#each players as { bbrID, team, rate }, j}
 				{@const winner = team === winnerAbbr}
-				{@const src = getSrc(headshot, bbrID)}
-				{@const level = getLevel(rank_league)}
-				{@const fallback = !headshot}
+				{@const player = getPlayer(bbrID)}
+				{@const src = getSrc(player.headshot, bbrID)}
+				{@const fallback = !player.headshot}
 				{@const played = opponents.includes(bbrID) || team === winnerAbbr}
 				{@const fg =
-					level === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
-				<li data-level={level}>
+					asterisks === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
+				<li data-asterisks={asterisks}>
 					<p class="team">{team}</p>
 					<p class="percent" style:color={fg}>{Math.round(rate * 100)}%</p>
 
 					<div class="circle">
 						<span class="img-bg">
-							<img {src} class:fallback alt="headshot of {name}" />
+							<img {src} class:fallback alt="headshot of {player.name}" />
 						</span>
 						<span class="progress">
 							<Progress progress={rate} {fg} width="0.1" />
 						</span>
 					</div>
 					<p class="name">
-						<strong>{name}<sup>{played ? asterisks : ""}</sup></strong>
+						<strong>{player.name}<sup>{played ? asterisks : ""}</sup></strong>
 					</p>
 				</li>
 			{/each}
@@ -144,11 +149,11 @@
 		font-size: var(--12px);
 	}
 
-	.label[data-level="0"] {
+	.label[data-asterisks="2"] {
 		color: var(--color-primary);
 	}
 
-	.label[data-level="1"] {
+	.label[data-asterisks="1"] {
 		color: var(--color-secondary);
 	}
 
