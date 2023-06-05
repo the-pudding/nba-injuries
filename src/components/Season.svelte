@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="dnp">
-			<h3>Percent of Playoffs Missed by Player</h3>
+			<h3>Percent of Playoffs Missed <span>(All Teams)</span></h3>
 			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
 	</div>
@@ -53,6 +53,12 @@
 <style>
 	h3 {
 		line-height: 1.2;
+		font-size: var(--20px);
+		margin-top: 32px;
+	}
+
+	span {
+		display: block;
 	}
 
 	.inner {
@@ -62,7 +68,8 @@
 	.rounds div {
 		display: flex;
 		margin: 16px auto 32px auto;
-		flex-direction: column;
+		/* flex-direction: column; */
+		flex-wrap: wrap;
 		align-items: flex-start;
 	}
 
@@ -73,7 +80,7 @@
 
 	summary {
 		background: var(--color-bluedark);
-		font-size: max(24px, 4vw);
+		font-size: max(22px, 4vw);
 		padding: 0 16px;
 		cursor: pointer;
 		position: relative;
@@ -95,11 +102,21 @@
 		}
 	}
 
+	@media only screen and (min-width: 480px) {
+		span {
+			display: inline;
+		}
+	}
+
 	@media only screen and (min-width: 640px) {
 		.rounds div {
 			flex-direction: row;
 			flex-wrap: wrap;
 			justify-content: flex-start;
+		}
+
+		h3 {
+			font-size: var(--24px);
 		}
 	}
 

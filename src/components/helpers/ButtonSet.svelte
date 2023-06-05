@@ -98,6 +98,7 @@
 		background: var(--color-bluedark);
 		color: var(--color-bluelight);
 		opacity: 0.8;
+		border: 2px solid transparent;
 	}
 
 	input[type="radio"]:checked + label,
@@ -112,7 +113,7 @@
 	}
 
 	input[type="radio"]:focus + label {
-		box-shadow: 0 0 4px 0 var(--color-focus);
+		border: 2px solid var(--color-secondary);
 	}
 
 	input[type="radio"]:disabled + label {

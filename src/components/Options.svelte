@@ -45,12 +45,12 @@
 	}
 
 	.explanation {
-		max-width: 20.5rem;
+		max-width: 20rem;
 		margin: 16px auto;
 	}
 
 	p {
-		font-size: var(--14px);
+		font-size: var(--12px);
 		margin: 0;
 	}
 </style>

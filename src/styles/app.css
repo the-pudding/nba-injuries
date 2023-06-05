@@ -27,8 +27,8 @@
 	--color-secondary: var(--color-green);
 	--color-tertiary: var(--color-bluelight);
 	--color-link: currentColor;
-	--color-focus: var(--color-white);
-	--color-mark: var(--color-white);
+	--color-focus: var(--color-bg);
+	--color-mark: var(--color-secondary);
 	--color-selection: var(--color-gray-300);
 	--color-border: var(--color-gray-300);
 	--color-button-bg: var(--color-gray-300);

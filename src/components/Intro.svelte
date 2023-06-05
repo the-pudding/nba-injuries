@@ -61,7 +61,11 @@
 	h1 {
 		font-size: var(--24px);
 		font-weight: bold;
-		/* margin-top: 32px; */
+	}
+
+	p,
+	li {
+		font-size: var(--14px);
 	}
 
 	@media only screen and (min-width: 500px) {

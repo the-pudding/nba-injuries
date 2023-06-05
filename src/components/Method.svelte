@@ -18,4 +18,8 @@
 		color: var(--color-bg);
 		padding: 16px 32px;
 	}
+
+	p {
+		font-size: var(--14px);
+	}
 </style>

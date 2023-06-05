@@ -40,8 +40,8 @@
 
 	img {
 		width: 1.5em;
-		display: none;
 		vertical-align: middle;
+		/* display: none; */
 	}
 
 	.name.desktop {
@@ -63,10 +63,6 @@
 	}
 
 	@media only screen and (min-width: 480px) {
-		img {
-			display: inline-block;
-		}
-
 		span {
 			margin: 0 8px;
 		}
