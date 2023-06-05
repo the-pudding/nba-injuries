@@ -27,9 +27,10 @@
 <div class="c">
 	{#each all as players, i}
 		{@const label = players.length ? `${labels[i]}` : ""}
-		{@const asterisks = i === 0 ? "**" : "*"}
+		{@const asterisks = i === 0 ? 2 : 1}
+		{@const asterisksDisplay = i === 0 ? "**" : "*"}
 		{#if label}
-			<h4 class="label" data-level={i}>{label}</h4>
+			<h4 class="label" data-asterisks={asterisks}>{label}</h4>
 		{/if}
 		<ul>
 			{#each players as { bbrID, team, rate }, j}
@@ -39,7 +40,7 @@
 				{@const fallback = !player.headshot}
 				{@const played = opponents.includes(bbrID) || team === winnerAbbr}
 				{@const fg =
-					asterisks === 0 ? "var(--color-primary)" : "var(--color-secondary)"}
+					asterisks === 2 ? "var(--color-primary)" : "var(--color-secondary)"}
 				<li data-asterisks={asterisks}>
 					<p class="team">{team}</p>
 					<p class="percent" style:color={fg}>{Math.round(rate * 100)}%</p>
@@ -53,7 +54,9 @@
 						</span>
 					</div>
 					<p class="name">
-						<strong>{player.name}<sup>{played ? asterisks : ""}</sup></strong>
+						<strong
+							>{player.name}<sup>{played ? asterisksDisplay : ""}</sup></strong
+						>
 					</p>
 				</li>
 			{/each}
