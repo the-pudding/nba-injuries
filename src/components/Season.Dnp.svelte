@@ -30,7 +30,7 @@
 		{@const asterisks = i === 0 ? 2 : 1}
 		{@const asterisksDisplay = i === 0 ? "**" : "*"}
 		{#if label}
-			<h4 class="label" data-asterisks={asterisks}>{label}</h4>
+			<h4 class="label" data-asterisks={asterisks}><strong>{label}</strong></h4>
 		{/if}
 		<ul>
 			{#each players as { bbrID, team, rate }, j}
@@ -54,9 +54,7 @@
 						</span>
 					</div>
 					<p class="name">
-						<strong
-							>{player.name}<sup>{played ? asterisksDisplay : ""}</sup></strong
-						>
+						<strong>{player.name}<sup>{played ? "" : ""}</sup></strong>
 					</p>
 				</li>
 			{/each}

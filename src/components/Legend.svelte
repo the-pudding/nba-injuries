@@ -1,9 +1,9 @@
 <div>
-	<p>Player Rank:</p>
+	<p>Asterisk Calculation:</p>
 	<ul>
-		<li><strong>Top 30</strong></li>
-		<li><strong>Top 150</strong></li>
-		<li><strong>150+</strong></li>
+		<li><strong>Top 30 = **</strong></li>
+		<li><strong>Top 150 = *</strong></li>
+		<li><strong>150+ = none</strong></li>
 	</ul>
 </div>
 
@@ -28,17 +28,18 @@
 
 	li {
 		margin-right: 1px;
-		padding: 4px 0;
+		padding: 4px 8px;
 		color: var(--color-bluedark);
-		width: 4.5rem;
 		text-align: center;
 		position: relative;
+		font-size: var(--12px);
 	}
 
 	p {
 		margin-right: 4px;
 		padding: 4px 0;
 		color: var(--color-fg);
+		display: none;
 	}
 
 	li:nth-of-type(1) {
@@ -75,5 +76,17 @@
 
 	li:nth-of-type(3):before {
 		content: "Bench";
+	}
+
+	@media only screen and (min-width: 480px) {
+		li {
+			font-size: var(--14px);
+		}
+	}
+
+	@media only screen and (min-width: 640px) {
+		p {
+			display: block;
+		}
 	}
 </style>

@@ -1,7 +1,10 @@
 import { groups, descending, sum } from "d3";
+
+const roundNames = ["First Round", "Conf. Semi", "Conf. Finals", "Finals"];
+
 export default function getAsteriskCount(rounds, winner) {
 	const allPlayers = [].concat(
-		...rounds.map(({ games, opponent }) => {
+		...rounds.map(({ games, opponent }, i) => {
 			const count = games.length;
 			const players = [].concat(
 				...games.map(({ playersOpponent, playersWinner }) => {
@@ -14,7 +17,13 @@ export default function getAsteriskCount(rounds, winner) {
 				const asterisks = g[0].asterisks;
 				const tally = (asterisks * g.length) / count;
 				const team = winner || opponent;
-				return { bbrID, team, asterisks, tally };
+				return {
+					bbrID,
+					team,
+					asterisks,
+					tally,
+					round: winner ? "" : roundNames[i]
+				};
 			});
 
 			return byPlayer;

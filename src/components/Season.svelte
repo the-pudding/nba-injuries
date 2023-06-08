@@ -1,5 +1,6 @@
 <script>
 	import { range } from "d3";
+	import { getContext } from "svelte";
 	import Summary from "$components/Season.Summary.svelte";
 	import Players from "$components/Season.Players.svelte";
 	import Round from "$components/Season.Round.svelte";
@@ -15,6 +16,8 @@
 	export let dnp;
 	export let asterisksCount;
 	export let valueLimp;
+
+	const copy = getContext("copy");
 
 	$: opponents = [].concat(
 		...rounds.map(({ games }) =>
@@ -48,17 +51,19 @@
 	<div class="inner">
 		<Legend />
 		<div class="rounds">
-			<h3>Opponents Breakdown</h3>
+			<h3><strong>Opponents Breakdown</strong></h3>
 			<Players players={asteriskedOpponents} />
 			{#if valueLimp === "On"}
-				<h3>{winnerNameMascot} Breakdown</h3>
+				<h3>
+					<strong>{winnerNameMascot} Breakdown</strong>
+				</h3>
 				{#if asteriskedWinners.length}
 					<Players winner={true} players={asteriskedWinners} />
 				{:else}
 					<p>No injured or inactive players</p>
 				{/if}
 			{/if}
-			<h3>Game by Game Breakdown</h3>
+			<h3><strong>Game by Game Detail</strong></h3>
 			<div>
 				{#each rounds as { round, opponent, games }}
 					<Round {round} {opponent} {games} {winnerAbbr} />
@@ -67,8 +72,13 @@
 		</div>
 		<div class="dnp">
 			<h3>
-				Inactive and Injured Players <span>(All Teams, All Playoffs)</span>
+				<strong>
+					Percent of Playoffs Injured/Inactive <span>(All Teams)</span>
+				</strong>
 			</h3>
+			<p>
+				{copy.dnpExplanation}
+			</p>
 			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
 	</div>
@@ -79,7 +89,6 @@
 		line-height: 1.2;
 		font-size: var(--20px);
 		margin-top: 32px;
-		font-weight: bold;
 	}
 
 	span {
@@ -119,6 +128,10 @@
 		transform: translate(0, -50%);
 		opacity: 0;
 		transition: opacity 0.25s ease-in-out;
+	}
+
+	.dnp p {
+		max-width: 45rem;
 	}
 
 	@media (hover: hover) and (pointer: fine) {
@@ -161,6 +174,10 @@
 		summary {
 			padding: 0 32px;
 			font-size: min(3vw, 56px);
+		}
+
+		h3 {
+			margin-top: 48px;
 		}
 	}
 </style>

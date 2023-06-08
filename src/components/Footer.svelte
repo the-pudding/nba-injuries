@@ -76,16 +76,17 @@
 <style>
 	footer {
 		background-color: var(--color-fg);
-		color: var(--color-bg);
+		color: var(--color-bluedark);
 		font-family: var(--sans);
-		padding: 3em 1em;
+		padding: 2em 1em;
 		margin-top: 3em;
+		margin-bottom: 1em;
 	}
 
 	a,
 	a:visited,
 	a:hover {
-		color: var(--color-bg);
+		color: var(--color-bluedark);
 	}
 
 	.stories {

@@ -18,7 +18,7 @@
 </script>
 
 <ul>
-	{#each players as { bbrID, team, asterisks, tally }}
+	{#each players as { bbrID, team, asterisks, tally, round }}
 		{@const player = getPlayer(bbrID)}
 		{@const src = getSrc(player.headshot, bbrID)}
 		{@const fallback = !player.headshot}
@@ -29,10 +29,9 @@
 				</span>
 			</div>
 			<div class="info">
-				<span class="name">{player.name}</span>
-				<span class="tally"
-					>Asterisks: <strong>{prefix}{tally.toFixed(1)}</strong></span
-				>
+				<span class="name"><strong>{player.name}</strong></span>
+				<span class="tally">Asterisks: {prefix}{tally.toFixed(1)}</span>
+				<span class="round">{round}</span>
 			</div>
 		</li>
 	{/each}
@@ -59,8 +58,9 @@
 		margin: 1px;
 		padding: 8px;
 		color: var(--color-bluedark);
-		line-height: 1.2;
+		line-height: 1.4;
 		min-width: 100%;
+		font-size: var(--14px);
 	}
 
 	.info {
@@ -81,8 +81,10 @@
 		overflow: hidden;
 	}
 
-	.tally {
+	.tally,
+	.round {
 		font-size: var(--14px);
+		color: var(--color-bg);
 	}
 
 	img {
@@ -96,7 +98,7 @@
 
 	@media only screen and (min-width: 640px) {
 		li {
-			min-width: 280px;
+			min-width: 270px;
 		}
 	}
 </style>

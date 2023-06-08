@@ -82,6 +82,10 @@
 		cursor: pointer;
 	}
 
+	.inner {
+		padding: 0 16px;
+	}
+
 	@media only screen and (min-width: 500px) {
 		h1 {
 			font-size: var(--32px);
@@ -89,6 +93,11 @@
 		p,
 		li {
 			font-size: var(--16px);
+		}
+
+		details summary,
+		details p {
+			font-size: var(--14px);
 		}
 	}
 
@@ -100,6 +109,11 @@
 		p,
 		li {
 			font-size: var(--18px);
+		}
+
+		details summary,
+		details p {
+			font-size: var(--16px);
 		}
 	}
 </style>
