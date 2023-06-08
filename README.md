@@ -50,15 +50,6 @@ Deploying to Pudding AWS:
 make pudding
 ```
 
-### Subdirectories
-If you are hosting the project on a subdirectory, set it in `package.json`.
-
-For example, if you are deploying to `https://domain.com/2021/01/test`:
-
-```json
-"subdirectory": "/2021/01/test"
-```
-
 ## Style
 
 There are a few stylesheets included by default in `src/styles`. Refer to them in `app.css`, the place for applying global styles.
