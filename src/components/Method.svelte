@@ -14,8 +14,7 @@
 	#method {
 		max-width: 45rem;
 		margin: 64px auto 64px;
-		background: var(--color-fg);
-		color: var(--color-bg);
+		background: var(--color-bluedark);
 		padding: 16px 32px;
 	}
 

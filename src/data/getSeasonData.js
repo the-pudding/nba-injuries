@@ -13,11 +13,11 @@ export default async function getSeasonData() {
 			winnerNameMascot: teamsName[d.winner]
 		}));
 
-	seasons.forEach((season) =>
+	seasons.forEach((season) => {
 		season.dnp.sort(
 			(a, b) =>
 				descending(a.asterisks, b.asterisks) || descending(a.rate, b.rate)
-		)
-	);
+		);
+	});
 	return seasons;
 }

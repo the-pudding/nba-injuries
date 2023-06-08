@@ -130,7 +130,7 @@
 	.img-bg img {
 		filter: grayscale(100%);
 		transform: translate(0, 6px);
-		transition: all 0.5s ease-in-out;
+		/* transition: all 0.5s ease-in-out; */
 		padding: 4px;
 	}
 

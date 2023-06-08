@@ -37,7 +37,8 @@
 			{@const player = getPlayer(bbrID)}
 			<li
 				class:dnp
-				data-asterisks={dnp ? asterisks : ""}
+				data-dnp={dnp}
+				data-asterisks={dnp ? asterisks || 0 : ""}
 				data-reason={reason || ""}
 				data-id={bbrID}
 				use:tooltip={{
@@ -88,10 +89,6 @@
 		border-top: 1px solid var(--color-bg);
 		border-left: 1px solid var(--color-bg);
 		border-color: var(--color-fg);
-	}
-
-	.dnp {
-		/* border: 1px solid #000; */
 	}
 
 	.dnp[data-asterisks="2"] {

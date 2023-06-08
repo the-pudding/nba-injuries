@@ -1,9 +1,11 @@
 <script>
 	import { range } from "d3";
 	import Summary from "$components/Season.Summary.svelte";
+	import Players from "$components/Season.Players.svelte";
 	import Round from "$components/Season.Round.svelte";
 	import Dnp from "$components/Season.Dnp.svelte";
 	import Legend from "$components/Legend.svelte";
+	import getAsteriskCount from "$utils/getAsteriskCount.js";
 
 	export let season;
 	export let winnerAbbr;
@@ -12,9 +14,7 @@
 	export let rounds;
 	export let dnp;
 	export let asterisksCount;
-	// export let winner;
-	// export let asterisks;
-	// export let percentInjured;
+	export let valueLimp;
 
 	$: opponents = [].concat(
 		...rounds.map(({ games }) =>
@@ -25,14 +25,18 @@
 			)
 		)
 	);
+
+	$: asteriskedOpponents = getAsteriskCount(rounds, false);
+
+	$: asteriskedWinners = getAsteriskCount(rounds, winnerAbbr);
+
 	$: asterisks = range(Math.ceil(asterisksCount))
 		.map(() => "*")
 		.join("");
 </script>
 
-<!-- animate:flip={{ delay: i * 75, duration: 0, easing: cubicInOut }} -->
-<details class="season" open={false}>
-	<summary data-asterisks={asterisksCount}>
+<details class="season" data-asterisks={asterisksCount}>
+	<summary>
 		<Summary
 			{season}
 			name={winnerName}
@@ -44,7 +48,17 @@
 	<div class="inner">
 		<Legend />
 		<div class="rounds">
-			<h3>Missing Opponents by Round</h3>
+			<h3>Opponents Breakdown</h3>
+			<Players players={asteriskedOpponents} />
+			{#if valueLimp === "On"}
+				<h3>{winnerNameMascot} Breakdown</h3>
+				{#if asteriskedWinners.length}
+					<Players winner={true} players={asteriskedWinners} />
+				{:else}
+					<p>No injured or inactive players</p>
+				{/if}
+			{/if}
+			<h3>Game by Game Breakdown</h3>
 			<div>
 				{#each rounds as { round, opponent, games }}
 					<Round {round} {opponent} {games} {winnerAbbr} />
@@ -52,7 +66,9 @@
 			</div>
 		</div>
 		<div class="dnp">
-			<h3>Percent of Playoffs Missed <span>(All Teams)</span></h3>
+			<h3>
+				Inactive and Injured Players <span>(All Teams, All Playoffs)</span>
+			</h3>
 			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
 	</div>
@@ -63,6 +79,7 @@
 		line-height: 1.2;
 		font-size: var(--20px);
 		margin-top: 32px;
+		font-weight: bold;
 	}
 
 	span {
@@ -133,6 +150,10 @@
 			flex-wrap: nowrap;
 			flex-direction: row;
 			justify-content: flex-start;
+		}
+
+		.inner {
+			padding: 16px 32px;
 		}
 	}
 

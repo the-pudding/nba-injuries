@@ -69,7 +69,7 @@
 	{#each seasons as season, i (season.season)}
 		<!-- {@const visible = visibles[i]} -->
 		{@const asterisksCount = getAsterisks(season.asterisks, valueLimp)}
-		<Season {...season} {asterisksCount} />
+		<Season {...season} {asterisksCount} {valueLimp} />
 	{/each}
 </section>
 
