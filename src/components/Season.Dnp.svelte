@@ -87,8 +87,8 @@
 	.label {
 		line-height: 1;
 		font-size: var(--16px);
-		/* color: var(--color-bluelight); */
 		margin-bottom: 8px;
+		margin-top: 32px;
 	}
 
 	.circle {
