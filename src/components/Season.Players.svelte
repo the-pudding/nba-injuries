@@ -59,7 +59,7 @@
 		padding: 8px;
 		color: var(--color-bluedark);
 		line-height: 1.4;
-		min-width: 100%;
+		min-width: calc(50% - 2px);
 		font-size: var(--14px);
 	}
 
@@ -72,6 +72,7 @@
 		width: 56px;
 		aspect-ratio: 1 / 1;
 		margin-right: 16px;
+		display: none;
 	}
 
 	.img-bg {
@@ -99,6 +100,9 @@
 	@media only screen and (min-width: 640px) {
 		li {
 			min-width: 270px;
+		}
+		.circle {
+			display: block;
 		}
 	}
 </style>

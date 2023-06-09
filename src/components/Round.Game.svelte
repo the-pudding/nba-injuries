@@ -72,11 +72,10 @@
 
 	li {
 		list-style-type: none;
-		width: 30px;
+		width: 5vw;
+		max-width: 32px;
 		height: 8px;
 		background: var(--color-bluefaded);
-		/* margin-right: 1px;
-		margin-bottom: 1px; */
 		border-right: 1px solid var(--color-bg);
 		border-bottom: 1px solid var(--color-bg);
 		transition: transform 0.1s ease-out;

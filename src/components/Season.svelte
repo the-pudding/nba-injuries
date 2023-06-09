@@ -19,6 +19,18 @@
 
 	const copy = getContext("copy");
 
+	let prevY;
+
+	function onOpen(e) {
+		prevY = window.scrollY;
+		console.log(e);
+	}
+
+	function onClose(e) {
+		e.target.closest("details").removeAttribute("open");
+		window.scrollTo(0, prevY);
+	}
+
 	$: opponents = [].concat(
 		...rounds.map(({ games }) =>
 			[].concat(
@@ -38,7 +50,7 @@
 		.join("");
 </script>
 
-<details class="season" data-asterisks={asterisksCount}>
+<details class="season" data-asterisks={asterisksCount} on:toggle={onOpen}>
 	<summary>
 		<Summary
 			{season}
@@ -49,9 +61,9 @@
 		/>
 	</summary>
 	<div class="inner">
-		<Legend />
+		<!-- <Legend /> -->
 		<div class="rounds">
-			<h3><strong>Opponents Breakdown</strong></h3>
+			<h3><strong>Opponent Breakdown</strong></h3>
 			<Players players={asteriskedOpponents} />
 			{#if valueLimp === "On"}
 				<h3>
@@ -81,6 +93,7 @@
 			</p>
 			<Dnp {dnp} {winnerAbbr} {opponents} />
 		</div>
+		<p class="close"><button on:click={onClose}>Collapse Season</button></p>
 	</div>
 </details>
 
@@ -89,6 +102,8 @@
 		line-height: 1.2;
 		font-size: var(--20px);
 		margin-top: 32px;
+		border-top: 1px solid var(--color-bluefaded);
+		padding-top: 8px;
 	}
 
 	span {
@@ -100,11 +115,13 @@
 	}
 
 	.rounds div {
-		display: flex;
-		margin: 16px auto 32px auto;
-		/* flex-direction: column; */
-		flex-wrap: wrap;
-		align-items: flex-start;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-rows: auto auto;
+		column-gap: 16px;
+		row-gap: 16px;
+		justify-items: start;
+		max-width: 480px;
 	}
 
 	details {
@@ -132,6 +149,10 @@
 
 	.dnp p {
 		max-width: 45rem;
+	}
+
+	p.close {
+		text-align: center;
 	}
 
 	@media (hover: hover) and (pointer: fine) {
@@ -163,6 +184,7 @@
 			flex-wrap: nowrap;
 			flex-direction: row;
 			justify-content: flex-start;
+			max-width: 100%;
 		}
 
 		.inner {
@@ -178,6 +200,13 @@
 
 		h3 {
 			margin-top: 48px;
+		}
+
+		.rounds div {
+			display: flex;
+			margin: 16px auto 32px auto;
+			flex-wrap: wrap;
+			align-items: flex-start;
 		}
 	}
 </style>

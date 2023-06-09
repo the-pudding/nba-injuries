@@ -73,6 +73,11 @@
 		font-size: var(--14px);
 	}
 
+	details summary,
+	details p {
+		font-size: var(--12px);
+	}
+
 	details {
 		background: var(--color-bluedark);
 		padding: 16px;

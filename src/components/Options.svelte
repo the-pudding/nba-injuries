@@ -31,26 +31,44 @@
 <style>
 	.options {
 		font-family: var(--mono);
+		margin: 0 auto;
 		margin-bottom: 64px;
+		max-width: 280px;
 	}
 
 	.buttons {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 
 	.buttonset {
 		font-size: var(--20px);
-		margin: 0 8px;
+	}
+
+	.buttonset:first-of-type {
+		margin-right: 8px;
+	}
+
+	.buttonset:last-of-type {
+		margin-left: 8px;
 	}
 
 	.explanation {
-		max-width: 20rem;
 		margin: 16px auto;
 	}
 
 	p {
 		font-size: var(--12px);
 		margin: 0;
+	}
+
+	@media only screen and (min-width: 340px) {
+		p {
+			font-size: var(--12px);
+		}
+
+		.options {
+			max-width: 280px;
+		}
 	}
 </style>

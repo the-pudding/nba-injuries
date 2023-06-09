@@ -63,7 +63,7 @@
 	}
 
 	.legend {
-		font-size: var(--16px);
+		font-size: var(--14px);
 		padding-bottom: 4px;
 	}
 
@@ -82,7 +82,7 @@
 		outline: none;
 		cursor: pointer;
 		font-family: inherit;
-		font-size: 1em;
+		font-size: var(--16px);
 		display: inline-block;
 	}
 
@@ -120,5 +120,15 @@
 		color: var(--color-bg);
 		background: var(--color-fg);
 		cursor: not-allowed;
+	}
+
+	@media only screen and (min-width: 340px) {
+		.legend {
+			font-size: var(--14px);
+		}
+
+		label {
+			font-size: var(--18px);
+		}
 	}
 </style>

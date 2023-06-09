@@ -27,8 +27,8 @@
 	.c {
 		display: flex;
 		flex-direction: column;
-		margin-right: 16px;
 		align-items: center;
+		justify-self: start;
 	}
 
 	.opponent {
@@ -51,5 +51,11 @@
 		line-height: 1;
 		color: var(--color-bluelight);
 		font-size: var(--12px);
+	}
+
+	@media only screen and (min-width: 960px) {
+		.c {
+			margin-right: 16px;
+		}
 	}
 </style>

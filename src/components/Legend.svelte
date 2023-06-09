@@ -9,8 +9,16 @@
 
 <style>
 	div {
+		position: sticky;
+		top: 0;
+		left: 0;
 		display: flex;
 		margin-top: 16px;
+		z-index: var(--z-overlay);
+		background: var(--color-bg);
+		padding: 24px 0 8px 16px;
+		border-bottom: 1px solid var(--color-bluefaded);
+		justify-content: center;
 	}
 
 	ul {
@@ -32,7 +40,6 @@
 		color: var(--color-bluedark);
 		text-align: center;
 		position: relative;
-		font-size: var(--12px);
 	}
 
 	p {
@@ -87,6 +94,9 @@
 	@media only screen and (min-width: 640px) {
 		p {
 			display: block;
+		}
+		div {
+			justify-content: flex-start;
 		}
 	}
 </style>

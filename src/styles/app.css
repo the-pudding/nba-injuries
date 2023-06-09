@@ -17,7 +17,7 @@
 
 
 	/* presets (used in reset.css) */
-	--border-radius: 2px;
+	--border-radius: 0px;
 	--font-body: var(--mono);
 	--font-form: var(--mono);
 	--color-bg: var(--color-blue);
@@ -30,9 +30,9 @@
 	--color-mark: var(--color-secondary);
 	--color-selection: var(--color-tertiary);
 	--color-border: var(--color-gray-300);
-	--color-button-bg: var(--color-gray-300);
-	--color-button-fg: var(--color-gray-900);
-	--color-button-hover: var(--color-gray-400);
+	--color-button-bg: var(--color-fg);
+	--color-button-fg: var(--color-bluedark);
+	--color-button-hover: var(--color-fg);
 	--color-input-bg: var(--color-gray-50);
 	--color-input-fg: var(--color-gray-900);
 	--color-placeholder: var(--color-gray-500);

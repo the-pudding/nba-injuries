@@ -5,6 +5,7 @@
 	import { max, sum, mean, range, scaleLinear } from "d3";
 	import Season from "$components/Season.svelte";
 	import Options from "$components/Options.svelte";
+	import Legend from "$components/Legend.svelte";
 	import getSeasonData from "$data/getSeasonData.js";
 
 	let rank = "league";
@@ -66,6 +67,7 @@
 <Options bind:valueSort bind:valueLimp />
 
 <section id="champions">
+	<Legend />
 	{#each seasons as season, i (season.season)}
 		<!-- {@const visible = visibles[i]} -->
 		{@const asterisksCount = getAsterisks(season.asterisks, valueLimp)}
@@ -83,13 +85,13 @@
 
 	@media only screen and (min-width: 960px) {
 		section {
-			width: 90vw;
+			width: 95%;
 		}
 	}
 
 	@media only screen and (min-width: 1200px) {
 		section {
-			width: 75vw;
+			width: 75%;
 		}
 	}
 </style>
