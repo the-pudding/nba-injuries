@@ -23,7 +23,6 @@
 
 	function onOpen(e) {
 		prevY = window.scrollY;
-		console.log(e);
 	}
 
 	function onClose(e) {
@@ -195,7 +194,7 @@
 	@media only screen and (min-width: 960px) {
 		summary {
 			padding: 0 32px;
-			font-size: min(3vw, 56px);
+			font-size: min(3vw, 48px);
 		}
 
 		h3 {

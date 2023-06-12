@@ -77,7 +77,7 @@
 
 <style>
 	section {
-		max-width: 1400px;
+		max-width: 1200px;
 		margin: 32px auto;
 		font-family: var(--mono);
 		min-height: 600px;
@@ -85,13 +85,7 @@
 
 	@media only screen and (min-width: 960px) {
 		section {
-			width: 95%;
-		}
-	}
-
-	@media only screen and (min-width: 1200px) {
-		section {
-			width: 75%;
+			width: 100%;
 		}
 	}
 </style>

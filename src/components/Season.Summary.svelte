@@ -41,7 +41,7 @@
 	img {
 		width: 1.5em;
 		vertical-align: middle;
-		/* display: none; */
+		display: none;
 	}
 
 	.name.desktop {
@@ -50,6 +50,17 @@
 
 	.name.mobile {
 		display: inline-block;
+		font-size: 0.8em;
+	}
+
+	@media only screen and (min-width: 360px) {
+		img {
+			display: inline-block;
+		}
+
+		.name.mobile {
+			font-size: 1em;
+		}
 	}
 
 	@media only screen and (min-width: 960px) {

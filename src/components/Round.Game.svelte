@@ -46,6 +46,7 @@
 					content: player.name,
 					align: "center",
 					arrow: false,
+					autoPosition: true,
 					style: { backgroundColor, color }
 				}}
 			/>
@@ -79,6 +80,7 @@
 		border-right: 1px solid var(--color-bg);
 		border-bottom: 1px solid var(--color-bg);
 		transition: transform 0.1s ease-out;
+		pointer-events: none;
 	}
 
 	li:hover {
@@ -105,5 +107,11 @@
 	.result {
 		font-size: var(--12px);
 		margin: 0;
+	}
+
+	@media only screen and (min-width: 960px) {
+		li {
+			pointer-events: auto;
+		}
 	}
 </style>
