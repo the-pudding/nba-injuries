@@ -14,13 +14,13 @@
 	.wordmark {
 		max-width: 10em;
 		margin: 0 auto;
-		padding: 1em 0;
+		padding: 16px 0;
 	}
 
 	.wordmark a {
 		border: none;
 		display: block;
-		color: var(--color-fg);
+		color: var(--color-bluelight);
 	}
 
 	.wordmark a:hover {

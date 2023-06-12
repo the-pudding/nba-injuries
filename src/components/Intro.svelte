@@ -1,19 +1,19 @@
 <script>
+	import crutchLogo from "$svg/crutch.svg";
 	import { getContext } from "svelte";
 	const copy = getContext("copy");
 </script>
 
 <section id="intro">
-	<div class="byline">
-		<p>
-			By <a href="https://pudding.cool/author/russell-samora">Russell Samora</a>
-		</p>
-		<time>June 2023</time>
+	<div class="logo">
+		{@html crutchLogo}
 	</div>
 
-	<h1><strong>{copy.hed}</strong></h1>
+	<h1>
+		<!-- <span class="logo">{@html crutchLogo}</span> -->
+		<strong>{copy.hed}</strong>
+	</h1>
 	<p>{@html copy.intro}</p>
-
 	<details>
 		<summary>CRUTCH explained</summary>
 		<div class="inner">
@@ -35,29 +35,10 @@
 <style>
 	section {
 		max-width: 45rem;
-		margin: 16px auto 64px;
+		margin: 0px auto 64px;
 		/* background: var(--color-bluedark); */
 		/* color: var(--color-bluedark); */
 		/* padding: 16px; */
-	}
-
-	a {
-		text-decoration: none;
-		border: none;
-		color: var(--color-primary);
-	}
-
-	.byline {
-		display: flex;
-		justify-content: space-between;
-		border-bottom: 1px solid currentColor;
-		padding: 0 0 4px 0;
-	}
-	.byline p,
-	.byline time {
-		margin: 0;
-		line-height: 1;
-		font-size: var(--16px);
 	}
 
 	ul {
@@ -66,6 +47,25 @@
 
 	h1 {
 		font-size: var(--24px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.logo {
+		display: block;
+		width: 128px;
+		margin: 0 auto;
+		/* margin-right: 16px; */
+	}
+
+	:global(.logo svg) {
+		display: block;
+	}
+
+	h1 strong {
+		flex: 1;
 	}
 
 	p,
