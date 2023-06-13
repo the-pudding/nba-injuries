@@ -65063,13 +65063,13 @@
   },
   {
     "season": 2023,
-    "winner": "MIA",
+    "winner": "DEN",
     "asterisks": {
-      "all": 18.42,
-      "allNotOpponent": 15.91,
-      "opponent": 2.51,
-      "winner": 3.42,
-      "plusMinus": -0.9100000000000001
+      "all": 19.62,
+      "allNotOpponent": 16.13,
+      "opponent": 3.48,
+      "winner": 0,
+      "plusMinus": 3.48
     },
     "dnp": [
       {
@@ -65093,7 +65093,7 @@
       {
         "bbrID": "butleji01",
         "team": "MIA",
-        "rate": 0.056,
+        "rate": 0.043,
         "asterisks": 2
       },
       {
@@ -65141,7 +65141,7 @@
       {
         "bbrID": "herroty01",
         "team": "MIA",
-        "rate": 0.944,
+        "rate": 0.957,
         "asterisks": 1
       },
       {
@@ -65159,7 +65159,7 @@
       {
         "bbrID": "loveke01",
         "team": "MIA",
-        "rate": 0.111,
+        "rate": 0.13,
         "asterisks": 1
       },
       {
@@ -65250,595 +65250,604 @@
     "rounds": [
       {
         "round": 1,
-        "opponent": "MIL",
+        "opponent": "MIN",
         "games": [
           {
-            "gameId": "202304160MIL",
+            "gameId": "202304160DEN",
             "date": "2023-04-16",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 1,
             "game": 1,
-            "teamHome": "MIL",
-            "teamAway": "MIA",
-            "scoreHome": 117,
-            "scoreAway": 130,
-            "winner": "MIA",
-            "opponent": "MIL",
+            "teamHome": "DEN",
+            "teamAway": "MIN",
+            "scoreHome": 109,
+            "scoreAway": 80,
+            "winner": "DEN",
+            "opponent": "MIN",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
+                "bbrID": "jacksre01"
               },
               {
-                "bbrID": "vincega01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "robindu01"
+                "bbrID": "cancavl01"
               },
               {
-                "bbrID": "oladivi01",
+                "bbrID": "nnajize01"
+              },
+              {
+                "bbrID": "bryanth01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "yurtsom01",
-                "reason": "Did Not Play"
+                "bbrID": "watsope01"
               },
               {
-                "bbrID": "highsha01",
-                "reason": "Did Not Play"
+                "bbrID": "smithis01"
               },
               {
-                "bbrID": "jovicni01",
-                "reason": "Inactive"
+                "bbrID": "greenje02"
               },
               {
-                "bbrID": "hasleud01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "zelleco01",
-                "reason": "Did Not Play"
+                "bbrID": "jordade01"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "antetgi01"
+                "bbrID": "goberru01"
               },
               {
-                "bbrID": "holidjr01"
+                "bbrID": "conlemi01"
               },
               {
-                "bbrID": "lopezbr01"
+                "bbrID": "edwaran01"
               },
               {
-                "bbrID": "middlkh01"
+                "bbrID": "townska01"
               },
               {
-                "bbrID": "portibo01"
+                "bbrID": "anderky01"
               },
               {
-                "bbrID": "allengr01"
-              },
-              {
-                "bbrID": "crowdja01"
-              },
-              {
-                "bbrID": "connapa01",
+                "bbrID": "mcdanja02",
                 "asterisks": 1,
-                "reason": "Did Not Play"
+                "reason": "Inactive"
               },
               {
-                "bbrID": "inglejo01"
+                "bbrID": "mclaujo01"
               },
               {
-                "bbrID": "matthwe02"
+                "bbrID": "alexani01"
               },
               {
-                "bbrID": "carteje01"
+                "bbrID": "nowelja01"
               },
               {
-                "bbrID": "dragigo01",
-                "reason": "Did Not Play"
+                "bbrID": "reidna01",
+                "reason": "Inactive"
               },
               {
-                "bbrID": "leoname01",
-                "reason": "Did Not Play"
+                "bbrID": "princta02"
               },
               {
-                "bbrID": "antetth01",
-                "reason": "Did Not Play"
+                "bbrID": "knighna01"
               },
               {
-                "bbrID": "beaucma01",
-                "reason": "Did Not Play"
+                "bbrID": "minotjo01"
+              },
+              {
+                "bbrID": "moorewe01"
+              },
+              {
+                "bbrID": "riverau01"
               }
             ]
           },
           {
-            "gameId": "202304190MIL",
+            "gameId": "202304190DEN",
             "date": "2023-04-19",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 1,
             "game": 2,
-            "teamHome": "MIL",
-            "teamAway": "MIA",
-            "scoreHome": 138,
-            "scoreAway": 122,
-            "winner": "MIL",
-            "opponent": "MIL",
+            "teamHome": "DEN",
+            "teamAway": "MIN",
+            "scoreHome": 122,
+            "scoreAway": 113,
+            "winner": "DEN",
+            "opponent": "MIN",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "jovicni01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "hasleud01",
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "antetgi01",
-                "asterisks": 2,
+                "bbrID": "goberru01"
+              },
+              {
+                "bbrID": "conlemi01"
+              },
+              {
+                "bbrID": "edwaran01"
+              },
+              {
+                "bbrID": "townska01"
+              },
+              {
+                "bbrID": "anderky01"
+              },
+              {
+                "bbrID": "mcdanja02",
+                "asterisks": 1,
                 "reason": "Inactive"
               },
               {
-                "bbrID": "holidjr01"
+                "bbrID": "mclaujo01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "lopezbr01"
+                "bbrID": "alexani01"
               },
               {
-                "bbrID": "middlkh01"
+                "bbrID": "nowelja01"
               },
               {
-                "bbrID": "portibo01"
-              },
-              {
-                "bbrID": "allengr01"
-              },
-              {
-                "bbrID": "crowdja01"
-              },
-              {
-                "bbrID": "connapa01"
-              },
-              {
-                "bbrID": "inglejo01"
-              },
-              {
-                "bbrID": "matthwe02",
+                "bbrID": "reidna01",
                 "reason": "Inactive"
               },
               {
-                "bbrID": "carteje01"
+                "bbrID": "princta02"
               },
               {
-                "bbrID": "dragigo01"
+                "bbrID": "knighna01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "leoname01"
+                "bbrID": "minotjo01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "antetth01"
+                "bbrID": "moorewe01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "beaucma01"
+                "bbrID": "riverau01",
+                "reason": "Did Not Play"
               }
             ]
           },
           {
-            "gameId": "202304220MIA",
-            "date": "2023-04-22",
+            "gameId": "202304210MIN",
+            "date": "2023-04-21",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 1,
             "game": 3,
-            "teamHome": "MIA",
-            "teamAway": "MIL",
-            "scoreHome": 121,
-            "scoreAway": 99,
-            "winner": "MIA",
-            "opponent": "MIL",
+            "teamHome": "MIN",
+            "teamAway": "DEN",
+            "scoreHome": 111,
+            "scoreAway": 120,
+            "winner": "DEN",
+            "opponent": "MIN",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
+                "bbrID": "jacksre01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "vincega01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "robindu01"
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "oladivi01"
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "yurtsom01"
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "jovicni01",
-                "reason": "Inactive"
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01"
+                "bbrID": "greenje02"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "jordade01"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "antetgi01",
-                "asterisks": 2,
+                "bbrID": "goberru01"
+              },
+              {
+                "bbrID": "conlemi01"
+              },
+              {
+                "bbrID": "edwaran01"
+              },
+              {
+                "bbrID": "townska01"
+              },
+              {
+                "bbrID": "anderky01"
+              },
+              {
+                "bbrID": "mcdanja02",
+                "asterisks": 1,
                 "reason": "Inactive"
               },
               {
-                "bbrID": "holidjr01"
+                "bbrID": "mclaujo01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "lopezbr01"
+                "bbrID": "alexani01"
               },
               {
-                "bbrID": "middlkh01"
+                "bbrID": "nowelja01"
               },
               {
-                "bbrID": "portibo01"
-              },
-              {
-                "bbrID": "allengr01"
-              },
-              {
-                "bbrID": "crowdja01"
-              },
-              {
-                "bbrID": "connapa01"
-              },
-              {
-                "bbrID": "inglejo01"
-              },
-              {
-                "bbrID": "matthwe02",
+                "bbrID": "reidna01",
                 "reason": "Inactive"
               },
               {
-                "bbrID": "carteje01"
+                "bbrID": "princta02"
               },
               {
-                "bbrID": "dragigo01"
+                "bbrID": "knighna01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "leoname01"
+                "bbrID": "minotjo01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "antetth01"
+                "bbrID": "moorewe01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "beaucma01"
+                "bbrID": "riverau01"
               }
             ]
           },
           {
-            "gameId": "202304240MIA",
-            "date": "2023-04-24",
+            "gameId": "202304230MIN",
+            "date": "2023-04-23",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 1,
             "game": 4,
-            "teamHome": "MIA",
-            "teamAway": "MIL",
-            "scoreHome": 119,
-            "scoreAway": 114,
-            "winner": "MIA",
-            "opponent": "MIL",
+            "teamHome": "MIN",
+            "teamAway": "DEN",
+            "scoreHome": 114,
+            "scoreAway": 108,
+            "winner": "MIN",
+            "opponent": "MIN",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "nnajize01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "antetgi01"
+                "bbrID": "goberru01"
               },
               {
-                "bbrID": "holidjr01"
+                "bbrID": "conlemi01"
               },
               {
-                "bbrID": "lopezbr01"
+                "bbrID": "edwaran01"
               },
               {
-                "bbrID": "middlkh01"
+                "bbrID": "townska01"
               },
               {
-                "bbrID": "portibo01"
+                "bbrID": "anderky01"
               },
               {
-                "bbrID": "allengr01"
-              },
-              {
-                "bbrID": "crowdja01",
+                "bbrID": "mcdanja02",
                 "asterisks": 1,
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "connapa01"
-              },
-              {
-                "bbrID": "inglejo01"
-              },
-              {
-                "bbrID": "matthwe02",
                 "reason": "Inactive"
               },
               {
-                "bbrID": "carteje01"
+                "bbrID": "mclaujo01"
               },
               {
-                "bbrID": "dragigo01",
+                "bbrID": "alexani01"
+              },
+              {
+                "bbrID": "nowelja01"
+              },
+              {
+                "bbrID": "reidna01",
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "princta02"
+              },
+              {
+                "bbrID": "knighna01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "leoname01",
+                "bbrID": "minotjo01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "antetth01",
+                "bbrID": "moorewe01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "beaucma01",
-                "reason": "Did Not Play"
+                "bbrID": "riverau01"
               }
             ]
           },
           {
-            "gameId": "202304260MIL",
-            "date": "2023-04-26",
+            "gameId": "202304250DEN",
+            "date": "2023-04-25",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 1,
             "game": 5,
-            "teamHome": "MIL",
-            "teamAway": "MIA",
-            "scoreHome": 126,
-            "scoreAway": 128,
-            "winner": "MIA",
-            "opponent": "MIL",
+            "teamHome": "DEN",
+            "teamAway": "MIN",
+            "scoreHome": 112,
+            "scoreAway": 109,
+            "winner": "DEN",
+            "opponent": "MIN",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "nnajize01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "antetgi01"
+                "bbrID": "goberru01"
               },
               {
-                "bbrID": "holidjr01"
+                "bbrID": "conlemi01"
               },
               {
-                "bbrID": "lopezbr01"
+                "bbrID": "edwaran01"
               },
               {
-                "bbrID": "middlkh01"
+                "bbrID": "townska01"
               },
               {
-                "bbrID": "portibo01"
+                "bbrID": "anderky01",
+                "asterisks": 1,
+                "reason": "Inactive"
               },
               {
-                "bbrID": "allengr01"
+                "bbrID": "mcdanja02",
+                "asterisks": 1,
+                "reason": "Inactive"
               },
               {
-                "bbrID": "crowdja01"
-              },
-              {
-                "bbrID": "connapa01"
-              },
-              {
-                "bbrID": "inglejo01"
-              },
-              {
-                "bbrID": "matthwe02"
-              },
-              {
-                "bbrID": "carteje01",
+                "bbrID": "mclaujo01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "dragigo01",
+                "bbrID": "alexani01"
+              },
+              {
+                "bbrID": "nowelja01"
+              },
+              {
+                "bbrID": "reidna01",
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "princta02"
+              },
+              {
+                "bbrID": "knighna01"
+              },
+              {
+                "bbrID": "minotjo01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "leoname01",
+                "bbrID": "moorewe01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "antetth01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "beaucma01",
-                "reason": "Did Not Play"
+                "bbrID": "riverau01"
               }
             ]
           }
@@ -65846,705 +65855,708 @@
       },
       {
         "round": 2,
-        "opponent": "NYK",
+        "opponent": "PHO",
         "games": [
           {
-            "gameId": "202304300NYK",
-            "date": "2023-04-30",
+            "gameId": "202304290DEN",
+            "date": "2023-04-29",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 2,
             "game": 1,
-            "teamHome": "NYK",
-            "teamAway": "MIA",
-            "scoreHome": 101,
-            "scoreAway": 108,
-            "winner": "MIA",
-            "opponent": "NYK",
+            "teamHome": "DEN",
+            "teamAway": "PHO",
+            "scoreHome": 125,
+            "scoreAway": 107,
+            "winner": "DEN",
+            "opponent": "PHO",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
+                "bbrID": "jacksre01"
               },
               {
-                "bbrID": "vincega01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "robindu01"
+                "bbrID": "cancavl01"
               },
               {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
+                "bbrID": "nnajize01"
               },
               {
-                "bbrID": "yurtsom01",
+                "bbrID": "bryanth01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "watsope01"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "smithis01"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
                 "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hasleud01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "zelleco01"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "brunsja01"
+                "bbrID": "duranke01"
               },
               {
-                "bbrID": "quickim01"
+                "bbrID": "bookede01"
               },
               {
-                "bbrID": "hartjo01"
+                "bbrID": "paulch01"
               },
               {
-                "bbrID": "robinmi01"
+                "bbrID": "okogijo01"
               },
               {
-                "bbrID": "harteis01"
+                "bbrID": "payneca01"
               },
               {
-                "bbrID": "randlju01",
-                "asterisks": 1,
-                "reason": "Did Not Dress"
+                "bbrID": "shamela01"
               },
               {
-                "bbrID": "grimequ01"
+                "bbrID": "aytonde01"
               },
               {
-                "bbrID": "rosede01",
+                "bbrID": "landajo01"
+              },
+              {
+                "bbrID": "leeda03"
+              },
+              {
+                "bbrID": "wainris01"
+              },
+              {
+                "bbrID": "craigto01"
+              },
+              {
+                "bbrID": "biyombi01"
+              },
+              {
+                "bbrID": "warretj01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "toppiob01"
-              },
-              {
-                "bbrID": "fournev01",
+                "bbrID": "bazleda01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "mcbrimi01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "barrerj01"
-              },
-              {
-                "bbrID": "simsje01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "jeffrda01",
-                "reason": "Did Not Play"
+                "bbrID": "rosste01"
               }
             ]
           },
           {
-            "gameId": "202305020NYK",
-            "date": "2023-05-02",
+            "gameId": "202305010DEN",
+            "date": "2023-05-01",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 2,
             "game": 2,
-            "teamHome": "NYK",
-            "teamAway": "MIA",
-            "scoreHome": 111,
-            "scoreAway": 105,
-            "winner": "NYK",
-            "opponent": "NYK",
+            "teamHome": "DEN",
+            "teamAway": "PHO",
+            "scoreHome": 97,
+            "scoreAway": 87,
+            "winner": "DEN",
+            "opponent": "PHO",
             "playersWinner": [
               {
-                "bbrID": "butleji01",
-                "asterisks": 2,
-                "reason": "Inactive"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "nnajize01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "brunsja01"
+                "bbrID": "duranke01"
               },
               {
-                "bbrID": "quickim01"
+                "bbrID": "bookede01"
               },
               {
-                "bbrID": "hartjo01"
+                "bbrID": "paulch01"
               },
               {
-                "bbrID": "robinmi01"
+                "bbrID": "okogijo01"
               },
               {
-                "bbrID": "harteis01"
+                "bbrID": "payneca01"
               },
               {
-                "bbrID": "randlju01"
-              },
-              {
-                "bbrID": "grimequ01"
-              },
-              {
-                "bbrID": "rosede01",
+                "bbrID": "shamela01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "toppiob01"
+                "bbrID": "aytonde01"
               },
               {
-                "bbrID": "fournev01",
+                "bbrID": "landajo01"
+              },
+              {
+                "bbrID": "leeda03"
+              },
+              {
+                "bbrID": "wainris01"
+              },
+              {
+                "bbrID": "craigto01"
+              },
+              {
+                "bbrID": "biyombi01"
+              },
+              {
+                "bbrID": "warretj01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "mcbrimi01",
+                "bbrID": "bazleda01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "barrerj01"
-              },
-              {
-                "bbrID": "simsje01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "jeffrda01",
+                "bbrID": "rosste01",
                 "reason": "Did Not Play"
               }
             ]
           },
           {
-            "gameId": "202305060MIA",
-            "date": "2023-05-06",
+            "gameId": "202305050PHO",
+            "date": "2023-05-05",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 2,
             "game": 3,
-            "teamHome": "MIA",
-            "teamAway": "NYK",
-            "scoreHome": 105,
-            "scoreAway": 86,
-            "winner": "MIA",
-            "opponent": "NYK",
+            "teamHome": "PHO",
+            "teamAway": "DEN",
+            "scoreHome": 121,
+            "scoreAway": 114,
+            "winner": "PHO",
+            "opponent": "PHO",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
+                "bbrID": "jacksre01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "vincega01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "robindu01"
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "yurtsom01"
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "jovicni01"
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
-                "reason": "Inactive"
+                "bbrID": "greenje02"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "brunsja01"
+                "bbrID": "duranke01"
               },
               {
-                "bbrID": "quickim01"
+                "bbrID": "bookede01"
               },
               {
-                "bbrID": "hartjo01"
-              },
-              {
-                "bbrID": "robinmi01"
-              },
-              {
-                "bbrID": "harteis01"
-              },
-              {
-                "bbrID": "randlju01"
-              },
-              {
-                "bbrID": "grimequ01"
-              },
-              {
-                "bbrID": "rosede01",
+                "bbrID": "paulch01",
+                "asterisks": 1,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "toppiob01"
+                "bbrID": "okogijo01"
               },
               {
-                "bbrID": "fournev01",
+                "bbrID": "payneca01"
+              },
+              {
+                "bbrID": "shamela01"
+              },
+              {
+                "bbrID": "aytonde01"
+              },
+              {
+                "bbrID": "landajo01"
+              },
+              {
+                "bbrID": "leeda03",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "mcbrimi01"
+                "bbrID": "wainris01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "barrerj01"
+                "bbrID": "craigto01"
               },
               {
-                "bbrID": "simsje01",
-                "reason": "Inactive"
+                "bbrID": "biyombi01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "jeffrda01"
+                "bbrID": "warretj01"
+              },
+              {
+                "bbrID": "bazleda01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "rosste01"
               }
             ]
           },
           {
-            "gameId": "202305080MIA",
-            "date": "2023-05-08",
+            "gameId": "202305070PHO",
+            "date": "2023-05-07",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 2,
             "game": 4,
-            "teamHome": "MIA",
-            "teamAway": "NYK",
-            "scoreHome": 109,
-            "scoreAway": 101,
-            "winner": "MIA",
-            "opponent": "NYK",
+            "teamHome": "PHO",
+            "teamAway": "DEN",
+            "scoreHome": 129,
+            "scoreAway": 124,
+            "winner": "PHO",
+            "opponent": "PHO",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "nnajize01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "brunsja01"
+                "bbrID": "duranke01"
               },
               {
-                "bbrID": "quickim01",
-                "asterisks": 2,
-                "reason": "Inactive"
+                "bbrID": "bookede01"
               },
               {
-                "bbrID": "hartjo01"
-              },
-              {
-                "bbrID": "robinmi01"
-              },
-              {
-                "bbrID": "harteis01"
-              },
-              {
-                "bbrID": "randlju01"
-              },
-              {
-                "bbrID": "grimequ01"
-              },
-              {
-                "bbrID": "rosede01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "toppiob01"
-              },
-              {
-                "bbrID": "fournev01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "mcbrimi01"
-              },
-              {
-                "bbrID": "barrerj01"
-              },
-              {
-                "bbrID": "simsje01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "jeffrda01",
-                "reason": "Did Not Play"
-              }
-            ]
-          },
-          {
-            "gameId": "202305100NYK",
-            "date": "2023-05-10",
-            "season": 2023,
-            "conference": "East",
-            "round": 2,
-            "game": 5,
-            "teamHome": "NYK",
-            "teamAway": "MIA",
-            "scoreHome": 112,
-            "scoreAway": 103,
-            "winner": "NYK",
-            "opponent": "NYK",
-            "playersWinner": [
-              {
-                "bbrID": "butleji01"
-              },
-              {
-                "bbrID": "adebaba01"
-              },
-              {
-                "bbrID": "lowryky01"
-              },
-              {
-                "bbrID": "herroty01",
+                "bbrID": "paulch01",
                 "asterisks": 1,
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "loveke01"
-              },
-              {
-                "bbrID": "martica02"
-              },
-              {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "highsha01"
-              },
-              {
-                "bbrID": "jovicni01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hasleud01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "zelleco01"
-              }
-            ],
-            "playersOpponent": [
-              {
-                "bbrID": "brunsja01"
-              },
-              {
-                "bbrID": "quickim01",
-                "asterisks": 2,
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "hartjo01"
-              },
-              {
-                "bbrID": "robinmi01"
-              },
-              {
-                "bbrID": "harteis01"
-              },
-              {
-                "bbrID": "randlju01"
-              },
-              {
-                "bbrID": "grimequ01"
-              },
-              {
-                "bbrID": "rosede01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "toppiob01"
-              },
-              {
-                "bbrID": "fournev01",
                 "reason": "Did Not Dress"
               },
               {
-                "bbrID": "mcbrimi01"
+                "bbrID": "okogijo01"
               },
               {
-                "bbrID": "barrerj01"
+                "bbrID": "payneca01"
               },
               {
-                "bbrID": "simsje01",
-                "reason": "Inactive"
+                "bbrID": "shamela01"
               },
               {
-                "bbrID": "jeffrda01",
+                "bbrID": "aytonde01"
+              },
+              {
+                "bbrID": "landajo01"
+              },
+              {
+                "bbrID": "leeda03",
                 "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "wainris01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "craigto01"
+              },
+              {
+                "bbrID": "biyombi01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "warretj01"
+              },
+              {
+                "bbrID": "bazleda01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "rosste01"
               }
             ]
           },
           {
-            "gameId": "202305120MIA",
-            "date": "2023-05-12",
+            "gameId": "202305090DEN",
+            "date": "2023-05-09",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 2,
-            "game": 6,
-            "teamHome": "MIA",
-            "teamAway": "NYK",
-            "scoreHome": 96,
-            "scoreAway": 92,
-            "winner": "MIA",
-            "opponent": "NYK",
+            "game": 5,
+            "teamHome": "DEN",
+            "teamAway": "PHO",
+            "scoreHome": 118,
+            "scoreAway": 102,
+            "winner": "DEN",
+            "opponent": "PHO",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
+                "bbrID": "jacksre01"
               },
               {
-                "bbrID": "vincega01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "robindu01"
+                "bbrID": "cancavl01"
               },
               {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
+                "bbrID": "nnajize01"
               },
               {
-                "bbrID": "yurtsom01",
+                "bbrID": "bryanth01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01",
-                "reason": "Did Not Play"
+                "bbrID": "watsope01"
               },
               {
-                "bbrID": "jovicni01",
-                "reason": "Did Not Play"
+                "bbrID": "smithis01"
               },
               {
-                "bbrID": "hasleud01",
-                "reason": "Did Not Play"
+                "bbrID": "greenje02"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "brunsja01"
+                "bbrID": "duranke01"
               },
               {
-                "bbrID": "quickim01",
-                "asterisks": 2,
-                "reason": "Inactive"
+                "bbrID": "bookede01"
               },
               {
-                "bbrID": "hartjo01"
+                "bbrID": "paulch01",
+                "asterisks": 1,
+                "reason": "Did Not Dress"
               },
               {
-                "bbrID": "robinmi01"
+                "bbrID": "okogijo01"
               },
               {
-                "bbrID": "harteis01"
+                "bbrID": "payneca01"
               },
               {
-                "bbrID": "randlju01"
+                "bbrID": "shamela01"
               },
               {
-                "bbrID": "grimequ01"
+                "bbrID": "aytonde01"
               },
               {
-                "bbrID": "rosede01",
+                "bbrID": "landajo01"
+              },
+              {
+                "bbrID": "leeda03"
+              },
+              {
+                "bbrID": "wainris01"
+              },
+              {
+                "bbrID": "craigto01"
+              },
+              {
+                "bbrID": "biyombi01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "toppiob01"
+                "bbrID": "warretj01"
               },
               {
-                "bbrID": "fournev01",
+                "bbrID": "bazleda01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "mcbrimi01"
+                "bbrID": "rosste01"
+              }
+            ]
+          },
+          {
+            "gameId": "202305110PHO",
+            "date": "2023-05-11",
+            "season": 2023,
+            "conference": "West",
+            "round": 2,
+            "game": 6,
+            "teamHome": "PHO",
+            "teamAway": "DEN",
+            "scoreHome": 100,
+            "scoreAway": 125,
+            "winner": "DEN",
+            "opponent": "PHO",
+            "playersWinner": [
+              {
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "barrerj01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "simsje01",
-                "reason": "Inactive"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "jeffrda01",
+                "bbrID": "caldwke01"
+              },
+              {
+                "bbrID": "brownbr01"
+              },
+              {
+                "bbrID": "portemi01"
+              },
+              {
+                "bbrID": "jacksre01"
+              },
+              {
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01"
+              },
+              {
+                "bbrID": "nnajize01"
+              },
+              {
+                "bbrID": "bryanth01",
                 "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01"
+              },
+              {
+                "bbrID": "smithis01"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "duranke01"
+              },
+              {
+                "bbrID": "bookede01"
+              },
+              {
+                "bbrID": "paulch01",
+                "asterisks": 1,
+                "reason": "Did Not Dress"
+              },
+              {
+                "bbrID": "okogijo01",
+                "asterisks": 1,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "payneca01"
+              },
+              {
+                "bbrID": "shamela01"
+              },
+              {
+                "bbrID": "aytonde01",
+                "reason": "Did Not Dress"
+              },
+              {
+                "bbrID": "landajo01"
+              },
+              {
+                "bbrID": "leeda03"
+              },
+              {
+                "bbrID": "wainris01"
+              },
+              {
+                "bbrID": "craigto01"
+              },
+              {
+                "bbrID": "biyombi01"
+              },
+              {
+                "bbrID": "warretj01"
+              },
+              {
+                "bbrID": "bazleda01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "rosste01"
               }
             ]
           }
@@ -66552,611 +66564,565 @@
       },
       {
         "round": 3,
-        "opponent": "BOS",
+        "opponent": "LAL",
         "games": [
           {
-            "gameId": "202305170BOS",
-            "date": "2023-05-17",
+            "gameId": "202305160DEN",
+            "date": "2023-05-16",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 3,
             "game": 1,
-            "teamHome": "BOS",
-            "teamAway": "MIA",
-            "scoreHome": 116,
-            "scoreAway": 123,
-            "winner": "MIA",
-            "opponent": "BOS",
+            "teamHome": "DEN",
+            "teamAway": "LAL",
+            "scoreHome": 132,
+            "scoreAway": 126,
+            "winner": "DEN",
+            "opponent": "LAL",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01",
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "nnajize01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "bryanth01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "tatumja01"
+                "bbrID": "jamesle01"
               },
               {
-                "bbrID": "whitede01"
+                "bbrID": "davisan02"
               },
               {
-                "bbrID": "smartma01"
+                "bbrID": "reaveau01"
               },
               {
-                "bbrID": "horfoal01"
+                "bbrID": "russeda01"
               },
               {
-                "bbrID": "brownja02"
+                "bbrID": "vandeja01"
               },
               {
-                "bbrID": "brogdma01"
-              },
-              {
-                "bbrID": "williro04"
-              },
-              {
-                "bbrID": "griffbl01",
+                "bbrID": "beaslma01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "muscami01",
+                "bbrID": "browntr01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hausesa01",
+                "bbrID": "gabriwe01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "willigr01",
-                "reason": "Did Not Play"
+                "bbrID": "schrode01"
               },
               {
-                "bbrID": "pritcpa01"
-              },
-              {
-                "bbrID": "kornelu01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
+                "bbrID": "bambamo01",
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "harrish01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "chrisma02",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hachiru01"
+              },
+              {
+                "bbrID": "walkelo01"
+              },
+              {
+                "bbrID": "thomptr01",
+                "reason": "Did Not Play"
               }
             ]
           },
           {
-            "gameId": "202305190BOS",
-            "date": "2023-05-19",
+            "gameId": "202305180DEN",
+            "date": "2023-05-18",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 3,
             "game": 2,
-            "teamHome": "BOS",
-            "teamAway": "MIA",
-            "scoreHome": 105,
-            "scoreAway": 111,
-            "winner": "MIA",
-            "opponent": "BOS",
+            "teamHome": "DEN",
+            "teamAway": "LAL",
+            "scoreHome": 108,
+            "scoreAway": 103,
+            "winner": "DEN",
+            "opponent": "LAL",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
+                "bbrID": "jacksre01"
               },
               {
-                "bbrID": "vincega01"
+                "bbrID": "braunch01"
               },
               {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01",
+                "bbrID": "cancavl01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01",
+                "bbrID": "nnajize01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "jovicni01",
+                "bbrID": "bryanth01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "watsope01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "tatumja01"
+                "bbrID": "jamesle01"
               },
               {
-                "bbrID": "whitede01"
+                "bbrID": "davisan02"
               },
               {
-                "bbrID": "smartma01"
+                "bbrID": "reaveau01"
               },
               {
-                "bbrID": "horfoal01"
+                "bbrID": "russeda01"
               },
               {
-                "bbrID": "brownja02"
+                "bbrID": "vandeja01"
               },
               {
-                "bbrID": "brogdma01"
-              },
-              {
-                "bbrID": "williro04"
-              },
-              {
-                "bbrID": "griffbl01",
+                "bbrID": "beaslma01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "muscami01",
+                "bbrID": "browntr01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "hausesa01",
+                "bbrID": "gabriwe01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "willigr01"
+                "bbrID": "schrode01"
               },
               {
-                "bbrID": "pritcpa01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
+                "bbrID": "bambamo01",
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "harrish01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "chrisma02",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hachiru01"
+              },
+              {
+                "bbrID": "walkelo01"
+              },
+              {
+                "bbrID": "thomptr01"
               }
             ]
           },
           {
-            "gameId": "202305210MIA",
-            "date": "2023-05-21",
+            "gameId": "202305200LAL",
+            "date": "2023-05-20",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 3,
             "game": 3,
-            "teamHome": "MIA",
-            "teamAway": "BOS",
-            "scoreHome": 128,
-            "scoreAway": 102,
-            "winner": "MIA",
-            "opponent": "BOS",
+            "teamHome": "LAL",
+            "teamAway": "DEN",
+            "scoreHome": 108,
+            "scoreAway": 119,
+            "winner": "DEN",
+            "opponent": "LAL",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01"
-              },
-              {
-                "bbrID": "highsha01"
-              },
-              {
-                "bbrID": "jovicni01"
-              },
-              {
-                "bbrID": "hasleud01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "tatumja01"
+                "bbrID": "jamesle01"
               },
               {
-                "bbrID": "whitede01"
+                "bbrID": "davisan02"
               },
               {
-                "bbrID": "smartma01"
+                "bbrID": "reaveau01"
               },
               {
-                "bbrID": "horfoal01"
+                "bbrID": "russeda01"
               },
               {
-                "bbrID": "brownja02"
+                "bbrID": "vandeja01"
               },
               {
-                "bbrID": "brogdma01"
+                "bbrID": "beaslma01"
               },
               {
-                "bbrID": "williro04"
+                "bbrID": "browntr01"
               },
               {
-                "bbrID": "griffbl01",
+                "bbrID": "gabriwe01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "muscami01"
+                "bbrID": "schrode01"
               },
               {
-                "bbrID": "hausesa01"
-              },
-              {
-                "bbrID": "willigr01"
-              },
-              {
-                "bbrID": "pritcpa01"
-              },
-              {
-                "bbrID": "kornelu01"
-              },
-              {
-                "bbrID": "champju01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
+                "bbrID": "bambamo01",
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "harrish01"
+              },
+              {
+                "bbrID": "chrisma02"
+              },
+              {
+                "bbrID": "hachiru01"
+              },
+              {
+                "bbrID": "walkelo01"
+              },
+              {
+                "bbrID": "thomptr01"
               }
             ]
           },
           {
-            "gameId": "202305230MIA",
-            "date": "2023-05-23",
+            "gameId": "202305220LAL",
+            "date": "2023-05-22",
             "season": 2023,
-            "conference": "East",
+            "conference": "West",
             "round": 3,
             "game": 4,
-            "teamHome": "MIA",
-            "teamAway": "BOS",
-            "scoreHome": 99,
-            "scoreAway": 116,
-            "winner": "BOS",
-            "opponent": "BOS",
+            "teamHome": "LAL",
+            "teamAway": "DEN",
+            "scoreHome": 111,
+            "scoreAway": 113,
+            "winner": "DEN",
+            "opponent": "LAL",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01"
-              },
-              {
-                "bbrID": "highsha01"
-              },
-              {
-                "bbrID": "jovicni01"
-              },
-              {
-                "bbrID": "hasleud01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "braunch01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "tatumja01"
+                "bbrID": "jamesle01"
               },
               {
-                "bbrID": "whitede01"
+                "bbrID": "davisan02"
               },
               {
-                "bbrID": "smartma01"
+                "bbrID": "reaveau01"
               },
               {
-                "bbrID": "horfoal01"
+                "bbrID": "russeda01"
               },
               {
-                "bbrID": "brownja02"
-              },
-              {
-                "bbrID": "brogdma01"
-              },
-              {
-                "bbrID": "williro04"
-              },
-              {
-                "bbrID": "griffbl01",
+                "bbrID": "vandeja01",
+                "asterisks": 1,
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "muscami01"
+                "bbrID": "beaslma01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "hausesa01"
+                "bbrID": "browntr01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "willigr01"
+                "bbrID": "gabriwe01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "pritcpa01"
+                "bbrID": "schrode01"
               },
               {
-                "bbrID": "kornelu01"
+                "bbrID": "bambamo01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "champju01"
+                "bbrID": "harrish01",
+                "reason": "Did Not Play"
               },
               {
-                "bbrID": "gallida01",
-                "reason": "Inactive"
+                "bbrID": "chrisma02",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hachiru01"
+              },
+              {
+                "bbrID": "walkelo01"
+              },
+              {
+                "bbrID": "thomptr01"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "opponent": "MIA",
+        "games": [
           {
-            "gameId": "202305250BOS",
-            "date": "2023-05-25",
+            "gameId": "202306010DEN",
+            "date": "2023-06-01",
             "season": 2023,
-            "conference": "East",
-            "round": 3,
-            "game": 5,
-            "teamHome": "BOS",
+            "conference": "",
+            "round": 4,
+            "game": 1,
+            "teamHome": "DEN",
             "teamAway": "MIA",
-            "scoreHome": 110,
-            "scoreAway": 97,
-            "winner": "BOS",
-            "opponent": "BOS",
+            "scoreHome": 104,
+            "scoreAway": 93,
+            "winner": "DEN",
+            "opponent": "MIA",
             "playersWinner": [
               {
-                "bbrID": "butleji01"
+                "bbrID": "jokicni01"
               },
               {
-                "bbrID": "adebaba01"
+                "bbrID": "murraja01"
               },
               {
-                "bbrID": "lowryky01"
+                "bbrID": "gordoaa01"
               },
               {
-                "bbrID": "herroty01",
-                "asterisks": 1,
-                "reason": "Inactive"
+                "bbrID": "caldwke01"
               },
               {
-                "bbrID": "loveke01"
+                "bbrID": "brownbr01"
               },
               {
-                "bbrID": "martica02"
+                "bbrID": "portemi01"
               },
               {
-                "bbrID": "strusma01"
-              },
-              {
-                "bbrID": "vincega01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "robindu01"
-              },
-              {
-                "bbrID": "oladivi01",
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "yurtsom01"
-              },
-              {
-                "bbrID": "highsha01"
-              },
-              {
-                "bbrID": "jovicni01"
-              },
-              {
-                "bbrID": "hasleud01",
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01"
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
-              {
-                "bbrID": "tatumja01"
-              },
-              {
-                "bbrID": "whitede01"
-              },
-              {
-                "bbrID": "smartma01"
-              },
-              {
-                "bbrID": "horfoal01"
-              },
-              {
-                "bbrID": "brownja02"
-              },
-              {
-                "bbrID": "brogdma01"
-              },
-              {
-                "bbrID": "williro04"
-              },
-              {
-                "bbrID": "griffbl01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01"
-              },
-              {
-                "bbrID": "willigr01"
-              },
-              {
-                "bbrID": "pritcpa01"
-              },
-              {
-                "bbrID": "kornelu01"
-              },
-              {
-                "bbrID": "champju01"
-              },
-              {
-                "bbrID": "gallida01",
-                "reason": "Inactive"
-              }
-            ]
-          },
-          {
-            "gameId": "202305270MIA",
-            "date": "2023-05-27",
-            "season": 2023,
-            "conference": "East",
-            "round": 3,
-            "game": 6,
-            "teamHome": "MIA",
-            "teamAway": "BOS",
-            "scoreHome": 103,
-            "scoreAway": 104,
-            "winner": "BOS",
-            "opponent": "BOS",
-            "playersWinner": [
               {
                 "bbrID": "butleji01"
               },
@@ -67175,6 +67141,125 @@
                 "bbrID": "loveke01",
                 "asterisks": 1,
                 "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "martica02"
+              },
+              {
+                "bbrID": "strusma01"
+              },
+              {
+                "bbrID": "vincega01"
+              },
+              {
+                "bbrID": "robindu01"
+              },
+              {
+                "bbrID": "oladivi01",
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01"
+              },
+              {
+                "bbrID": "highsha01"
+              },
+              {
+                "bbrID": "jovicni01"
+              },
+              {
+                "bbrID": "hasleud01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01"
+              }
+            ]
+          },
+          {
+            "gameId": "202306040DEN",
+            "date": "2023-06-04",
+            "season": 2023,
+            "conference": "",
+            "round": 4,
+            "game": 2,
+            "teamHome": "DEN",
+            "teamAway": "MIA",
+            "scoreHome": 108,
+            "scoreAway": 111,
+            "winner": "MIA",
+            "opponent": "MIA",
+            "playersWinner": [
+              {
+                "bbrID": "jokicni01"
+              },
+              {
+                "bbrID": "murraja01"
+              },
+              {
+                "bbrID": "gordoaa01"
+              },
+              {
+                "bbrID": "caldwke01"
+              },
+              {
+                "bbrID": "brownbr01"
+              },
+              {
+                "bbrID": "portemi01"
+              },
+              {
+                "bbrID": "jacksre01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "butleji01"
+              },
+              {
+                "bbrID": "adebaba01"
+              },
+              {
+                "bbrID": "lowryky01"
+              },
+              {
+                "bbrID": "herroty01",
+                "asterisks": 1,
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01"
               },
               {
                 "bbrID": "martica02"
@@ -67197,8 +67282,7 @@
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "highsha01",
-                "reason": "Did Not Play"
+                "bbrID": "highsha01"
               },
               {
                 "bbrID": "jovicni01",
@@ -67211,77 +67295,71 @@
               {
                 "bbrID": "zelleco01"
               }
-            ],
-            "playersOpponent": [
-              {
-                "bbrID": "tatumja01"
-              },
-              {
-                "bbrID": "whitede01"
-              },
-              {
-                "bbrID": "smartma01"
-              },
-              {
-                "bbrID": "horfoal01"
-              },
-              {
-                "bbrID": "brownja02"
-              },
-              {
-                "bbrID": "brogdma01",
-                "asterisks": 1,
-                "reason": "Inactive"
-              },
-              {
-                "bbrID": "williro04"
-              },
-              {
-                "bbrID": "griffbl01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "hausesa01"
-              },
-              {
-                "bbrID": "willigr01"
-              },
-              {
-                "bbrID": "pritcpa01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "kornelu01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "champju01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
-                "reason": "Inactive"
-              }
             ]
           },
           {
-            "gameId": "202305290BOS",
-            "date": "2023-05-29",
+            "gameId": "202306070MIA",
+            "date": "2023-06-07",
             "season": 2023,
-            "conference": "East",
-            "round": 3,
-            "game": 7,
-            "teamHome": "BOS",
-            "teamAway": "MIA",
-            "scoreHome": 84,
-            "scoreAway": 103,
-            "winner": "MIA",
-            "opponent": "BOS",
+            "conference": "",
+            "round": 4,
+            "game": 3,
+            "teamHome": "MIA",
+            "teamAway": "DEN",
+            "scoreHome": 94,
+            "scoreAway": 109,
+            "winner": "DEN",
+            "opponent": "MIA",
             "playersWinner": [
+              {
+                "bbrID": "jokicni01"
+              },
+              {
+                "bbrID": "murraja01"
+              },
+              {
+                "bbrID": "gordoaa01"
+              },
+              {
+                "bbrID": "caldwke01"
+              },
+              {
+                "bbrID": "brownbr01"
+              },
+              {
+                "bbrID": "portemi01"
+              },
+              {
+                "bbrID": "jacksre01"
+              },
+              {
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01"
+              },
+              {
+                "bbrID": "nnajize01"
+              },
+              {
+                "bbrID": "bryanth01"
+              },
+              {
+                "bbrID": "watsope01"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
+                "reason": "Did Not Play"
+              }
+            ],
+            "playersOpponent": [
               {
                 "bbrID": "butleji01"
               },
@@ -67297,9 +67375,7 @@
                 "reason": "Inactive"
               },
               {
-                "bbrID": "loveke01",
-                "asterisks": 1,
-                "reason": "Did Not Play"
+                "bbrID": "loveke01"
               },
               {
                 "bbrID": "martica02"
@@ -67327,62 +67403,251 @@
                 "bbrID": "jovicni01"
               },
               {
-                "bbrID": "hasleud01",
+                "bbrID": "hasleud01"
+              },
+              {
+                "bbrID": "zelleco01"
+              }
+            ]
+          },
+          {
+            "gameId": "202306090MIA",
+            "date": "2023-06-09",
+            "season": 2023,
+            "conference": "",
+            "round": 4,
+            "game": 4,
+            "teamHome": "MIA",
+            "teamAway": "DEN",
+            "scoreHome": 95,
+            "scoreAway": 108,
+            "winner": "DEN",
+            "opponent": "MIA",
+            "playersWinner": [
+              {
+                "bbrID": "jokicni01"
+              },
+              {
+                "bbrID": "murraja01"
+              },
+              {
+                "bbrID": "gordoaa01"
+              },
+              {
+                "bbrID": "caldwke01"
+              },
+              {
+                "bbrID": "brownbr01"
+              },
+              {
+                "bbrID": "portemi01"
+              },
+              {
+                "bbrID": "jacksre01",
                 "reason": "Did Not Play"
               },
               {
-                "bbrID": "zelleco01",
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01",
                 "reason": "Did Not Play"
               }
             ],
             "playersOpponent": [
               {
-                "bbrID": "tatumja01"
+                "bbrID": "butleji01"
               },
               {
-                "bbrID": "whitede01"
+                "bbrID": "adebaba01"
               },
               {
-                "bbrID": "smartma01"
+                "bbrID": "lowryky01"
               },
               {
-                "bbrID": "horfoal01"
-              },
-              {
-                "bbrID": "brownja02"
-              },
-              {
-                "bbrID": "brogdma01"
-              },
-              {
-                "bbrID": "williro04"
-              },
-              {
-                "bbrID": "griffbl01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "muscami01"
-              },
-              {
-                "bbrID": "hausesa01"
-              },
-              {
-                "bbrID": "willigr01"
-              },
-              {
-                "bbrID": "pritcpa01"
-              },
-              {
-                "bbrID": "kornelu01"
-              },
-              {
-                "bbrID": "champju01",
-                "reason": "Did Not Play"
-              },
-              {
-                "bbrID": "gallida01",
+                "bbrID": "herroty01",
+                "asterisks": 1,
                 "reason": "Inactive"
+              },
+              {
+                "bbrID": "loveke01"
+              },
+              {
+                "bbrID": "martica02"
+              },
+              {
+                "bbrID": "strusma01"
+              },
+              {
+                "bbrID": "vincega01"
+              },
+              {
+                "bbrID": "robindu01"
+              },
+              {
+                "bbrID": "oladivi01",
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01"
+              },
+              {
+                "bbrID": "jovicni01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01"
+              }
+            ]
+          },
+          {
+            "gameId": "202306120DEN",
+            "date": "2023-06-12",
+            "season": 2023,
+            "conference": "",
+            "round": 4,
+            "game": 5,
+            "teamHome": "DEN",
+            "teamAway": "MIA",
+            "scoreHome": 94,
+            "scoreAway": 89,
+            "winner": "DEN",
+            "opponent": "MIA",
+            "playersWinner": [
+              {
+                "bbrID": "jokicni01"
+              },
+              {
+                "bbrID": "murraja01"
+              },
+              {
+                "bbrID": "gordoaa01"
+              },
+              {
+                "bbrID": "caldwke01"
+              },
+              {
+                "bbrID": "brownbr01"
+              },
+              {
+                "bbrID": "portemi01"
+              },
+              {
+                "bbrID": "jacksre01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "braunch01"
+              },
+              {
+                "bbrID": "cancavl01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "nnajize01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "bryanth01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "watsope01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "smithis01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "greenje02"
+              },
+              {
+                "bbrID": "jordade01"
+              }
+            ],
+            "playersOpponent": [
+              {
+                "bbrID": "butleji01"
+              },
+              {
+                "bbrID": "adebaba01"
+              },
+              {
+                "bbrID": "lowryky01"
+              },
+              {
+                "bbrID": "herroty01",
+                "asterisks": 1,
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "loveke01"
+              },
+              {
+                "bbrID": "martica02"
+              },
+              {
+                "bbrID": "strusma01"
+              },
+              {
+                "bbrID": "vincega01"
+              },
+              {
+                "bbrID": "robindu01"
+              },
+              {
+                "bbrID": "oladivi01",
+                "reason": "Inactive"
+              },
+              {
+                "bbrID": "yurtsom01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "highsha01"
+              },
+              {
+                "bbrID": "jovicni01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "hasleud01",
+                "reason": "Did Not Play"
+              },
+              {
+                "bbrID": "zelleco01"
               }
             ]
           }
